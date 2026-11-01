@@ -54,7 +54,11 @@ main.doc img { max-width: 100%; height: auto; }
 main.doc code { color: #6b2a1d; }
 
 @media (max-width: 768px) {
+    #site_title { letter-spacing: 0.08em; font-size: 15px; }
     .page-carte #cadre { flex-direction: column; }
-    #map { height: 60vh; flex: none; }
+    #map { height: 70vh; flex: none; }
+    .leaflet-control-attribution { max-width: 100%; max-height: 2.8em; overflow-y: auto; font-size: 9px; }
+    main.doc table { display: block; overflow-x: auto; }
+    main.doc h1 { font-size: 1.5rem; }
     #volet { width: 100%; max-width: none; height: auto; border-left: 0; border-top: 1px solid var(--bleu); }
 }

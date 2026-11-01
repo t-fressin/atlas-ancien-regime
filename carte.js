@@ -23,6 +23,7 @@ const plier = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().repl
 
 const map = L.map("map", {zoomSnap: 0.1, zoomDelta: 0.5, minZoom: 4, maxZoom: 13, attributionControl: true});
 // France métropolitaine avec la Corse, sur toute la carte, avec 5 % de marge
+const MOBILE = window.matchMedia("(max-width: 768px)").matches;  // téléphone : pas de survol, liste des couches repliée
 const FRANCE = L.latLngBounds([41.33, -5.15], [51.09, 9.57]);
 function cadrer(etendue = FRANCE, anime = false) {
     const t = map.getSize();
@@ -113,7 +114,7 @@ async function choisirCouche(id) {
 }
 
 // encart « Citer le projet » (fenêtre modale de la page)
-const citer = L.control({position: "bottomleft"});
+const citer = L.control({position: MOBILE ? "topleft" : "bottomleft"});  // sur téléphone, les attributions occupent le bas
 citer.onAdd = () => {
     const d = L.DomUtil.create("div", "leaflet-control citer");
     d.innerHTML = '<button type="button" class="btn btn-sm btn-light border" data-bs-toggle="modal" data-bs-target="#modaleCiter">Citer le projet</button>';
@@ -139,19 +140,23 @@ info.montrer = function (p) {
     if (!this._div) return;
     this._div.innerHTML = p ? popup(p) : '<span class="small text-secondary">Survolez un territoire pour en voir les informations ; cliquez pour les garder.</span>';
 };
-info.addTo(map);
+if (!MOBILE) info.addTo(map);  // sur écran tactile, l'appui ouvre la fiche du territoire
 
 function controleCouches() {
     const ctl = L.control({position: "topright"});
     ctl.onAdd = () => {
         const d = L.DomUtil.create("div", "info legend p-2 leaflet-control-layers leaflet-control");
-        let h = '<details open class="details-legend"><summary><h6 class="d-inline">Couches</h6></summary><div id="choix-couches" class="mt-1">';
+        let h = `<details ${MOBILE ? "" : "open"} class="details-legend">`;
+        h += '<summary><h6 class="d-inline">Couches</h6></summary><div id="choix-couches" class="mt-1">';
         for (const c of config.couches) {
             h += `<label class="d-block"><input type="radio" name="couche" value="${c.id}"> ${esc(c.titre)}</label>`;
         }
         d.innerHTML = h + "</div></details>";
         L.DomEvent.disableClickPropagation(d);
-        d.querySelectorAll("input").forEach(i => i.addEventListener("change", () => choisirCouche(i.value)));
+        d.querySelectorAll("input").forEach(i => i.addEventListener("change", () => {
+            if (MOBILE) d.querySelector("details").open = false;
+            choisirCouche(i.value);
+        }));
         return d;
     };
     ctl.addTo(map);
