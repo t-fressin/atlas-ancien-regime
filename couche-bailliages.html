@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bailliages et sénéchaussées · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="bailliages-et-sénéchaussées-en-1789">Bailliages et sénéchaussées
+en 1789</h1>
+<p>Fiche de la couche <code>donnees/bailliages/</code>. Principes
+communs à toutes les couches : <a href="methode.html"><code>docs/methode.md</code></a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Paroisses de Cassini et leur bailliage et généralité selon Brette
+(1904) : V. Gay, P. E. Gobbi, M. Goñi, <em>Bailliages in 1789
+France</em>, v. 2.0, Harvard Dataverse, <a
+href="https://doi.org/10.7910/DVN/T8UXHK">doi:10.7910/DVN/T8UXHK</a>, CC
+BY 4.0 (couche <code>BAILLIAGES_1789_BRETTE_POINTS</code> et table
+<code>BAILLIAGES_1789_BRETTE.txt</code> : nom, rang, bailliage
+principal, chef-lieu ; couche, 42 771 paroisses ; étendue du royaume :
+<code>FRANCE_1789_BRETTE</code>) ; article : « The Atlas of Local
+Jurisdictions of Ancien Régime France », <em>Journal of Historical
+Geography</em>, 84, 2024, p. 49-60.</li>
+<li>Fond : IGN, ADMIN EXPRESS COG CARTO, communes, Licence Ouverte 2.0
+(date de téléchargement et empreinte :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/empreintes.json"><code>sources/empreintes.json</code></a>).</li>
+<li>Sources des corrections : <a href="corrections.html"><code>docs/corrections.md</code></a> et
+<a href="sources.html"><code>docs/sources.md</code></a>.</li>
+</ul>
+<h2 id="méthode">Méthode</h2>
+<p>Même méthode que les généralités, sur le bailliage de chaque paroisse
+(436 bailliages ou juridictions assimilées ayant formé unité électorale
+en 1789, dont Sarrelouis). La propriété <code>generalite</code> d'un
+bailliage est celle que lui donne Brette ; les corrections de généralité
+par paroisse (ci-dessus) ne touchent pas la couche des bailliages, si
+bien qu'un bailliage peut déborder sur une généralité voisine : les deux
+couches ne s'emboîtent pas partout. Nom, rang et chef-lieu viennent de
+la table des bailliages du même jeu
+(<code>BAILLIAGES_1789_BRETTE.txt</code>). Deux bailliages de la table
+n'ont pas de paroisse sur le fond français : Sarrelouis, aujourd'hui en
+Allemagne (dessiné sur les fonds allemands, voir les territoires
+extérieurs), et la « province du Bassigny-Barrois », formée des
+bailliages de La Marche et de Bourmont, qui ont chacun leur entité. Les
+villes qui formaient une circonscription distincte (Paris, Strasbourg,
+Metz, Arles, etc.) occupent la commune de la ville ; leur bailliage ou
+sénéchaussée occupe le reste. Un territoire hors de la convocation n'a
+pas de bailliage, même s'il a une généralité par correction
+(<code>corrections.md</code>).</p>
+<p>Rang : rangs 1 et 2 de Gay, Gobbi et Goñi = « principal » (2 :
+principal auquel des secondaires sont rattachés), rang 3 = « secondaire
+».</p>
+<h2 id="entités">Entités</h2>
+<p>436 entités (<code>bailliages_1789.geojson</code>) sur 437 bailliages
+de la table : 435 sur le fond communal français, plus Sarrelouis
+(bailliage 333), dessiné sur les fonds allemands
+(<a href="couche-exterieurs.html"><code>docs/couches/exterieurs.md</code></a>) ; sans territoire : la «
+province du Bassigny-Barrois » (445). Table des communes :
+<code>bailliages_1789_communes.csv</code>.</p>
+<h2 id="corrections">Corrections</h2>
+<p>Corrections en vigueur : Le Pont-de-Beauvoisin (Savoie, 73204) hors
+du royaume ; Zillisheim (68384), Hirsingue (68138), Heimersdorf (68128),
+Ruederbach (68288) et Bruebach (68055) en « Districts de Belfort et
+Huningue » (<a href="corrections.html"><code>docs/corrections.md</code></a>). Les corrections de
+généralité ne s'appliquent pas à cette couche.</p>
+<h2 id="limites-connues">Limites connues</h2>
+<p>Les territoires hors de la convocation n'ont pas de bailliage, même
+rattachés par correction à une généralité ou à une province
+(Montjoie-Vaufrey dans le Doubs, Escos, Bergouey) ; exception : les
+terres de Montjoie dans le Sundgau, qui reçoivent le bailliage de leurs
+voisines. La propriété <code>generalite</code> est celle de Brette.</p>
+<h2 id="points-ouverts">Points ouverts</h2>
+<p>Aucun point ouvert propre à la couche : Sarrelouis et les territoires
+aujourd'hui hors de France sont traités par la couche des territoires
+extérieurs ; la cour souveraine de chaque bailliage, par la couche des
+parlements.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

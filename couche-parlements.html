@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parlements et conseils souverains · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="parlements-et-conseils-souverains-en-1789">Parlements et
+conseils souverains en 1789</h1>
+<p>Fiche de la couche <code>donnees/parlements/</code>. Principes
+communs à toutes les couches : <a href="methode.html"><code>docs/methode.md</code></a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Table des ressorts : <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/parlements_bailliages.csv"><code>sources/parlements_bailliages.csv</code></a>,
+une ligne par bailliage de convocation (436, Sarrelouis compris), avec
+la cour, la certitude, la source (ouvrage, tome, page ou vedette, URL),
+la citation recopiée et une remarque.</li>
+<li>Source principale, la plus proche de 1789 : <em>État des grands
+bailliages érigés dans l'étendue du royaume</em>, « fait &amp; arrêté au
+Conseil d'État du Roi […] le 1er mai 1788 », Versailles, Pierres, 8 p.
+(<a href="https://archive.org/details/tatdesgrandsbail00fran">Internet
+Archive, tatdesgrandsbail00fran</a> ; p. 1 à 4 et 7 relues sur l'image)
+: liste, cour par cour, des présidiaux réunis à chaque grand
+bailliage.</li>
+<li>Guyot, <em>Répertoire universel et raisonné de jurisprudence</em>,
+Paris, Panckoucke : t. XLIV (1781), s.v. « Parlement » (Toulouse p. 317,
+Dijon p. 344-345, Rouen p. 349, Metz p. 372, Besançon p. 379, Nancy p.
+400) (<a
+href="https://archive.org/details/rpertoireunive44guyo">rpertoireunive44guyo</a>)
+; t. IX (1777) « Charleville » ; t. XX (1778) « Douai », « Dombes » ; t.
+XLII (1781) « Nomination royale » ; <em>Supplément</em>, t. XI (1786) «
+Humiers ».</li>
+<li>Robert de Hesseln, <em>Dictionnaire universel de la France</em>, 6
+vol., 1771 (<a
+href="https://archive.org/details/dictionnaireuniv01hessuoft">t. I</a>),
+cité par vedette.</li>
+<li>Expilly, <em>Dictionnaire géographique, historique et politique des
+Gaules et de la France</em>, t. I-VI, 1762-1770 : art. « Parlement », t.
+V, 1768, p. 577-581 (<a
+href="https://archive.org/details/bub_gb_T1Q_AAAAcAAJ">bub_gb_T1Q_AAAAcAAJ</a>),
+et articles des chefs-lieux (feuillets Internet Archive, la
+correspondance avec la page imprimée s'étant révélée fausse par
+endroits).</li>
+<li>A. Brette, <em>Recueil de documents relatifs à la convocation des
+États généraux de 1789</em>, t. I (1894), III (1904), IV (1915) (<a
+href="https://archive.org/details/recueildedocumen04bret">t. IV</a>) :
+notes préliminaires par généralité ; <em>Les limites et les divisions
+territoriales de la France en 1789</em>, 1907, p. 66-67 (Barrois mouvant
+et non mouvant).</li>
+<li>Bastard d'Estang, <em>Les parlements de France</em>, t. I, 1857, p.
+242 (<a
+href="https://archive.org/details/lesparlementsdef01bastuoft">lesparlementsdef01bastuoft</a>),
+en appoint.</li>
+<li>Liste des cours : <em>Almanach royal</em>, 1789, p. 357-360 d'après
+l'OCR (<a
+href="https://archive.org/details/almanachroyalann00hour">almanachroyalann00hour</a>)
+: treize parlements, conseils supérieurs d'Alsace, de Roussillon et de
+Corse, conseil provincial d'Artois. L'<em>Almanach</em> ne donne pas les
+ressorts.</li>
+<li>Territoires : bailliages de convocation de Brette (1904), d'après V.
+Gay, P. E. Gobbi et M. Goñi, <a
+href="https://doi.org/10.7910/DVN/T8UXHK">doi:10.7910/DVN/T8UXHK</a> (CC
+BY 4.0) ; fond : IGN, ADMIN EXPRESS COG CARTO (Licence Ouverte
+2.0).</li>
+</ul>
+<h2 id="méthode">Méthode</h2>
+<ol type="1">
+<li>Chaque bailliage de convocation reçoit la cour où ressortissaient
+ses appels. Ordre des preuves : l'<em>État</em> de 1788 ; à défaut Guyot
+(1777-1786) ou Hesseln (1771), qui nomment la ville ; à défaut une
+phrase de Brette sur le bailliage ou sur sa généralité ; à défaut
+l'article du chef-lieu ou l'article « Parlement » d'Expilly (1768).</li>
+<li>Certitude : <code>haute</code>, la source nomme la cour pour ce
+siège, sa ville ou l'ensemble des sièges de sa généralité ;
+<code>moyenne</code>, la cour se déduit de la province nommée par
+Expilly ou d'un siège voisin.</li>
+<li>Chaque commune suit son bailliage principal ; les communes sont
+réunies par cour.</li>
+<li>Propriétés : <code>nature</code> (parlement, conseil souverain,
+conseil supérieur, conseil provincial, ressort partagé) ;
+<code>appel</code>, la cour supérieure quand la cour n'est pas
+souveraine en tout (conseil provincial d'Artois : parlement de
+Paris).</li>
+<li>Les Marches communes de Poitou et de Bretagne, dont les communautés
+relevaient pour partie de Paris et pour partie de Rennes (Brette,
+<em>Recueil</em>, t. IV, p. 519), forment une entité de nature « ressort
+partagé ».</li>
+</ol>
+<h2 id="entités">Entités</h2>
+<p>18 entités : les treize parlements (Paris, Toulouse, Grenoble,
+Bordeaux, Dijon, Rouen, Aix, Rennes, Pau, Metz, Besançon, Flandre à
+Douai, Nancy), les conseils souverains d'Alsace et de Roussillon, le
+conseil supérieur de Corse, le conseil provincial d'Artois et les
+Marches communes. Table des communes :
+<code>parlements_1789_communes.csv</code> (colonne
+<code>bailliage_id</code>).</p>
+<h2 id="corrections">Corrections</h2>
+<p>Par rapport à la première lecture (Expilly 1768 et Brette), trois
+attributions changent à la lecture des sources de 1771-1788 : Mohon
+passe de Paris à Metz (Guyot 1781, « les baillages de Sedan, Thionville,
+Longwy, Mouzon, &amp; Mohon ») ; Martel va à Bordeaux (Hesseln 1771, «
+dans le vicomté de Turenne […] parlement de Bordeaux », et le
+<em>Calendrier</em> de 1786 cité par Brette, contre Expilly et Bastard
+d'Estang qui disent Toulouse ; certitude moyenne) ; la Dombes est
+confirmée à Dijon (en 1778 les appels allaient à Paris selon Guyot ; en
+1788, « la Sénéchaussée de Trévoux » est réunie au grand bailliage de
+Bourg-en-Bresse). La couche hérite en outre des corrections des
+bailliages (<a href="corrections.html"><code>docs/corrections.md</code></a>).</p>
+<h2 id="limites-connues">Limites connues</h2>
+<p>Les partages à l'intérieur d'un bailliage ne sont pas représentés ;
+la commune suit son bailliage principal :</p>
+<ul>
+<li>Bailleul (Flandre maritime) va entier au parlement de Flandre, alors
+que Dunkerque, Bourbourg et Gravelines « ressortissent au conseil
+d'Artois ; &amp; de-là […] au parlement de Paris » (Guyot, t. XX, 1778,
+s.v. « Douai ») ; l'étendue de leurs territoires n'est pas établie.</li>
+<li>Saintes (Bordeaux, sauf « quelques paroisses » du présidial
+d'Angoulême, Paris : Brette, t. IV, p. 419) ; Lauzerte (« la plus grande
+partie » à Toulouse, t. IV, p. 24) ; paroisses de la vicomté de Turenne
+dans les sièges du Quercy (Bordeaux) ; enclave du diocèse de Périgueux
+ressortissant à Paris (t. IV, p. 328) ; paroisses mi-parties de Langres
+(t. III, p. 247) ; Bruillois (Toulouse), voisin d'Agen (t. IV, p.
+250).</li>
+<li>Dax : l'édit de mars 1648 qui portait au parlement de Navarre la
+partie des Landes « au delà de la rivière de la Doue » (Brette, t. IV,
+p. 351-352) n'est confirmé par aucune source proche de 1789 ; le partage
+n'est pas retenu.</li>
+<li>La couche couvre le royaume à l'intérieur des frontières actuelles ;
+les sièges aujourd'hui hors de France (Sarrelouis, Landau,
+Philippeville…) attendent l'intégration des territoires extérieurs.</li>
+</ul>
+<h2 id="points-ouverts">Points ouverts</h2>
+<ul>
+<li>16 sièges en certitude <code>moyenne</code> : Usson et Versailles
+(cour donnée par la chaîne des ressorts : Hesseln les fait ressortir à
+la sénéchaussée de Riom et à la prévôté et vicomté de Paris) ;
+Montaigut, Meulan, Vincennes, Compiègne, Creil, Tonnay-Charente, Pons,
+Saint-Jean-d'Angély, Saint-Omer, Quatre-Vallées, Couserans, Rustaing
+(aucune source de 1771-1788 trouvée ; Hesseln a un article sans mention
+de cour pour Compiègne, Creil, Tonnay-Charente, Saint-Jean-d'Angély et
+les Quatre-Vallées).</li>
+<li>Saint-Amand (Flandre) : Hesseln (1771, t. VI, p. 7-8), relu sur
+l'image, écrit « parlement de Paris » ; l'<em>État</em> de 1788,
+officiel et postérieur, qui le range sous Douai, est suivi.</li>
+<li>Ressort de Dunkerque, Bourbourg et Gravelines : Guyot ne parle que
+des « trois villes » ; les notices paroissiales d'Expilly sont
+incohérentes (« parlement de Douay » pour Loon, Grande-Synthe,
+Coudekerque ; « parlement de Paris » pour Petite-Synthe, Bollezeele) :
+non établi.</li>
+<li>Sources non lues : <em>Encyclopédie méthodique, Jurisprudence</em> ;
+Denisart (édition de 1783-1790) ; almanachs provinciaux de 1789.</li>
+<li>Contrôle par la carte <em>Parlements Royaume de France
+(1789).svg</em> (Wikimedia Commons, 2023, CC BY-SA 4.0, sans source
+citée) : non fait.</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

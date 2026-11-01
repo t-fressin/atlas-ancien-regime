@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Corrections · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="corrections-et-points-à-vérifier">Corrections et points à
+vérifier</h1>
+<p>Ce fichier recense les écarts relevés par les contrôles. Une
+correction n'est faite que sur une source lue et citée ici. Elle est
+inscrite dans <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a>, appliquées à la
+construction des couches. Tant qu'un point n'est pas tranché par une
+source, il reste « à vérifier » et la couche suit la règle générale de
+<code>methode.md</code>.</p>
+<p>Source principale des vérifications : Armand Brette, <em>Les limites
+et les divisions territoriales de la France en 1789</em>, Paris, 1907
+(<a href="https://archive.org/details/leslimitesetlesd00bret">Internet
+Archive</a>), abrégé ci-dessous en « Brette 1907 ».</p>
+<h2 id="corrections-faites">Corrections faites</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commune (code INSEE)</th>
+<th>Couches</th>
+<th>Correction</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Le Pont-de-Beauvoisin, Savoie (73204)</td>
+<td>généralités, bailliages, provinces</td>
+<td>hors du royaume. La commune est sur la rive savoyarde du Guiers, qui
+faisait frontière. Le point de la paroisse de Brette « le Pont de
+Beauvoisin », élection de Vienne, est le bourg dauphinois et tombe à
+tort dans le contour de la commune savoyarde.</td>
+<td>Wikipédia, « Le Pont-de-Beauvoisin (Savoie) », révision
+240233216</td>
+</tr>
+<tr class="even">
+<td>Comté de Montjoie-Vaufrey : Montjoie-le-Château (25402), Vaufrey
+(25591), Montancy (25386), Glère (25275), Burnevillers (25102),
+Indevillers (25314) ; extensions du Sundgau : Hirsingue (68138),
+Heimersdorf (68128), Ruederbach (68288), Bruebach (68055)</td>
+<td>généralités, provinces</td>
+<td>province d'Alsace, intendance d'Alsace (« Strasbourg (Alsace) »).
+Richard énumère les terres que la seigneurie reçut dans le Sundgau : «
+Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie,
+Hundelingen, Ruederbach, […] Bruebach » (p. 40). « Au moment de la
+révolution française de 1789, ce comté faisait partie de la province
+d'Alsace » ; ses officiers « furent placés sous la direction de
+l'intendant d'Alsace », qui statue sur les corvées et les impositions du
+comté. Brette le dit aussi partie de l'Alsace, mais doté de « droits
+quasi souverains », et le range dans la légende de sa carte parmi les «
+terres indépendantes ou souveraines enclavées en France » ; absent de la
+convocation, il manque à ses données. L'atlas suit l'administration
+royale (intendant, conseil souverain de Colmar).</td>
+<td>abbé Richard, <em>Essai sur l'histoire de la maison et baronie de
+Montjoie</em>, Besançon, 1860, p. 40-41, 46 et 66 (<a
+href="https://archive.org/details/bub_gb_IdDP3MIQH5UC">Internet
+Archive</a>) ; Brette 1907, p. 30-31</td>
+</tr>
+<tr class="odd">
+<td>Escos (64205), Bergouey-Viellenave (64113)</td>
+<td>généralités, provinces</td>
+<td>généralité d'Auch, province de Béarn (diocèse de Dax inchangé),
+comme les paroisses voisines du royaume de Navarre. « Escos dépendait du
+dioc. de Dax et du duché de Gramont » ; « Etcoz en Navarre, 1670 » ; «
+le fief de Bergouey relev. du duché de Gramont ». La souveraineté des
+Gramont ne s'étendait qu'à la principauté de Bidache, « et non dans les
+autres fiefs ». La « subdélégation de Navarre », dans le ressort de
+l'intendance d'Auch et Pau, « comprenait […] Bergouey, Viellenave, du
+canton de Bidache ; […] Escos, du canton de Salies ».</td>
+<td>P. Raymond, <em>Dictionnaire topographique du département des
+Basses-Pyrénées</em>, 1863, art. Escos, Bergouey, Navarre (p. 122) (<a
+href="https://archive.org/details/dictionnairetopo00raymuoft">Internet
+Archive</a>) ; Brette 1907, p. 53, n. 3</td>
+</tr>
+<tr class="even">
+<td>Flines-lès-Mortagne (59238), Mortagne-du-Nord (59418)</td>
+<td>diocèses</td>
+<td>diocèse de Tournai (au lieu d'Arras, attribué par voisinage).
+Expilly range les deux paroisses dans le diocèse de Tournai : « FLINES,
+dans la Flandre-Wallone, diocèse de Tournay, […] subdélégation &amp;
+recette de Saint-Amand » (à ne pas confondre avec Flines-lez-Raches, «
+diocèse d'Arras ») ; « MORTAGNE, bourg ou petite ville, dans la
+Flandre-Wallone, diocèse de Tournay ». Le témoignage date des années
+1760. Indices concordants : « le chapitre de Tournai était patron de
+Flines » ; Thun-Saint-Amand, voisine, « faisait autrefois partie du
+Hainaut et du diocèse de Tournai ».</td>
+<td>J.-J. Expilly, <em>Dictionnaire géographique, historique et
+politique des Gaules et de la France</em>, t. III, 1764, art. Flines (<a
+href="https://archive.org/details/bub_gb_LlpEAAAAcAAJ">Internet
+Archive</a>), t. IV, 1766, art. Mortagne (<a
+href="https://archive.org/details/bub_gb_MQci5Klt4McC">Internet
+Archive</a>) ; Wikipédia, « Flines-lès-Mortagne » (révision 240379607),
+« Thun-Saint-Amand » (révision 240747609)</td>
+</tr>
+<tr class="odd">
+<td>Zillisheim (68384) ; Hirsingue (68138), Heimersdorf (68128),
+Ruederbach (68288), Bruebach (68055)</td>
+<td>généralités, provinces, bailliages (Zillisheim) ; bailliages (les
+quatre autres)</td>
+<td>Zillisheim : généralité « Strasbourg (Alsace) », province d'Alsace,
+bailliage « Districts de Belfort et Huningue »
+(<code>bailliage-328</code>), au lieu d'un vide. Schoepflin le dit gage
+de la maison d'Autriche (« Phirreti Nobilium pignus evasit », p. 40),
+distinct d'Illzach et de Modenheim, villages mulhousiens, puis acheté en
+1713 par Jean-Baptiste de Klinglin, « ex pignoribus regia in feuda tum
+primum conversos » (p. 729) ; la liste des bailliages d'Alsace de 1730
+le range au « Bailliage d'Altkirch » ; Baquol (1865) ne donne à la «
+République alliée aux Suisses » que « Mulhouse » et ses « Dépendances »
+« Illzach » et « Modenheim », puis Zillisheim sous « M. de Klinglin ».
+Brette (1907, p. 52) l'a compté par erreur parmi les dépendances de
+Mulhouse en citant Baquol. Le bailliage de convocation est celui de
+toutes les paroisses voisines (certitude moyenne). Hirsingue,
+Heimersdorf, Ruederbach (au « Bailliage d'Altkirch » en 1730 : «
+Hirsingen. Heimersdorff. Ruderbach. ») et Bruebach (absent de la liste
+lue), terres du comté de Montjoie (Richard, p. 40) : même bailliage, par
+voisinage ; réserve : Brette (1907, p. 30-31) dit le comté hors de la
+convocation.</td>
+<td>J. D. Schoepflin, <em>Alsatia illustrata</em>, t. II, Colmar, 1761,
+p. 40 et 729 (<a
+href="https://archive.org/details/bub_gb_XZ3uHMGcnd0C">Internet
+Archive</a>) ; liste de 1730 publiée par O. Berger-Levrault,
+<em>Catalogue des Alsatica</em>, 1886, introduction, p. XIII (<a
+href="https://archive.org/details/cataloguedesals03berggoog">Internet
+Archive</a>) ; Baquol 1865, p. 612 ; Brette 1907, p. 30-31 et 52 ;
+Richard 1860, p. 40</td>
+</tr>
+<tr class="even">
+<td>114 communes en deux passes (liste dans
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a>, une entrée par commune avec
+motif, citation et source)</td>
+<td>diocèses</td>
+<td>diocèse donné par une source lue, de certitude haute, au lieu du
+tracé de la carte de Commons : par exemple Cys-la-Commune, Viel-Arcy,
+Saint-Mard, Pont-Arcy, Brenelle, Serval à Soissons (Matton : « la
+circonscription des arrondissements de Soissons et de Château-Thierry
+lui appartenait en entier, en exceptant du premier Glennes, Révillon et
+Soupir ») ; Darney et cinq voisines à Besançon (Durival : « Darney,
+Bonviller, Belrupt, Hennezel &amp; partie des Verreries &amp; Granges,
+Martinvelle, Regniéville, Ameuvelle […] sont du diocèse de Besançon ») ;
+Ganges et Saint-Bauzille-de-Putois à Montpellier ; Tarascon à Avignon ;
+Montauban à Montauban ; Sisteron à Sisteron. Bilan et cas non corrigés :
+<code>couches/dioceses.md</code>.</td>
+<td>dictionnaires topographiques de l'Aisne (Matton, 1871),
+d'Eure-et-Loir (Merlet, 1861), de la Haute-Marne (Roserot, 1903), de la
+Meuse (Liénard, 1872), de la Marne (Longnon, 1891), du Pas-de-Calais
+(Loisne, 1907), du Gard (Germer-Durand, 1868), de l'Hérault (Thomas,
+1865) ; Expilly ; Hesseln 1771 ; Saugrain 1726 ; Durival 1779 ;
+Durengues 1894</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vides-confirmés-par-brette-1907">Vides confirmés par Brette
+1907</h2>
+<p>Ces communes forment des vides dans les couches
+(<code>vides_1789.md</code>), et la source le confirme :</p>
+<ul>
+<li><strong>Comtat Venaissin</strong> : ses enclaves en Dauphiné,
+Valouse, Eyroles et Les Pilles d'une part, Solérieux d'autre part (p.
+44).</li>
+<li><strong>Montbéliard</strong> :
+<ul>
+<li>la partie du comté « enclavée dans le bailliage de Vesoul et
+s'étendant de Couthenans à Magny-Danigon » (p. 45) ;</li>
+<li>le comté « demeura, en 1789, hors de la convocation » (p. 46).</li>
+</ul></li>
+<li><strong>Mandeure</strong> : « La petite république de Mandeure
+demeura, en 1789, hors de la convocation » (p. 47-48).</li>
+<li><strong>Mulhouse et Illzach</strong> (p. 52). Zillisheim, que Brette
+y joint d'après « Bagnol » (Baquol), est en fait de l'Alsace royale :
+voir les corrections.</li>
+<li><strong>Bidache</strong> : la principauté « demeura hors de l'action
+de la convocation » (p. 52-54).</li>
+</ul>
+<h2
+id="rattachements-de-brette-confirmés-contre-les-cartes-de-commons">Rattachements
+de Brette confirmés contre les cartes de Commons</h2>
+<ul>
+<li><strong>Saint-Marcellin-lès-Vaison</strong> : paroisse du Dauphiné
+enclavée dans le Comtat, donc Dauphiné (p. 44).</li>
+<li><strong>Seloncourt, Audincourt, Dasle, Aibre</strong> : cédés au duc
+de Wurtemberg par la convention de 1786, ces villages « comparurent en
+1789 » aux bailliages de Baume-les-Dames et de Vesoul (p. 31-32). Ils
+restent donc dans la Franche-Comté.</li>
+<li><strong>Abbévillers et Valentigney</strong> : la convention de 1786
+en cède la souveraineté au roi (p. 31 et 47).</li>
+<li><strong>Sarre-Union (Bouquenom)</strong> : « enclave française » du
+comté de Sarrewerden, convoquée à Sarreguemines (p. 52). Les autres
+communes de Sarrewerden que Brette rattache relèvent dans ses données du
+bailliage de Fénétrange (généralité de Nancy) ou de la généralité de
+Strasbourg. Pour elles, la province est prise de la voisine de la même
+généralité.</li>
+<li><strong>Saint-Laurent-du-Var</strong> : paroisse de la sénéchaussée
+de Grasse chez Brette, donc Provence. L'écart avec Commons tient au
+calage, la commune étant sur la rive droite du Var.</li>
+</ul>
+<h2 id="décisions-sans-correction">Décisions sans correction</h2>
+<ul>
+<li><strong>Bonnieux</strong> : terre pontificale jusqu'au 14 septembre
+1791 (Wikipédia, « Bonnieux », révision 240445939). Le vide est
+juste.</li>
+<li><strong>Étouvans, Voujeaucourt</strong> : comté de Montbéliard selon
+Wikipédia (révisions 239409483 et 239450265) et les cartes de Commons ;
+leurs paroisses sont au bailliage de Baume-les-Dames dans les données de
+Brette. L'atlas garde Brette (Franche-Comté). Les deux villages étaient
+en fait partagés : Expilly ne compte en Franche-Comté que « les deux
+Tiers d'» Étouvans (« bailliage &amp; recette de Baume », t. II, 1764,
+art. Estouvans, <a
+href="https://archive.org/details/bub_gb_EVk_AAAAcAAJ">Internet
+Archive</a>), et une histoire paroissiale récente dit Voujeaucourt «
+Voujeaucourt est un village « mi-parti » dont la suzeraineté est
+partagée entre le Comté de Montbéliard et la Franche-Comté de Bourgogne
+» (« L'époque moderne (1492-1789) », dossier de la paroisse de
+Charmont-Montbéliard, site du diocèse de Belfort-Montbéliard, <a
+href="https://www.diocese-belfort-montbeliard.fr/charmont-montbeliard/wp-content/uploads/sites/8/2025/04/Xe-dossier-2e-partie-Epoque-moderne-1-1.pdf">PDF</a>,
+consulté le 31 octobre 2026). La commune actuelle, indivisible, suit la
+part royale, comme les données de Brette.</li>
+</ul>
+<h2 id="correction-des-généralités-par-élection">Correction des
+généralités par élection</h2>
+<p>Les données de Brette donnent à chaque paroisse la généralité de son
+bailliage de convocation ; or une vingtaine de bailliages débordaient
+sur une généralité voisine. Le dictionnaire d'Expilly le montre : «
+LIGNAC, dans la Marche, diocèse &amp; intendance de Bourges » (t. IV, p.
+198), où Brette donne Poitiers ; « HERICOURT, dans le Beauvoisis, […]
+diocèse &amp; élection de Beauvais, parlement &amp; intendance de Paris
+» (t. III, p. 747), où Brette donne Amiens. Toutes les paroisses de
+Cassini des ressorts concernés ont été confrontées aux tableaux de
+dénombrement par élection et aux articles d'Expilly, à Saugrain (1726),
+à Hesseln (1771), à Porée (1909) et aux dictionnaires topographiques ;
+les paroisses dont l'élection relève d'une autre généralité sont
+corrigées (1 255 au 31 octobre 2026, en trois passes), une ligne sourcée
+et citée chacune, dans
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections_paroisses_generalites.csv"><code>sources/corrections_paroisses_generalites.csv</code></a>. Bilan,
+limites et points ouverts : <code>couches/generalites.md</code>.</p>
+<h2 id="noms-des-généralités">Noms des généralités</h2>
+<p>Les quatre « généralités ou ressorts d'intendance » qui « n'avaient
+ni états ni élections, savoir : les Évêchés, la Lorraine, l'Alsace, le
+Roussillon » (Brette 1907, p. 112) portent aussi le nom de leur pays : «
+Metz (Trois-Évêchés) », « Nancy (Lorraine) », « Perpignan (Roussillon)
+», « Strasbourg (Alsace) ». L'<code>id</code> ne garde que le nom de la
+ville (<code>generalite-strasbourg</code>).</p>
+<h2 id="communes-partagées">Communes partagées</h2>
+<p>Une commune actuelle dont moins de 80 % de la surface tombe dans
+l'entité retenue a une <code>part</code> inférieure à 0,8 dans les
+tables des communes
+(<code>donnees/&lt;couche&gt;/&lt;couche&gt;_1789_communes.csv</code>).
+Il y en a environ 800 pour les provinces et 2 900 pour les diocèses. Ce
+sont les limites à contrôler en priorité contre une source
+paroissiale.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

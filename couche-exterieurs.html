@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Territoires aujourd&#x27;hui hors de France · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1
+id="territoires-du-royaume-aujourdhui-hors-de-france-1789">Territoires
+du royaume aujourd'hui hors de France (1789)</h1>
+<p>Fiche de la couche <code>donnees/exterieurs/</code> et des ajouts
+qu'elle fait aux autres couches. Principes communs à toutes les couches
+: <a href="methode.html"><code>docs/methode.md</code></a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Table des lieux : <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/territoires_exterieurs.csv"><code>sources/territoires_exterieurs.csv</code></a>,
+une ligne par lieu ou par unité (150 lignes) : nom de 1789, lieu et
+commune actuels, pays actuel (<code>pays_actuel</code>), unité du fond
+étranger (<code>fond</code>, <code>code_unite</code>,
+<code>nom_unite</code>), statut, contestation, rattachements établis
+(généralité, bailliage, diocèse, gouvernement), certitude, rattachements
+tels que la source les énonce (<code>bailliage_texte</code>,
+<code>diocese_texte</code>), sources (ouvrage, tome, page, identifiant
+Internet Archive), citations recopiées et remarques.</li>
+<li>Sources historiques principales : A. Brette, <em>Les limites et les
+divisions territoriales de la France en 1789</em>, 1907, p. 11-25 (<a
+href="https://archive.org/details/leslimitesetlesd00bret">leslimitesetlesd00bret</a>)
+; Durival, <em>Description de la Lorraine et du Barrois</em>, t. II,
+1779 (<a
+href="https://archive.org/details/bub_gb_8jUli2255SMC">bub_gb_8jUli2255SMC</a>),
+bailliages de Bouzonville, Sarreguemines et Bitche, « Sargaw » ;
+Expilly, t. II (art. Charlemont), t. III (art. Jamagne), t. IV (art.
+Lauterbourg), t. V (art. Namur François, Philippeville), t. VI (art.
+Saarlouis, Strasbourg) ; Hesseln, 1771 (art. Landaw, Versoix) ; Horrer,
+<em>Dictionnaire de l'Alsace</em>, t. I, 1787 (<a
+href="https://archive.org/details/bub_gb_JlHKMIT_NvoC">bub_gb_JlHKMIT_NvoC</a>)
+; Fallex, <em>L'Alsace, la Lorraine et les Trois-Évêchés</em>, 1921, p.
+11-12 (<a
+href="https://archive.org/details/lalsacelalorrain00fall">lalsacelalorrain00fall</a>)
+; Baquol, 1865, p. 627-631 ; Bouteiller, <em>Dictionnaire topographique
+de l'ancien département de la Moselle</em>, 1874 (<a
+href="https://archive.org/details/dictionnairetop00boutuoft">dictionnairetop00boutuoft</a>)
+; traité de Paris du 20 novembre 1815, art. 1er (De Clercq, <em>Recueil
+des traités de la France</em>, t. II, 1864).</li>
+<li>Fonds : Rhénanie-Palatinat, LVermGeo, <em>Gemarkungen</em>
+(<code>vermkv:gemarkungen_rlp</code>, dl-de/by-2-0) ; Sarre, LVGL,
+<em>INSPIRE SL Flurstücke/Grundstücke ALKIS</em>, collection des
+<em>Katasterbezirke</em>, niveau <em>Gemarkung</em> (licence de la
+notice du jeu, id 90a59e98-e97b-43f9-b8a9-6453bed1b6dd : « Lizenz:
+dl-de/by-2-0 - Datenlizenz Deutschland Namensnennung 2.0 - <a
+href="https://www.govdata.de/dl-de/by-2-0">https://www.govdata.de/dl-de/by-2-0</a>
+- Quellenvermerk: © GeoBasis DE/LVGL-SL (Jahr) », lue le 31 octobre
+2026) ; Belgique, SPF Finances, plan parcellaire cadastral PP-FiscSit du
+1er janvier 2026, divisions cadastrales (<code>Apn_CaDi</code>,
+anciennes communes d'avant les fusions) ; Suisse, swisstopo,
+swissBOUNDARIES3D, par l'API de geo.admin.ch (couche
+<code>ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill</code>).
+Licences : <a href="sources.html"><code>docs/sources.md</code></a>, « Fonds communaux hors de
+France ».</li>
+</ul>
+<h2 id="méthode">Méthode</h2>
+<ol type="1">
+<li><strong>Unité</strong> : chaque lieu est représenté par l'unité du
+fond étranger qui porte son nom (<em>Gemarkung</em>, division
+cadastrale, commune suisse), contrôlée sur le code de la commune
+actuelle (AGS en Allemagne). La table donne pour chaque lieu le fond et
+le code de son unité (<code>fond</code>, <code>code_unite</code>) ; dix
+cas ont été établis à la main lors de sa préparation : Landau
+(<em>Gemarkung</em> Landau), Bruchweiler et Bärenbach (une
+<em>Gemarkung</em> commune), Fischbach, Neuburg, Wörth,
+Kerprich-Hemmersdorf (<em>Kerprichhemmersdorf</em>), Itzbach et le
+château de Siersburg (<em>Itzbach</em>), Minderslachen (dans la
+<em>Gemarkung</em> de Kandel), Lauterschwan (dans celle
+d'Erlenbach).</li>
+<li><strong>Sélection</strong> (<code>retenu</code>) : un lieu est
+dessiné s'il est dit du royaume, avec une certitude haute ou moyenne, et
+si son unité est identifiée. Les lieux mi-partis, contestés ou à
+vérifier restent dans la table sans être dessinés. Une unité partagée
+par deux lieux n'est comptée qu'une fois.</li>
+<li><strong>Rattachements</strong> : généralité, bailliage de
+convocation, diocèse et gouvernement sont ceux que la source énonce ;
+une valeur « probable », « à vérifier » ou « non établie » n'est pas
+reprise et l'unité manque à la couche correspondante. La province se
+déduit du bailliage (province de la plupart des communes françaises du
+même bailliage dans la couche des provinces) ou, pour Sarrelouis, le
+Sargaw, Philippeville et Jamagne, de la généralité (Metz : Trois-Évêchés
+; Nancy : Lorraine ; Valenciennes : Hainaut, Expilly disant
+Philippeville « du gouvernement-militaire de la province &amp; de
+l'intendance de Haynault ») ; le parlement se déduit du bailliage
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/parlements_bailliages.csv"><code>sources/parlements_bailliages.csv</code></a>). Villages de la Lauter
+: les valeurs sont celles de la recherche propre à ces villages
+(généralité de Strasbourg, districts de Haguenau et Wissembourg, diocèse
+de Spire), plus récente que la table d'ensemble.</li>
+<li><strong>Ajustement à la frontière</strong> : chaque unité est
+retranchée de l'étendue française du royaume ; les interstices de moins
+de 120 m de large entre l'unité et la couche, dus aux deux fonds
+différents de part et d'autre de la frontière, sont joints à l'unité
+qu'ils touchent le plus.</li>
+<li><strong>Ajout aux couches</strong> : les unités rejoignent l'entité
+de chaque couche ; le bailliage de Sarrelouis, sans paroisse dans les
+données de Brette, devient une entité ; la propriété <code>source</code>
+de chaque entité complétée nomme les fonds étrangers. Table par couche :
+<code>donnees/&lt;couche&gt;/&lt;couche&gt;_1789_exterieurs.csv</code>.</li>
+<li><strong>Couche propre</strong> :
+<code>territoires_exterieurs_1789.geojson</code>, une entité par unité
+dessinée, avec <code>statut</code>, <code>contestation</code> (villages
+de la Lauter : « souveraineté du roi contestée par l'Empire («
+bailliages contestés ») »), les rattachements et la certitude.</li>
+</ol>
+<h2 id="entités">Entités</h2>
+<p>119 unités dessinées (105 en Allemagne, 8 en Belgique, 6 en Suisse) ;
+150 lignes dans la table, dont 31 non dessinées. Ajoutées aux couches :
+généralités (les deux versions), provinces et gouvernements 119,
+diocèses 115, bailliages et parlements 107 (les autres n'ont pas de
+valeur établie). Par pays : Allemagne (Sarrelouis et son bailliage,
+Lorraine allemande des bailliages de Bouzonville, Sarreguemines, Bitche
+et Boulay, Sargaw cédé par Trèves en 1778, enclaves de Thionville,
+Landau et ses dépendances, villages de la Lauter), Belgique
+(Philippeville et Jamagne, Mariembourg et Frasnes, Barbençon, Erpion,
+Renlies, Agimont), Suisse (pays de Gex cédé en 1815-1816 : Versoix,
+Collex-Bossy, Meyrin, Pregny-Chambésy, Le Grand-Saconnex ; Le
+Cerneux-Péquignot, franc-comtois jusqu'en 1814).</p>
+<h2 id="corrections">Corrections</h2>
+<ul>
+<li><strong>Traité franco-liégeois du 24 mai 1772</strong> (<em>Traité
+entre le Roi et le Prince-Évêque, l'Église et l'État de Liège,
+concernant les limites</em>, Versailles, p. 7-9 et 29, <a
+href="https://archive.org/details/traitentrelero00fran">traitentrelero00fran</a>)
+: le roi cède à Liège « la souveraineté des villages, terres &amp;
+seigneuries d'Hermeton &amp; de Gochenée » (art. I), Heer et Heerlette «
+pour autant que ce village &amp; ce territoire sont situés au-dessous du
+ruisseau de Massambre » (art. I), 200 bonniers de Bossut-lès-Walcourt
+(art. II), Romerée, Matignolle et Sanzeille (art. III), et une langue de
+terre d'Agimont « de trente à quarante toises ». Hermeton, Gochenée,
+Romerée et Matignolle sont donc hors du royaume en 1789 ; Heer et
+Boussu-lez-Walcourt, partagés, ne sont pas dessinés ; Agimont est
+dessiné entier.</li>
+<li><strong>Gérouville et Sommethonne</strong> : Fallex (1921, p. 27-28)
+les dit abandonnés par la France aux traités de Versailles du 16 mai
+1769 (art. XXIII) et de Bruxelles du 18 novembre 1779 (art. XXIX),
+contre Brette (1907, p. 15) : hors du royaume en 1789.</li>
+<li><strong>Villages de la Lauter</strong> : Bundenthal et Erlenbach
+(avec Lauterschwan) dessinés, certitude relevée à moyenne d'après Horrer
+(1787, t. I, art. « Alsace », p. 147, et art. « Berbelstein », p. 287 :
+seigneurie de Barbelstein « composée des villages de Bundenthal,
+Erlenbach &amp; Lauterschwann », rangée dans l'Alsace ; arrêt du conseil
+souverain d'Alsace de 1725). Citations relues sur l'image : Expilly, t.
+IV, art. Lauterbourg, p. 167 ; t. VI, art. Strasbourg, p. 1015-1016
+(feux de 1720 et de 1750, et non 1710) ; Horrer, t. I, p. 145-153,
+rubrique des lieux contestés p. 149.</li>
+<li><strong>Diocèses</strong> : Spire pour Dammheim, Nußdorf et
+Queichheim, dépendances de Landau (Expilly, t. IV, art. « Landau », p.
+13) ; Liège pour Barbençon (Hesseln, 1771, t. I, art. « Barbançon », p.
+352).</li>
+</ul>
+<p>Aucune correction des fonds. Choix de la table : le groupe « royaume
+(Lorraine allemande ; nombreux lieux mi-partis ou contestés) » est
+retenu village par village, seuls les lieux dits eux-mêmes mi-partis
+étant écartés.</p>
+<h2 id="limites-connues">Limites connues</h2>
+<ul>
+<li>Les limites des anciens villages sont celles des
+<em>Gemarkungen</em> et divisions cadastrales actuelles, non celles de
+1789 ; un village mi-parti en 1789 est soit écarté, soit dessiné en
+entier.</li>
+<li>Restent non dessinés : les censes non identifiées (Favart, le
+Houssart, Sainte-Marie), Remeling, Ripplingen, Rech et Büdingen du
+Sargaw (unité non trouvée ou identification faible), Beuren et Kirf
+(mi-partis avec Trèves), Altheim (mi-parti avec Deux-Ponts),
+Hinterweidenthal (en partie), Schlettenbach, Klein-Steinfeld,
+Saint-Remi, Bundenthal, Erlenbach, Reichsdorf (contesté) ; Matignolle
+(hameau de Treignes) ; Dohan et Les Hayons (contestés entre le roi et le
+duc de Bouillon) ; les parties luxembourgeoises de Mondorf et Frisange,
+Hassel et Filsdorf ; Vernier et Le Cerneux-Péquignot (certitude
+faible).</li>
+<li>Bailliage non établi pour le Sargaw (Durival, 1779 : tribunaux « pas
+encore réglés ») et pour Philippeville et Jamagne (Avesnes ou Givet) ;
+diocèse non établi pour Landau et ses dépendances (Spire probable), pour
+la prévôté de Maubeuge (sauf Boussu-lez-Walcourt, Liège) et pour
+Gérouville et Sommethonne. Ces unités manquent aux couches
+correspondantes.</li>
+<li>La province déduite du bailliage suit la couche des provinces :
+Agimont reçoit le Hainaut depuis la correction du gouvernement de
+Charlemont (<a href="couche-provinces.html"><code>docs/couches/provinces.md</code></a>).</li>
+<li>Les vides nouveaux que créent les unités non dessinées entre deux
+unités dessinées sont inventoriés (<a href="vides.html"><code>docs/vides_1789.md</code></a>) :
+dix dans les généralités (de 15 à 25), tous contrôlés :
+<em>Gemarkungen</em> absentes des listes de 1789 (Überherrn ;
+Großhemmersdorf ; Diersdorf ; Picard, à Sarrelouis ; Niederlimberg, St.
+Barbara, Bedersdorf, Gisingen, Kerlingen ; Büdingen et Wellingen ;
+Rilchingen-Hanweiler et Sitterswald) et la forêt du Bienwald, entre les
+villages de la Lauter, avec Schaidt et Scheibenhardt (en deux vides ;
+Büchelberg, dessiné, y forme un îlot) ; puis, après l'ajout de
+Bundenthal et d'Erlenbach, Rumbach et Niederschlettenbach (les sources
+nomment « Schlettenbach » sans distinguer Nieder- et
+Oberschlettenbach).</li>
+</ul>
+<h2 id="points-ouverts">Points ouverts</h2>
+<ul>
+<li>Bailliage du Sargaw et de Philippeville ; diocèse d'Erpion et de
+Renlies ; Saint-Remi (non localisé), Schlettenbach (Nieder- ou
+Oberschlettenbach ?), Hinterweidenthal (mi-parti entre le bailliage de
+Dahn et celui d'Anweiler, des Deux-Ponts, sans limite connue).</li>
+<li>Numéros d'ordre de Horrer attribués à Baquol dans la table : à
+revérifier.</li>
+<li>Les six communautés du bailliage de Sarrelouis restées en France
+(Expilly : « Donnelay, Gelucourt, Juvelize, le fief de Krafftel, Lézey
+&amp; les Riecourts ») sont dans le bailliage de Sarrebourg selon les
+données de Brette ; le changement entre 1770 et 1789 n'est pas expliqué
+; Krafftel et « les Riecourts » ne sont pas identifiés.</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

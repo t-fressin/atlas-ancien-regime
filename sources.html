@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sources · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="sources">Sources</h1>
+<p>Toutes les sources sont publiques et leurs licences permettent la
+réutilisation. Le détail technique (adresse, empreinte SHA-256, date de
+téléchargement) est dans <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/manifeste.json"><code>sources/manifeste.json</code></a>,
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/empreintes.json"><code>sources/empreintes.json</code></a> et
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/commons_entites.json"><code>sources/commons_entites.json</code></a> ; les fichiers eux-mêmes ne
+sont pas versionnés.</p>
+<h2 id="sources-dont-les-données-publiées-dérivent">Sources dont les
+données publiées dérivent</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>Producteur</th>
+<th>Licence</th>
+<th>Ce que l'atlas en reprend</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ADMIN EXPRESS COG CARTO, couche des communes (<a
+href="https://www.data.gouv.fr/datasets/admin-express-admin-express-cog-admin-express-cog-carto-admin-express-cog-carto-pe-admin-express-cog-carto-plus-pe">notice</a>)</td>
+<td>IGN</td>
+<td>Licence Ouverte 2.0</td>
+<td>contours des communes actuelles, qui forment le fond de toutes les
+couches</td>
+</tr>
+<tr class="even">
+<td><em>Bailliages in 1789 France</em>, v. 2.0 (<a
+href="https://doi.org/10.7910/DVN/T8UXHK">doi:10.7910/DVN/T8UXHK</a>) ;
+article : V. Gay, P. E. Gobbi, M. Goñi, « The Atlas of Local
+Jurisdictions of Ancien Régime France », <em>Journal of Historical
+Geography</em>, 84, 2024, p. 49-60</td>
+<td>Victor Gay, Paula E. Gobbi, Marc Goñi, d'après Armand Brette,
+<em>Atlas des bailliages</em> (1904)</td>
+<td>CC BY 4.0</td>
+<td>généralité et bailliage de chacune des 42 771 paroisses de Cassini ;
+étendue du royaume en 1789 ; nom, rang, bailliage principal et chef-lieu
+des 437 bailliages (table <code>BAILLIAGES_1789_BRETTE.txt</code>)</td>
+</tr>
+<tr class="odd">
+<td><em>Diocèses et provinces France 1789.svg</em> et 146 cartes
+<em>Diocèse … 1789.svg</em> (<a
+href="https://commons.wikimedia.org/wiki/File:Dioc%C3%A8ses_et_provinces_France_1789.svg">Commons</a>)</td>
+<td>Maxence Jeanjean</td>
+<td>CC BY-SA 4.0</td>
+<td>tracé et nom des diocèses ; pour les cinq diocèses sans carte
+individuelle, tracé de la carte d'ensemble ; province
+ecclésiastique</td>
+</tr>
+<tr class="even">
+<td><em>France location map-Provinces 1789.svg</em> et cartes <em>… in
+France (1789).svg</em> (<a
+href="https://commons.wikimedia.org/wiki/File:France_location_map-Provinces_1789.svg">Commons</a>)</td>
+<td>Milenioscuro, sur le fond <em>France location map-Departements
+1790.svg</em> de Sémhur (auteur de chaque fichier :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/commons_entites.json"><code>sources/commons_entites.json</code></a>, champ Artist de Commons)</td>
+<td>CC BY-SA 4.0</td>
+<td>tracé et nom des provinces ; regroupements</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Fond du site</strong> (carte interactive seulement, aucune
+donnée n'en dérive) : Natural Earth, terres et fleuves au 1:50 m, lacs
+d'Europe au 1:10 m (<a
+href="https://www.naturalearthdata.com/">https://www.naturalearthdata.com/</a>,
+copies de geojson.xyz), domaine public ; mise en forme reprise de
+l'atlas de la gendarmerie du même auteur (<a
+href="https://atlas-gendarmerie.fr/">https://atlas-gendarmerie.fr/</a>).</li>
+</ul>
+<h2
+id="sources-de-contrôle-et-de-correction-aucune-géométrie-nen-est-reprise">Sources
+de contrôle et de correction (aucune géométrie n'en est reprise)</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Source</th>
+<th>Licence</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Généralités.svg</em>, Maxence Jeanjean, Wikimedia Commons</td>
+<td>CC BY-SA 4.0</td>
+<td>comparaison avec les généralités de Brette ; aucune frontière
+reprise, ce qui laisse les généralités sous CC BY 4.0</td>
+</tr>
+<tr class="even">
+<td>A. Litvine, T. Thévenin, I. Séguy et al., <em>French Historical GIS,
+1700-2020</em> (<a
+href="https://doi.org/10.5281/zenodo.3727273">doi:10.5281/zenodo.3727273</a>)</td>
+<td>CC BY-NC 4.0</td>
+<td><strong>contrôle seulement</strong> : comparaison privée avec les
+communes de 1790 ; aucune géométrie ni aucune donnée de cette base
+n'entre dans le dépôt ; une correction ponctuelle qui s'appuierait sur
+elle serait citée une à une dans <a href="corrections.html"><code>docs/corrections.md</code></a>. Ses
+fichiers ne sont jamais téléchargés dans le dépôt (dossier
+<code>controle/</code>, ignoré par git).</td>
+</tr>
+<tr class="odd">
+<td>Armand Brette, <em>Les limites et les divisions territoriales de la
+France en 1789</em>, Paris, 1907 (<a
+href="https://archive.org/details/leslimitesetlesd00bret">Internet
+Archive</a>)</td>
+<td>domaine public</td>
+<td>vérification des enclaves, des vides et des désaccords entre sources
+; corrections ponctuelles citées page par page
+(<code>corrections.md</code>). L'ouvrage établit aussi que la « province
+» n'a pas, en 1789, de définition administrative précise (p. 57-59),
+d'où le caractère conventionnel de la couche des provinces.</td>
+</tr>
+<tr class="even">
+<td>abbé Richard, <em>Essai sur l'histoire de la maison et baronie de
+Montjoie</em>, Besançon, 1860 (<a
+href="https://archive.org/details/bub_gb_IdDP3MIQH5UC">Internet
+Archive</a>)</td>
+<td>domaine public</td>
+<td>rattachement du comté de Montjoie-Vaufrey à l'Alsace et à son
+intendance (<code>corrections.md</code>)</td>
+</tr>
+<tr class="odd">
+<td>Paul Raymond, <em>Dictionnaire topographique du département des
+Basses-Pyrénées</em>, Paris, 1863 (<a
+href="https://archive.org/details/dictionnairetopo00raymuoft">Internet
+Archive</a>)</td>
+<td>domaine public</td>
+<td>Escos et Bergouey-Viellenave (<code>corrections.md</code>)</td>
+</tr>
+<tr class="even">
+<td>Jean-Joseph Expilly, <em>Dictionnaire géographique, historique et
+politique des Gaules et de la France</em>, 6 vol., 1762-1770 (t. II, <a
+href="https://archive.org/details/bub_gb_EVk_AAAAcAAJ">bub_gb_EVk_AAAAcAAJ</a>
+; t. III, <a
+href="https://archive.org/details/bub_gb_LlpEAAAAcAAJ">bub_gb_LlpEAAAAcAAJ</a>
+; t. IV, <a
+href="https://archive.org/details/bub_gb_MQci5Klt4McC">bub_gb_MQci5Klt4McC</a>)</td>
+<td>domaine public</td>
+<td>diocèse, intendance et bailliage de paroisses frontalières, état des
+années 1760 (<code>corrections.md</code>)</td>
+</tr>
+<tr class="odd">
+<td>Baquol, <em>L'Alsace ancienne et moderne ou Dictionnaire
+topographique, historique et statistique du Haut et du Bas-Rhin</em>,
+1865 (<a href="https://archive.org/details/bub_gb_GDkbAAAAYAAJ">Internet
+Archive</a>)</td>
+<td>domaine public</td>
+<td>« L'Alsace féodale ou état de cette province en 1789 » : Mulhouse et
+ses dépendances (<code>corrections.md</code>)</td>
+</tr>
+<tr class="even">
+<td>Georges Stoffel, <em>Dictionnaire topographique du département du
+Haut-Rhin</em>, Paris, 1868 (<a
+href="https://archive.org/details/dictionnairetopo00stofuoft">Internet
+Archive</a>)</td>
+<td>domaine public</td>
+<td>Zillisheim (<code>corrections.md</code>)</td>
+</tr>
+<tr class="odd">
+<td>« L'époque moderne (1492-1789) », dossier de la paroisse de
+Charmont-Montbéliard, site du diocèse de Belfort-Montbéliard (<a
+href="https://www.diocese-belfort-montbeliard.fr/charmont-montbeliard/wp-content/uploads/sites/8/2025/04/Xe-dossier-2e-partie-Epoque-moderne-1-1.pdf">PDF</a>,
+consulté le 31 octobre 2026)</td>
+<td>citation courte</td>
+<td>Voujeaucourt, village « mi-parti »
+(<code>corrections.md</code>)</td>
+</tr>
+<tr class="even">
+<td>Jean-Joseph Expilly, <em>Dictionnaire géographique…</em>, t. I, 1762
+(<a
+href="https://archive.org/details/bub_gb_OPA2c3XRzxAC">bub_gb_OPA2c3XRzxAC</a>),
+t. V, 1768 (<a
+href="https://archive.org/details/bub_gb_T1Q_AAAAcAAJ">bub_gb_T1Q_AAAAcAAJ</a>),
+t. VI, 1770 (<a
+href="https://archive.org/details/bub_gb_U6xl_qMmSWgC">bub_gb_U6xl_qMmSWgC</a>)</td>
+<td>domaine public</td>
+<td>avec les t. II à IV ci-dessus : articles des paroisses et
+<strong>tableaux de dénombrement par élection</strong> de chaque
+généralité (lettres A à S), source principale de la correction des
+généralités par élection
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections_paroisses_generalites.csv"><code>sources/corrections_paroisses_generalites.csv</code></a>) ; article «
+Parlement » (t. V)</td>
+</tr>
+<tr class="odd">
+<td>Saugrain, <em>Dictionnaire universel de la France ancienne et
+moderne</em>, Paris, 1726, 3 vol. (t. I <a
+href="https://archive.org/details/cihm_47574">cihm_47574</a> ; t. II <a
+href="https://archive.org/details/cihm_47576">cihm_47576</a>, <a
+href="https://archive.org/details/bub_gb_ccpdec5t3IMC">bub_gb_ccpdec5t3IMC</a>
+; t. III <a
+href="https://archive.org/details/cihm_47577">cihm_47577</a>, <a
+href="https://archive.org/details/bub_gb_w36W7TE7SSEC">bub_gb_w36W7TE7SSEC</a>)</td>
+<td>domaine public</td>
+<td>élection et intendance de chaque paroisse (état de 1726) :
+correction par élection</td>
+</tr>
+<tr class="even">
+<td>Robert de Hesseln, <em>Dictionnaire universel de la France</em>,
+Paris, 1771, 6 vol. (<a
+href="https://archive.org/details/dictionnaireuniv01hessuoft">t. I</a> à
+<a href="https://archive.org/details/dictionnaireuniv06hessuoft">t.
+VI</a>)</td>
+<td>domaine public</td>
+<td>élection et intendance, toutes lettres : correction par
+élection</td>
+</tr>
+<tr class="odd">
+<td><em>Almanach royal</em>, année 1789, Paris, d'Houry (<a
+href="https://archive.org/details/almanachroyalann00hour">almanachroyalann00hour</a>),
+« Intendans des généralités &amp; provinces du royaume », p. 259-266 ;
+année 1778 (<a
+href="https://archive.org/details/almanachroyal1778adam">almanachroyal1778adam</a>)</td>
+<td>domaine public</td>
+<td>liste des élections de chaque intendance en 1789 : passage de
+l'élection à la généralité ; pays de Foix (1778 : Perpignan ; 1789 :
+Auch)</td>
+</tr>
+<tr class="even">
+<td>Ch. Porée, « La formation du département de l'Yonne en 1790 »,
+<em>Bulletin de la Société des sciences historiques et naturelles de
+l'Yonne</em>, 63ᵉ vol., 1909, Auxerre, 1910, p. 104-107 (<a
+href="https://archive.org/details/bulletin04auxegoog">bulletin04auxegoog</a>)</td>
+<td>domaine public</td>
+<td>paroisses de l'Yonne par élection ou recette en 1789 : correction
+par élection</td>
+</tr>
+<tr class="odd">
+<td>Dictionnaires topographiques départementaux : Hippeau (Calvados, <a
+href="https://archive.org/details/dictionnairetopo00hippuoft">dictionnairetopo00hippuoft</a>),
+Boutiot et Socard (Aube, 1874, <a
+href="https://archive.org/details/dictionnairetopo00boutuoft">dictionnairetopo00boutuoft</a>),
+Blosseville (Eure, <a
+href="https://archive.org/details/dictionnairetopo00blosuoft">dictionnairetopo00blosuoft</a>),
+Roserot (Haute-Marne, 1903, <a
+href="https://archive.org/details/dictionnairetopo00rose">dictionnairetopo00rose</a>),
+Rédet (Vienne, 1881, <a
+href="https://archive.org/details/dictionnairetopo00rede">dictionnairetopo00rede</a>)</td>
+<td>domaine public</td>
+<td>élection ou sergenterie de paroisses : correction par élection</td>
+</tr>
+<tr class="even">
+<td>Sources ponctuelles de la correction par élection : Archives
+départementales du Cher, <em>Inventaire sommaire… série C</em>, t. II,
+1885 (<a
+href="https://archive.org/details/cherarchivescivi02arch">cherarchivescivi02arch</a>)
+; L. Graves, <em>Précis statistique sur le canton de Songeons</em>, 1836
+(<a
+href="https://archive.org/details/bub_gb_0swQd72BF-sC">bub_gb_0swQd72BF-sC</a>)
+; Bruzen de La Martinière, <em>Le grand dictionnaire géographique et
+critique</em>, 1738 (bub_gb_6yA3-cvTijsC)</td>
+<td>domaine public</td>
+<td>une ligne chacune
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections_paroisses_generalites.csv"><code>sources/corrections_paroisses_generalites.csv</code></a>)</td>
+</tr>
+<tr class="odd">
+<td>J. D. Schoepflin, <em>Alsatia illustrata</em>, t. II, Colmar, 1761
+(<a
+href="https://archive.org/details/bub_gb_XZ3uHMGcnd0C">bub_gb_XZ3uHMGcnd0C</a>)
+; O. Berger-Levrault, <em>Catalogue des Alsatica</em>, 1886,
+introduction (liste des bailliages d'Alsace de 1730, p. X-XIII ; <a
+href="https://archive.org/details/cataloguedesals03berggoog">cataloguedesals03berggoog</a>)</td>
+<td>domaine public</td>
+<td>Zillisheim et les terres de Montjoie dans le Sundgau
+(<code>corrections.md</code>)</td>
+</tr>
+<tr class="even">
+<td><em>État des grands bailliages érigés dans l'étendue du
+royaume</em>, arrêté au Conseil d'État du roi le 1er mai 1788,
+Versailles, Pierres, 8 p. (<a
+href="https://archive.org/details/tatdesgrandsbail00fran">tatdesgrandsbail00fran</a>)
+; Guyot, <em>Répertoire universel et raisonné de jurisprudence</em>,
+Paris, Panckoucke, t. IX (1777, <a
+href="https://archive.org/details/rpertoireunive09guyo">rpertoireunive09guyo</a>),
+t. XX (1778, <a
+href="https://archive.org/details/rpertoireunive20guyo">rpertoireunive20guyo</a>),
+t. XLII et XLIV (1781, <a
+href="https://archive.org/details/rpertoireunive42guyo">rpertoireunive42guyo</a>,
+<a
+href="https://archive.org/details/rpertoireunive44guyo">rpertoireunive44guyo</a>),
+<em>Supplément</em>, t. XI (1786, <a
+href="https://archive.org/details/supplementaurp11guyo">supplementaurp11guyo</a>)
+; Bastard d'Estang, <em>Les parlements de France</em>, t. I, 1857 (<a
+href="https://archive.org/details/lesparlementsdef01bastuoft">lesparlementsdef01bastuoft</a>)</td>
+<td>domaine public</td>
+<td>ressort des cours souveraines par bailliage
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/parlements_bailliages.csv"><code>sources/parlements_bailliages.csv</code></a>,
+<code>couches/parlements.md</code>)</td>
+</tr>
+<tr class="odd">
+<td>Dictionnaires topographiques départementaux (diocèses) : Matton
+(Aisne, 1871, <a
+href="https://archive.org/details/dictionnairetopo00mattuoft">dictionnairetopo00mattuoft</a>),
+Merlet (Eure-et-Loir, 1861, <a
+href="https://archive.org/details/dictionnairetopo00merluoft">dictionnairetopo00merluoft</a>),
+Roserot (Haute-Marne, 1903, <a
+href="https://archive.org/details/dictionnairetopo00rose">dictionnairetopo00rose</a>),
+Liénard (Meuse, 1872, <a
+href="https://archive.org/details/dictionnairetop00meugoog">dictionnairetop00meugoog</a>),
+Longnon (Marne, 1891, <a
+href="https://archive.org/details/dictionnairetopo00longuoft">dictionnairetopo00longuoft</a>),
+Loisne (Pas-de-Calais, 1907, <a
+href="https://archive.org/details/dictionnairetopo00mencuoft">dictionnairetopo00mencuoft</a>),
+Soultrait (Nièvre, <a
+href="https://archive.org/details/dictionnairetopo00souluoft">dictionnairetopo00souluoft</a>),
+Germer-Durand (Gard, 1868, <a
+href="https://archive.org/details/dictionnairetopo00germuoft">dictionnairetopo00germuoft</a>),
+Thomas (Hérault, 1865, <a
+href="https://archive.org/details/dictionnairetopo00thomuoft">dictionnairetopo00thomuoft</a>)
+; Carré de Busserolle (Indre-et-Loire, <a
+href="https://archive.org/details/dictionnairegog00bussgoog">dictionnairegog00bussgoog</a>)
+; Durival, <em>Description de la Lorraine et du Barrois</em>, t. II,
+1779 (<a
+href="https://archive.org/details/bub_gb_8jUli2255SMC">bub_gb_8jUli2255SMC</a>)
+; abbé Durengues, <em>Pouillé historique du diocèse d'Agen pour l'année
+1789</em>, 1894 (<a
+href="https://archive.org/details/pouillhistoriq00dure">pouillhistoriq00dure</a>)</td>
+<td>domaine public</td>
+<td>corrections de tracé des diocèses
+(<code>couches/dioceses.md</code>)</td>
+</tr>
+<tr class="even">
+<td>Gravelle-Desulis, <em>Inventaire sommaire des archives
+départementales antérieures à 1790, Orne, série C</em>, 1877 (<a
+href="https://archive.org/details/inventairesomma00gravgoog">inventairesomma00gravgoog</a>),
+rôles de 1789-1790 par département de l'assemblée provinciale de
+Moyenne-Normandie et du Perche ; Duval, <em>État de la généralité
+d'Alençon</em>, 1890 (<a
+href="https://archive.org/details/etatdelagnralit00duvagoog">etatdelagnralit00duvagoog</a>)
+; Y. Bohineust, <em>Les Cahiers de paroisses de l'élection du
+Blanc-en-Berry</em>, 1939 (<a
+href="https://archive.org/details/IA41547123_0008">IA41547123_0008</a>)</td>
+<td>domaine public, sauf Bohineust (1939 : seuls des faits, sans texte,
+en sont repris)</td>
+<td>troisième passe de la correction des généralités par élection
+(<code>couches/generalites.md</code>)</td>
+</tr>
+<tr class="odd">
+<td>Wikipédia en français, articles de communes (révision citée)</td>
+<td>CC BY-SA 4.0</td>
+<td>vérification ponctuelle ; seul un fait est repris, avec la révision
+(<code>corrections.md</code>)</td>
+</tr>
+<tr class="even">
+<td>OpenHistoricalMap (relations des provinces frontalières, 1789)</td>
+<td>CC0</td>
+<td>comparaison des provinces frontalières ; modèle des dates
+<code>start_date</code> / <code>end_date</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sources-consultées-et-non-retenues">Sources consultées et non
+retenues</h2>
+<ul>
+<li>Théo Burnel, <code>dioc-ses</code> (GitHub, GeoJSON des diocèses
+1592-1789) : fondé, pour la France, sur la même liste de Wikipédia que
+les cartes de Maxence Jeanjean ; pas de source indépendante.</li>
+<li>Cédric Chambru, <em>Department Boundaries in France, c. 1790</em> et
+<em>c. 1794</em>, <em>Contrée Boundaries in France, c. 1790</em>,
+<em>Region Boundaries in France, c. 1790</em>, Harvard Dataverse, 2020
+(<a
+href="https://doi.org/10.7910/DVN/HJISNR">doi:10.7910/DVN/HJISNR</a>, <a
+href="https://doi.org/10.7910/DVN/FXJSTK">doi:10.7910/DVN/FXJSTK</a>, <a
+href="https://doi.org/10.7910/DVN/CRY4ZB">doi:10.7910/DVN/CRY4ZB</a>, <a
+href="https://doi.org/10.7910/DVN/BU2SQZ">doi:10.7910/DVN/BU2SQZ</a> ;
+collection « French Historical GIS » du Dataverse, signalée par l'auteur
+le 31 octobre 2026) : départements, contrées et régions, sans élections
+ni généralités ; licence CC BY-NC-SA 4.0 (« termsOfUse » des jeux),
+incompatible avec la publication : contrôle privé seulement, par exemple
+pour une future couche des départements de 1790.</li>
+</ul>
+<h2
+id="fonds-communaux-hors-de-france-territoires-extérieurs--docscouchesexterieursmd">Fonds
+communaux hors de France (territoires extérieurs :
+<a href="couche-exterieurs.html"><code>docs/couches/exterieurs.md</code></a>)</h2>
+<ul>
+<li><strong>Belgique</strong> : limites administratives du SPF Finances
+(documentation patrimoniale, base CadGIS, source authentique des limites
+administratives belges depuis le 1er janvier 2018 d'après la fiche de
+métadonnées de l'IWEPS, <a
+href="https://walstat.iweps.be/fichiers/metadonnees/meta-201001.pdf">meta-201001</a>).
+Licence : « Licence plan open data » du SPF Finances (<a
+href="https://finances.belgium.be/sites/default/files/Licence_plan_opendata_FR.PDF">PDF</a>,
+document du 22 juin 2018, lu le 31 octobre 2026 sur une copie
+téléchargée par l'auteur, le site opposant un test anti-robots). Elle
+couvre le « plan cadastral », dont « les limites administratives et
+cadastrales » (art. 1 g) ; le SPF Finances autorise, « pour le monde
+entier, à titre gratuit, non sous-licenciable, non exclusif », à «
+reproduire et partager le plan cadastral, en tout ou partie » et à «
+produire, reproduire et partager l'Œuvre dérivée » (art. 2 a 1), sans
+restriction d'usage commercial ; conditions (art. 3 a) : identifier le
+SPF Finances comme auteur, indiquer le droit d'auteur, renvoyer à la
+licence et à ses limitations de garantie, donner un lien vers les
+données, indiquer les modifications ; « la licence d'œuvre dérivée que
+vous utilisez ne doit pas porter atteinte au respect de la présente
+licence » (art. 3 a 4) ; interdiction de fonder sur ces données une
+décision automatisée produisant des effets juridiques à l'égard d'une
+personne (art. 7 c). Rédaction calquée sur la licence CC BY 4.0 :
+compatible avec la diffusion sous CC BY 4.0 et CC BY-SA 4.0, attribution
+conservée. Fichier : <em>AU-RefSit</em> (unités administratives,
+communes et sections cadastrales), édition du 22 mai 2026,
+<code>https://opendata.fin.belgium.be/download/datasets/AU-RefSit_20260522_shp_31370_01000.zip</code>
+(lien donné par la notice du catalogue Geobru, <a
+href="https://geobru-geonetwork.irisnet.be/geonetwork/srv/api/records/629ad470-71dc-11eb-af47-3448ed25ad7c">629ad470-71dc-11eb-af47-3448ed25ad7c</a>)
+; le flux ATOM du SPF Finances
+(<code>https://opendata.fin.belgium.be/download/ATOM/9bb31275-18bc-4bdc-96e9-55c9e1edd9eb-en.xml</code>,
+mis à jour le 18 octobre 2026) déclare pour ces fichiers les droits
+<code>https://creativecommons.org/licenses/by/4.0/</code>.</li>
+<li><strong>Allemagne</strong> : BKG, VG250 (Verwaltungsgebiete 1:250
+000), licence Datenlizenz Deutschland – Namensnennung 2.0
+(dl-de/by-2-0), attribution « © BKG (année) dl-de/by-2-0 » ; repéré, non
+utilisé (les villages allemands viennent des fonds des Länder).</li>
+<li><strong>Allemagne, à l'échelle des anciens villages
+(<em>Gemarkungen</em>)</strong> :
+<ul>
+<li>Rhénanie-Palatinat : LVermGeo, service « Verwaltungsgrenzen
+Rheinland-Pfalz », collection <code>vermkv:gemarkungen_rlp</code> (3 111
+Gemarkungen, avec le code de commune AGS), API OGC Features
+<code>https://www.geoportal.rlp.de/spatial-objects/314/collections/vermkv:gemarkungen_rlp/items</code>
+; licence déclarée par le service : « geldleistungsfrei, Datenlizenz
+Deutschland – Namensnennung – Version 2.0, URL: <a
+href="https://www.govdata.de/dl-de/by-2-0">https://www.govdata.de/dl-de/by-2-0</a>
+» (lu le 31 octobre 2026).</li>
+<li>Sarre : LVGL, service « INSPIRE-WFS SL Flurstücke/Grundstücke ALKIS
+» (<code>https://geoportal.saarland.de/spatial-objects/408</code>),
+collection <code>cp:CadastralZoning</code> (« Katasterbezirk », 5 231
+objets, dont 409 de niveau <em>Gemarkung</em>), téléchargée le 31
+octobre 2026 ; licence de la notice du jeu de données couplé
+(<code>mod_dataISOMetadata.php?id=90a59e98-e97b-43f9-b8a9-6453bed1b6dd</code>,
+« INSPIRE SL Flurstücke/Grundstücke ALKIS ») : « Lizenz: dl-de/by-2-0 -
+Datenlizenz Deutschland Namensnennung 2.0 - <a
+href="https://www.govdata.de/dl-de/by-2-0">https://www.govdata.de/dl-de/by-2-0</a>
+- Quellenvermerk: © GeoBasis DE/LVGL-SL (Jahr) ». Le service « WFS SL
+ALKIS Vereinfacht » (414), d'abord repéré, ne déclarait que «
+geldleistungsfrei » et n'a pas été utilisé.</li>
+</ul></li>
+<li><strong>Belgique, à l'échelle des anciennes communes</strong> : SPF
+Finances, plan parcellaire cadastral
+<code>PP-FiscSit_20260101_shp_31370_&lt;commune&gt;.zip</code> (<a
+href="https://opendata.fin.belgium.be/download/datasets/">https://opendata.fin.belgium.be/download/datasets/</a>),
+couche <code>Apn_CaDi</code> (divisions cadastrales, qui reprennent les
+communes d'avant les fusions de 1977), pour Beaumont, Bouillon, Couvin,
+Doische, Froidchapelle, Hastière, Meix-devant-Virton, Philippeville,
+Viroinval et Walcourt, téléchargé le 31 octobre 2026 ; l'archive
+contient la même « Licence plan open data »
+(<code>Licence_plan_opendata_FR.pdf</code>) que les limites
+administratives.</li>
+<li><strong>Luxembourg</strong> : Administration du cadastre et de la
+topographie (ACT), limites communales, data.public.lu, CC0 ; non utilisé
+: les lieux luxembourgeois sont des parties de communes ou restent à
+vérifier].</li>
+<li><strong>Suisse</strong> : swisstopo, swissBOUNDARIES3D, limites
+communales 2026, lues par l'API de geo.admin.ch
+(<code>https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/&lt;numéro OFS&gt;?geometryFormat=geojson&amp;sr=4326</code>),
+le 31 octobre 2026 ; conditions d'utilisation données par opendata.swiss
+: « Open use. Must provide the source » (<a
+href="https://opendata.swiss/en/dataset/swissboundaries3d/resource/e16e53fb-9768-45bf-8787-a7a20b92de14">fiche
+swissBOUNDARIES3D</a>) ; une autre fiche (unités administratives
+INSPIRE) ajoutait que l'usage commercial requiert l'autorisation du
+détenteur, mais les conditions de swisstopo pour les géodonnées
+gratuites (« Conditions d'utilisation des géodonnées et géoservices
+gratuits », version du 1er mars 2021, <a
+href="https://www.swisstopo.admin.ch/fr/conditions-utilisation-geodonnees-et-geoservices-gratuit">https://www.swisstopo.admin.ch/fr/conditions-utilisation-geodonnees-et-geoservices-gratuit</a>,
+lue le 31 octobre 2026) permettent de les enrichir, transformer,
+utiliser à des fins commerciales, distribuer et rendre accessibles, avec
+une mention de source obligatoire sur toute représentation et en cas de
+transmission, sous l'une des formes prescrites, dont « Office fédéral de
+topographie swisstopo » et « ©swisstopo » ; l'atlas emploie « ©swisstopo
+».</li>
+<li>Wikipédia en français, pages signalées par l'auteur et lues en local
+(31 octobre 2026) : « Territoires du royaume de France » (révision
+240706144), « Parlement (royaume de France) » (240639705), « Généralité
+(France) » (231355765), « Gouvernements généraux et particuliers »
+(234664078), « Liste des diocèses de France sous l'Ancien Régime »
+(239528023) : pistes ; la liste des gouvernements y est la même que dans
+Isambert, sans leur étendue.</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

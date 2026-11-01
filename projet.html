@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le projet · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1
+id="atlas-dancien-régime--généralités-bailliages-diocèses-provinces-gouvernements-et-parlements-en-1789">Atlas
+d'Ancien Régime : généralités, bailliages, diocèses, provinces,
+gouvernements et parlements en 1789</h1>
+<p>Couches GeoJSON des <strong>généralités</strong>, des
+<strong>bailliages et sénéchaussées</strong>, des
+<strong>diocèses</strong>, des <strong>provinces</strong>, des
+<strong>gouvernements généraux militaires</strong> et des
+<strong>parlements et conseils souverains</strong> du royaume de France
+en 1789, construites de façon reproductible à partir de sources ouvertes
+et rattachées aux communes actuelles, de sorte que les couches se
+superposent exactement.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Couche</th>
+<th>Fichier</th>
+<th>Entités</th>
+<th>Source principale</th>
+<th>Licence des données</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Généralités</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/generalites/generalites_1789.geojson"><code>donnees/generalites/generalites_1789.geojson</code></a></td>
+<td>33 (Toulouse et Montpellier séparées)</td>
+<td>Brette, <em>Atlas des bailliages</em> (1904), par Gay, Gobbi et Goñi
+(2024)</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr class="even">
+<td>Généralités, Languedoc réuni</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/generalites/generalites_1789_languedoc_uni.geojson"><code>donnees/generalites/generalites_1789_languedoc_uni.geojson</code></a></td>
+<td>32</td>
+<td>idem</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr class="odd">
+<td>Bailliages et sénéchaussées</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/bailliages/bailliages_1789.geojson"><code>donnees/bailliages/bailliages_1789.geojson</code></a></td>
+<td>436 (circonscriptions de la convocation des États généraux, dont
+Sarrelouis, hors de France)</td>
+<td>idem</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr class="even">
+<td>Diocèses</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/dioceses/dioceses_1789.geojson"><code>donnees/dioceses/dioceses_1789.geojson</code></a></td>
+<td>149 (diocèses étrangers réduits à leurs paroisses du royaume)</td>
+<td>cartes de Maxence Jeanjean, Wikimedia Commons</td>
+<td>CC BY-SA 4.0</td>
+</tr>
+<tr class="odd">
+<td>Provinces</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/provinces/provinces_1789.geojson"><code>donnees/provinces/provinces_1789.geojson</code></a></td>
+<td>41</td>
+<td>cartes de Milenioscuro, Wikimedia Commons</td>
+<td>CC BY-SA 4.0</td>
+</tr>
+<tr class="even">
+<td>Gouvernements généraux</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/gouvernements/gouvernements_1789.geojson"><code>donnees/gouvernements/gouvernements_1789.geojson</code></a></td>
+<td>40</td>
+<td>ordonnance de 1776 ; provinces regroupées et bailliages de
+Brette</td>
+<td>CC BY-SA 4.0</td>
+</tr>
+<tr class="odd">
+<td>Parlements et conseils souverains</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/parlements/parlements_1789.geojson"><code>donnees/parlements/parlements_1789.geojson</code></a></td>
+<td>18</td>
+<td>ressort de chaque bailliage de Brette (État des grands bailliages,
+1788 ; Guyot ; Hesseln ; Expilly)</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr class="even">
+<td>Territoires du royaume aujourd'hui hors de France</td>
+<td><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/exterieurs/territoires_exterieurs_1789.geojson"><code>donnees/exterieurs/territoires_exterieurs_1789.geojson</code></a></td>
+<td>119</td>
+<td>anciens villages (<em>Gemarkungen</em>), divisions cadastrales
+belges, communes suisses ; rattachements sourcés (Brette 1907, Durival,
+Expilly, Hesseln) ; aussi ajoutés à chaque couche</td>
+<td>CC BY 4.0</td>
+</tr>
+</tbody>
+</table>
+<p>Coordonnées en WGS 84 (longitude, latitude). Propriétés :
+<a href="donnees.html"><code>docs/donnees.md</code></a>.</p>
+<p><strong>Tableau des lieux</strong> :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/lieux/lieux_1789.csv"><code>donnees/lieux/lieux_1789.csv</code></a> réunit en un seul tableau, une
+ligne par commune actuelle (et par territoire aujourd'hui hors de
+France), l'entité de chaque couche, sa certitude, les décisions prises
+(corrections, confirmations, doutes, communes partagées) et leurs
+sources (CC BY-SA 4.0 ; colonnes : <a href="donnees.html"><code>docs/donnees.md</code></a>).</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><a href="images/hd/generalites_1789.png"><img
+src="images/generalites_1789.png"
+alt="Généralités en 1789" /></a></td>
+<td><a href="images/hd/bailliages_1789.png"><img
+src="images/bailliages_1789.png"
+alt="Bailliages et sénéchaussées en 1789" /></a></td>
+</tr>
+<tr class="even">
+<td><a href="images/hd/dioceses_1789.png"><img
+src="images/dioceses_1789.png" alt="Diocèses en 1789" /></a></td>
+<td><a href="images/hd/provinces_1789.png"><img
+src="images/provinces_1789.png" alt="Provinces en 1789" /></a></td>
+</tr>
+<tr class="odd">
+<td><a href="images/hd/gouvernements_1789.png"><img
+src="images/gouvernements_1789.png"
+alt="Gouvernements généraux en 1789" /></a></td>
+<td><a href="images/hd/parlements_1789.png"><img
+src="images/parlements_1789.png"
+alt="Parlements et conseils souverains en 1789" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>Aperçus (cliquer sur une image pour la version en haute définition),
+sous la licence de la couche représentée. Les couleurs ne servent qu'à
+distinguer deux entités voisines.</p>
+<h2 id="à-lire-avant-usage">À lire avant usage</h2>
+<ul>
+<li><strong>Fiche de chaque couche</strong> : sources, méthode pas à
+pas, corrections, limites et points ouverts dans
+<code>docs/couches/</code> (<a
+href="couche-generalites.html">généralités</a>, <a
+href="couche-bailliages.html">bailliages</a>, <a
+href="couche-dioceses.html">diocèses</a>, <a
+href="couche-provinces.html">provinces</a>, <a
+href="couche-gouvernements.html">gouvernements</a>, <a
+href="couche-parlements.html">parlements</a>, <a
+href="couche-exterieurs.html">territoires extérieurs</a>).</li>
+<li><strong>Précision</strong> : celle de la commune actuelle, non de la
+paroisse de 1789 (<a href="methode.html"><code>docs/methode.md</code></a>). Les communes formées
+par fusion de paroisses relevant d'entités différentes sont rattachées
+en bloc, sauf pour les généralités et les bailliages.</li>
+<li><strong>Diocèses et provinces</strong> : ce sont des <strong>cartes
+d'après Wikipédia</strong>. Les tracés de Commons ne citent pas leurs
+sources ; l'atlas les cale et les rattache aux communes, il ne les
+valide pas.</li>
+<li><strong>Provinces</strong> : la province n'avait pas, en 1789, de
+définition administrative précise (Armand Brette, <em>Les limites et les
+divisions territoriales de la France en 1789</em>, 1907, p. 57-59). La
+couche est une convention, celle des cartes de Commons.</li>
+<li><strong>Étendue du royaume</strong> : celle de Brette (Gay, Gobbi et
+Goñi, 2024) pour toutes les couches, aux corrections sourcées près
+(<a href="corrections.html"><code>docs/corrections.md</code></a>). Les enclaves étrangères (Comtat
+Venaissin, Montbéliard, Sarrewerden, Salm, Mulhouse, Bidache, Llívia…)
+restent vides : leur liste, commune par commune, est dans
+<a href="vides.html"><code>docs/vides_1789.md</code></a>. Les diocèses sont coupés à la même
+étendue : un diocèse étranger (Bâle, Trèves, Spire, Liège, Tournai,
+Ypres…) n'y figure que pour ses paroisses du royaume.</li>
+<li><strong>Corrections et points à vérifier</strong> :
+<a href="corrections.html"><code>docs/corrections.md</code></a>. Chaque correction est appuyée sur une
+source lue, citée (ouvrage, tome, page quand elle a pu être établie,
+identifiant ou adresse Internet Archive ; <a href="sources.html"><code>docs/sources.md</code></a>),
+et inscrite dans <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a> ou les tables de
+<code>sources/</code>, appliquées à la construction des couches. Pour
+891 des 1 294 corrections de généralité (69 %), la page imprimée d'au
+moins une source n'a pas pu être établie (« page imprimée non établie »,
+avec le feuillet d'Internet Archive quand il est connu) ; les pages
+données « d'après la pagination d'Internet Archive » ont été contrôlées
+sur les en-têtes de page voisins du texte OCR, et écartées quand ils la
+contredisaient ; la vedette et l'identifiant Internet Archive permettent
+de retrouver le passage.</li>
+<li><strong>Gouvernements</strong> : les gouvernements généraux
+n'avaient pas de limites fixées (Brette 1907, p. 100 et 104) : la couche
+est une convention, faite des provinces regroupées et, pour Le Havre, le
+Boulonnais, Sedan, Toul et Paris, des bailliages de Brette ; le
+Clermontois ne dépendait d'aucun gouvernement.</li>
+<li><strong>Parlements</strong> : la cour suit le bailliage de
+convocation ; les partages à l'intérieur d'un bailliage (Dunkerque,
+Bourbourg et Gravelines, au conseil d'Artois, dans le bailliage de
+Bailleul ; paroisses mi-parties) ne sont pas représentés.</li>
+<li><strong>Territoires extérieurs</strong> : Sarrelouis, la Lorraine
+allemande, Landau, les villages de la Lauter (souveraineté contestée par
+l'Empire, propriété <code>contestation</code>), Philippeville,
+Mariembourg, Agimont et le pays de Gex cédé en 1815 sont dessinés à
+l'échelle des anciens villages actuels (limites cadastrales
+d'aujourd'hui, non celles de 1789) ; les lieux mi-partis, contestés ou
+incertains sont dans la table sans être dessinés.</li>
+<li><strong>Bailliages</strong> : unités électorales de la convocation
+de 1789 (« bailliages ou juridictions assimilées »), non ressorts
+judiciaires complets ; les terres absentes de la convocation (comté de
+Montjoie-Vaufrey, par exemple) n'ont pas de bailliage, même rattachées à
+une généralité.</li>
+<li><strong>Généralités</strong> : la généralité de chaque paroisse est
+celle de son bailliage de convocation aux États généraux, selon Brette,
+corrigée par élection là où le bailliage débordait sur une généralité
+voisine (correction en cours :
+<a href="couche-generalites.html"><code>docs/couches/generalites.md</code></a>).</li>
+</ul>
+<h2 id="réalisation-avec-lintelligence-artificielle">Réalisation avec
+l'intelligence artificielle</h2>
+<p>L'atlas a été réalisé avec l'aide d'une intelligence artificielle
+(Claude Code, d'Anthropic) : le code, la recherche documentaire (lecture
+des sources en ligne, relevé des citations, propositions de corrections)
+et la documentation ont été produits par l'IA, sur les consignes de
+l'auteur, qui a fixé le projet et la méthode et pris les décisions
+d'arbitrage. Le détail, les limites et la manière de vérifier :
+<a href="ia.html"><code>docs/ia.md</code></a>.</p>
+<h2 id="citer">Citer</h2>
+<p>Citer l'atlas :</p>
+<blockquote>
+<p>Thomas Fressin, <em>Atlas d'Ancien Régime : généralités, bailliages,
+diocèses, provinces, gouvernements, parlements et territoires extérieurs
+en 1789</em>, version 1.0.0, 2026, <a
+href="https://t-fressin.github.io/atlas-ancien-regime/">https://t-fressin.github.io/atlas-ancien-regime/</a>
+(données : <a
+href="https://github.com/t-fressin/atlas-ancien-regime">https://github.com/t-fressin/atlas-ancien-regime</a>).</p>
+</blockquote>
+<pre class="bibtex"><code>@dataset{fressin_atlas_ancien_regime_2026,
+  author  = {Fressin, Thomas},
+  title   = {Atlas d&#39;Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789},
+  version = {1.0.0},
+  year    = {2026},
+  url     = {https://t-fressin.github.io/atlas-ancien-regime/}
+}</code></pre>
+<p>Citer l'atlas (<code>CITATION.cff</code>) <strong>et</strong> les
+sources dont la couche utilisée dérive (<a href="sources.html"><code>docs/sources.md</code></a>, et
+la propriété <code>source</code> de chaque entité). Les couches sous CC
+BY-SA 4.0 imposent que toute version modifiée soit diffusée sous la même
+licence.</p>
+<h2 id="construction">Construction</h2>
+<p>Les couches sont produites par une chaîne de traitement que l'auteur
+conserve et ne publie pas ; <a href="ia.html"><code>docs/ia.md</code></a> dit comment elle a
+été réalisée. Les tables de décisions (<code>sources/</code>) et les
+empreintes SHA-256 des sources utilisées
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/empreintes.json"><code>sources/empreintes.json</code></a>,
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/commons_entites.json"><code>sources/commons_entites.json</code></a>) sont publiées : chaque valeur
+des couches peut être rapportée à sa source.</p>
+<h2 id="licences">Licences</h2>
+<ul>
+<li><strong>Données</strong> : licence indiquée dans chaque dossier de
+<code>donnees/</code> (<code>LICENCE.md</code>) et dans la propriété
+<code>licence</code> de chaque entité.</li>
+<li><strong>Documentation</strong> : CC BY 4.0
+(<a href="licence.html"><code>docs/LICENCE.md</code></a>), sauf les aperçus de
+<code>docs/images/</code>, qui suivent la licence de la couche
+représentée (CC BY 4.0 pour les généralités, les bailliages et les
+parlements, CC BY-SA 4.0 pour les diocèses, les provinces et les
+gouvernements) et portent son attribution.</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

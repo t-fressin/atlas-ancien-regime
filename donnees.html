@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Données · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="propriétés-des-entités">Propriétés des entités</h1>
+<p>Toutes les couches : GeoJSON, WGS 84 (EPSG:4326), une entité (Polygon
+ou MultiPolygon) par circonscription.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Propriété</th>
+<th>Couches</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>id</code></td>
+<td>toutes</td>
+<td>identifiant stable : <code>generalite-…</code>,
+<code>diocese-…</code>, <code>province-…</code>,
+<code>gouvernement-…</code> (nom sans accents ; pour une généralité, nom
+de la ville seul), <code>bailliage-NNN</code> (numéro du bailliage chez
+Gay, Gobbi et Goñi)</td>
+</tr>
+<tr class="even">
+<td><code>nom</code></td>
+<td>toutes</td>
+<td>nom de la circonscription</td>
+</tr>
+<tr class="odd">
+<td><code>type</code></td>
+<td>toutes</td>
+<td><code>generalite</code>, <code>bailliage</code>,
+<code>diocese</code>, <code>province</code>, <code>gouvernement</code>,
+<code>parlement</code> ou <code>territoire</code> (territoires
+extérieurs)</td>
+</tr>
+<tr class="even">
+<td><code>etat_au</code></td>
+<td>toutes</td>
+<td>date de l'état décrit (<code>1789</code>)</td>
+</tr>
+<tr class="odd">
+<td><code>ensemble</code></td>
+<td>provinces</td>
+<td>regroupement auquel la province appartient quand une carte de
+Commons en existe (« Guyenne et Gascogne », « Lorraine et Barrois », «
+Maine et Perche », « Flandre et Hainaut », « Poitou et Saumurois ») ;
+vide sinon</td>
+</tr>
+<tr class="even">
+<td><code>classe</code></td>
+<td>gouvernements</td>
+<td><code>1</code> (gouvernements de 60 000 livres), <code>2</code> (30
+000 livres), <code>hors série</code> (ville, prévôté et vicomté de
+Paris), d'après l'ordonnance du 18 mars 1776</td>
+</tr>
+<tr class="odd">
+<td><code>nature</code></td>
+<td>parlements</td>
+<td><code>parlement</code>, <code>conseil souverain</code>,
+<code>conseil supérieur</code>, <code>conseil provincial</code> ou
+<code>ressort partagé</code> (Marches communes de Poitou et de
+Bretagne)</td>
+</tr>
+<tr class="even">
+<td><code>statut</code>, <code>contestation</code></td>
+<td>territoires extérieurs</td>
+<td><code>royaume</code> pour les unités dessinées ;
+<code>contestation</code> : « souveraineté du roi contestée par l'Empire
+(« bailliages contestés ») » pour les villages de la Lauter, vide
+sinon</td>
+</tr>
+<tr class="odd">
+<td><code>generalite</code>, <code>bailliage_id</code>,
+<code>diocese</code>, <code>province</code>, <code>gouvernement</code>,
+<code>parlement</code>, <code>confiance</code></td>
+<td>territoires extérieurs</td>
+<td>rattachements de l'unité (vide : non établi) et certitude
+(<code>haute</code>, <code>moyenne</code>) ; sources dans
+<code>source</code> et dans
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/territoires_exterieurs.csv"><code>sources/territoires_exterieurs.csv</code></a></td>
+</tr>
+<tr class="even">
+<td><code>appel</code></td>
+<td>parlements</td>
+<td>cour où allaient les appels d'une cour qui n'était pas souveraine en
+tout (conseil provincial d'Artois : <code>Parlement de Paris</code>) ;
+vide sinon</td>
+</tr>
+<tr class="odd">
+<td><code>nom_brette</code></td>
+<td>bailliages</td>
+<td>nom donné par Brette (1904), avec le siège quand il diffère («
+Sénéchaussée d'Albret à Nérac »)</td>
+</tr>
+<tr class="even">
+<td><code>rang</code></td>
+<td>bailliages</td>
+<td><code>principal</code> ou <code>secondaire</code>, d'après Gay,
+Gobbi et Goñi (2024) : les bailliages qui avaient formé circonscription
+aux états généraux de 1614 furent dits principaux en 1789, les autres
+secondaires et rattachés à un principal</td>
+</tr>
+<tr class="odd">
+<td><code>bailliage_principal</code></td>
+<td>bailliages</td>
+<td><code>id</code> du bailliage principal d'un secondaire ; vide pour
+un principal</td>
+</tr>
+<tr class="even">
+<td><code>generalite</code></td>
+<td>bailliages</td>
+<td>généralité du bailliage selon Brette ; une partie du ressort peut
+relever d'une généralité voisine (<code>couches/generalites.md</code>,
+méthode, point 5)</td>
+</tr>
+<tr class="odd">
+<td><code>chef_lieu</code>, <code>chef_lieu_insee</code></td>
+<td>bailliages</td>
+<td>commune actuelle (nom, code INSEE) où siégea l'assemblée du
+bailliage</td>
+</tr>
+<tr class="even">
+<td><code>province_ecclesiastique</code></td>
+<td>diocèses</td>
+<td>métropole de rattachement, d'après la carte d'ensemble de Maxence
+Jeanjean</td>
+</tr>
+<tr class="odd">
+<td><code>source</code></td>
+<td>toutes</td>
+<td>attribution complète de la ou des sources de l'entité</td>
+</tr>
+<tr class="even">
+<td><code>licence</code></td>
+<td>toutes</td>
+<td><code>CC BY 4.0</code> (généralités, bailliages, parlements,
+territoires extérieurs) ou <code>CC BY-SA 4.0</code> (diocèses,
+provinces, gouvernements) ; voir le <code>LICENCE.md</code> de chaque
+dossier</td>
+</tr>
+<tr class="odd">
+<td><code>lieu_actuel</code>, <code>fond</code>,
+<code>code_unite</code>, <code>nom_unite</code></td>
+<td>territoires extérieurs</td>
+<td>lieu actuel ; fond étranger de l'unité dessinée
+(<code>gemarkung-rp</code>, <code>gemarkung-sl</code>,
+<code>division-be</code>, <code>commune-ch</code>), son code et son nom
+dans ce fond</td>
+</tr>
+<tr class="even">
+<td>(pas de champ <code>pays</code>)</td>
+<td>—</td>
+<td>le pays actuel d'une unité extérieure se lit dans <code>fond</code>
+(<code>gemarkung-*</code> : Allemagne ; <code>division-be</code> :
+Belgique ; <code>commune-ch</code> : Suisse) et figure dans la colonne
+<code>pays_actuel</code> de
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/territoires_exterieurs.csv"><code>sources/territoires_exterieurs.csv</code></a> ; l'atlas n'a pas de
+champ pour les « pays » de l'Ancien Régime</td>
+</tr>
+</tbody>
+</table>
+<p>Les dates de début et de fin (<code>start_date</code>,
+<code>end_date</code>, sur le modèle d'OpenHistoricalMap) seront
+ajoutées avec les états antérieurs à 1789.</p>
+<h2 id="tables-des-communes-donneescouchecouche_1789_communescsv">Tables
+des communes
+(<code>donnees/&lt;couche&gt;/&lt;couche&gt;_1789_communes.csv</code>)</h2>
+<p>Une ligne par commune actuelle de l'IGN rattachée à une entité (deux
+lignes ou plus pour une commune découpée entre généralités ou entre
+bailliages). Même licence que la couche.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Colonne</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>code_insee</code></td>
+<td>code de la commune (ADMIN EXPRESS COG CARTO, édition téléchargée :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/empreintes.json"><code>sources/empreintes.json</code></a>)</td>
+</tr>
+<tr class="even">
+<td><code>commune</code></td>
+<td>nom officiel actuel</td>
+</tr>
+<tr class="odd">
+<td><code>id</code>, <code>nom</code></td>
+<td>entité de la couche</td>
+</tr>
+<tr class="even">
+<td><code>part</code></td>
+<td>part de la surface de la commune comprise dans l'entité (de 0 à 1) :
+pour les diocèses et les provinces, part recouverte par le tracé de
+Commons calé, avant rattachement ; vide pour une commune complétée par
+voisinage</td>
+</tr>
+<tr class="odd">
+<td><code>mode</code></td>
+<td><code>paroisses</code> (toutes les paroisses de Brette de la commune
+dans la même généralité ou le même bailliage), <code>découpée</code>
+(paroisses d'entités différentes), <code>paroisse la plus proche</code>
+(commune sans paroisse), <code>correction</code>
+(<code>corrections.md</code>), <code>recouvrement</code> (diocèses,
+provinces : plus grand recouvrement), <code>voisinage</code>
+(complément, <code>methode.md</code>), <code>province</code> ou
+<code>bailliage</code> (gouvernements :
+<code>couches/gouvernements.md</code>)</td>
+</tr>
+</tbody>
+</table>
+<p>Une <code>part</code> faible signale une limite qui passe dans la
+commune : l'entité de la paroisse de 1789 peut y différer de celle de la
+commune.</p>
+<h2 id="certitude-des-rattachements-communaux">Certitude des
+rattachements communaux</h2>
+<p>Les tables <code>generalites_1789_communes.csv</code>,
+<code>dioceses_1789_communes.csv</code> et
+<code>provinces_1789_communes.csv</code> portent une colonne
+<code>certitude</code> :</p>
+<table>
+<thead>
+<tr class="header">
+<th>Valeur</th>
+<th>Sens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>corrigé</code></td>
+<td>correction sourcée de la commune (ou, pour les généralités, d'une de
+ses paroisses de Brette) : <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a>,
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections_paroisses_generalites.csv"><code>sources/corrections_paroisses_generalites.csv</code></a></td>
+</tr>
+<tr class="even">
+<td><code>confirmé</code></td>
+<td>une source lue confirme la valeur de la base :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/certitudes.csv"><code>sources/certitudes.csv</code></a></td>
+</tr>
+<tr class="odd">
+<td><code>douteux</code></td>
+<td>sources discordantes ou valeur non établie après recherche ; valeur
+de la base gardée : <a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/certitudes.csv"><code>sources/certitudes.csv</code></a> (motif et source
+par commune)</td>
+</tr>
+<tr class="even">
+<td><code>base</code></td>
+<td>valeur de la source de base (Brette pour les généralités, cartes de
+Commons pour les diocèses et les provinces), non vérifiée commune par
+commune</td>
+</tr>
+</tbody>
+</table>
+<p>Pour les généralités, <code>douteux</code> signale surtout les
+paroisses des ressorts dont un débordement de généralité est connu et
+dont l'élection de 1789 n'a pu être établie.</p>
+<h2 id="tables-complémentaires">Tables complémentaires</h2>
+<ul>
+<li><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/parlements/parlements_1789_communes.csv"><code>donnees/parlements/parlements_1789_communes.csv</code></a> :
+colonnes de toutes les tables de communes, plus
+<code>bailliage_id</code>, le bailliage principal de la commune, par
+lequel la cour est attribuée.</li>
+<li><code>donnees/&lt;couche&gt;/&lt;couche&gt;_1789_exterieurs.csv</code>
+(et <code>generalites_1789_languedoc_uni_exterieurs.csv</code>) : une
+ligne par unité étrangère ajoutée à la couche : <code>lieu</code>
+(identifiant de la ligne de
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/territoires_exterieurs.csv"><code>sources/territoires_exterieurs.csv</code></a>), <code>nom_1789</code>,
+<code>fond</code>, <code>code_unite</code>, <code>nom_unite</code>,
+<code>entite</code> (identifiant de l'entité de la couche),
+<code>nom_entite</code>.</li>
+</ul>
+<h2 id="tableau-des-lieux-donneeslieuxlieux_1789csv">Tableau des lieux
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/lieux/lieux_1789.csv"><code>donnees/lieux/lieux_1789.csv</code></a>)</h2>
+<p>Tableau unique, une ligne par lieu, établi à partir des tables de
+communes des couches et des tables de décisions de <code>sources/</code>
+; il ne change aucune valeur. Les lignes sont d'abord les communes
+actuelles de France métropolitaine (IGN), celles hors du royaume de 1789
+comprises, puis les lignes de
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/territoires_exterieurs.csv"><code>sources/territoires_exterieurs.csv</code></a> (territoires aujourd'hui
+hors de France, dessinés ou non). Licence CC BY-SA 4.0
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/lieux/LICENCE.md"><code>donnees/lieux/LICENCE.md</code></a>).</p>
+<table>
+<thead>
+<tr class="header">
+<th>Colonne</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>code_insee</code></td>
+<td>code de la commune française (vide pour un territoire
+extérieur)</td>
+</tr>
+<tr class="even">
+<td><code>code_etranger</code></td>
+<td>territoire extérieur : fond et code de l'unité
+(<code>gemarkung-rp:…</code>, <code>gemarkung-sl:…</code>,
+<code>division-be:…</code>, <code>commune-ch:…</code>), ou, pour un lieu
+sans unité dessinée, identifiant de la ligne de
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/territoires_exterieurs.csv"><code>sources/territoires_exterieurs.csv</code></a>
+(<code>exterieurs:BE15</code>)</td>
+</tr>
+<tr class="odd">
+<td><code>commune</code></td>
+<td>nom actuel</td>
+</tr>
+<tr class="even">
+<td><code>lieu_1789</code></td>
+<td>territoire extérieur : nom en 1789</td>
+</tr>
+<tr class="odd">
+<td><code>royaume_1789</code></td>
+<td><code>oui</code>, <code>non</code> (hors du royaume selon Brette ou
+par correction), ou, pour un territoire extérieur non dessiné,
+<code>non dessiné</code></td>
+</tr>
+<tr class="even">
+<td><code>decision</code>, <code>source</code></td>
+<td>décision sur l'appartenance au royaume (correction « hors du royaume
+», statut, contestation et confiance d'un territoire extérieur) et sa
+source</td>
+</tr>
+<tr class="odd">
+<td><code>generalite</code>, <code>bailliage</code>,
+<code>diocese</code>, <code>province</code>, <code>gouvernement</code>,
+<code>parlement</code></td>
+<td>entité de chaque couche ; pour une commune partagée, l'entité de la
+plus grande part (les autres sont dans la colonne
+<code>…_decision</code>)</td>
+</tr>
+<tr class="even">
+<td><code>&lt;couche&gt;_certitude</code></td>
+<td>généralités, bailliages, diocèses, provinces : <code>corrigé</code>,
+<code>confirmé</code>, <code>douteux</code> ou <code>base</code> (voir
+ci-dessus) ; pour un territoire extérieur, <code>confirmé</code> si la
+confiance de la table est haute, <code>douteux</code> sinon</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;couche&gt;_decision</code></td>
+<td>toutes les décisions qui portent sur la valeur, séparées par « | » :
+correction (avec son motif et la citation), confirmation, doute,
+paroisse de Brette corrigée par élection (généralités), commune partagée
+(avec les parts), complément par voisinage, rattachement d'une commune
+sans paroisse ; <code>gouvernement_decision</code> : rattachement par le
+bailliage</td>
+</tr>
+<tr class="even">
+<td><code>&lt;couche&gt;_source</code></td>
+<td>sources des décisions, dans le même ordre</td>
+</tr>
+</tbody>
+</table>
+<p>La version « Languedoc réuni » des généralités ne diffère que pour le
+Languedoc (<code>generalites_1789_languedoc_uni.geojson</code>) et n'a
+pas de colonne propre.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

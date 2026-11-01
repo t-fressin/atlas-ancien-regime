@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Généralités · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="généralités-en-1789">Généralités en 1789</h1>
+<p>Fiche de la couche <code>donnees/generalites/</code>. Principes
+communs à toutes les couches : <a href="methode.html"><code>docs/methode.md</code></a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Paroisses de Cassini et leur bailliage et généralité selon Brette
+(1904) : V. Gay, P. E. Gobbi, M. Goñi, <em>Bailliages in 1789
+France</em>, v. 2.0, Harvard Dataverse, <a
+href="https://doi.org/10.7910/DVN/T8UXHK">doi:10.7910/DVN/T8UXHK</a>, CC
+BY 4.0 (couche <code>BAILLIAGES_1789_BRETTE_POINTS</code>, 42 771
+paroisses ; étendue du royaume : <code>FRANCE_1789_BRETTE</code>) ;
+article : « The Atlas of Local Jurisdictions of Ancien Régime France »,
+<em>Journal of Historical Geography</em>, 84, 2024, p. 49-60.</li>
+<li>Fond : IGN, ADMIN EXPRESS COG CARTO, communes, Licence Ouverte 2.0
+(date de téléchargement et empreinte :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/empreintes.json"><code>sources/empreintes.json</code></a>).</li>
+<li>Sources des corrections : <a href="corrections.html"><code>docs/corrections.md</code></a> et
+<a href="sources.html"><code>docs/sources.md</code></a>.</li>
+</ul>
+<h2 id="méthode">Méthode</h2>
+<ol type="1">
+<li>Chaque paroisse de Cassini porte la généralité où Brette (1904)
+range son bailliage (Gay, Gobbi et Goñi, 2024).</li>
+<li>Une commune dont toutes les paroisses relèvent d'une même généralité
+la reçoit entière.</li>
+<li>Une commune qui réunit des paroisses de généralités différentes est
+découpée entre elles (cellules de Voronoï des chefs-lieux de paroisse,
+limitées au contour de la commune). Ce cas est rare (cinq communes),
+parce que Gay, Gobbi et Goñi ont eux-mêmes attribué les paroisses
+d'après des communes de 2021, sauf corrections manuelles.</li>
+<li>Une commune sans paroisse prend la généralité de la paroisse la plus
+proche si elle est dans le royaume de 1789, aucune sinon.</li>
+<li>Réserve propre à la source : la généralité est celle du
+<strong>bailliage</strong> de convocation ; or plusieurs bailliages
+débordaient sur une généralité voisine (relevé en cours,
+<code>corrections.md</code>, section « Limite connue »).</li>
+<li><strong>Corrections</strong> (<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a>,
+détail et sources dans <code>corrections.md</code>) : une correction de
+<strong>commune</strong> (<code>code_insee</code>) remplace le
+rattachement de la commune entière, ou la met hors du royaume ; une
+correction de <strong>paroisse</strong> (<code>noacass</code>,
+identifiant de Cassini) change la généralité d'une paroisse de Brette
+avant le rattachement des communes (étapes 2 à 4), ce qui garde le
+découpage d'une commune qui réunit des paroisses de généralités
+différentes. C'est par des corrections de paroisse que les généralités
+sont redressées élection par élection.</li>
+</ol>
+<p>Deux versions : <code>generalites_1789.geojson</code> (33
+généralités, Toulouse et Montpellier séparées, comme chez Brette) et
+<code>generalites_1789_languedoc_uni.geojson</code> (Languedoc réuni,
+une intendance).</p>
+<p>Les quatre généralités qui n'avaient « ni états ni élections »
+(Brette 1907, p. 112) portent aussi le nom de leur pays : « Metz
+(Trois-Évêchés) », « Nancy (Lorraine) », « Perpignan (Roussillon) », «
+Strasbourg (Alsace) ».</p>
+<h2 id="entités">Entités</h2>
+<p>33 généralités (<code>generalites_1789.geojson</code>) ; 32 dans la
+version au Languedoc réuni
+(<code>generalites_1789_languedoc_uni.geojson</code>). Table des
+communes : <code>generalites_1789_communes.csv</code>.</p>
+<h2 id="corrections">Corrections</h2>
+<p><strong>Corrections de commune</strong>
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a>, détail et citations dans
+<a href="corrections.html"><code>docs/corrections.md</code></a>) : Le Pont-de-Beauvoisin (Savoie,
+73204) hors du royaume ; comté de Montjoie-Vaufrey (25402, 25591, 25386,
+25275, 25102, 25314) et ses terres du Sundgau (68138, 68128, 68288,
+68055) en « Strasbourg (Alsace) » ; Escos (64205) et Bergouey-Viellenave
+(64113) en Auch ; Zillisheim (68384) en « Strasbourg (Alsace) ».</p>
+<p><strong>Corrections de paroisse, par élection</strong>
+(<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections_paroisses_generalites.csv"><code>sources/corrections_paroisses_generalites.csv</code></a>, <strong>1
+294 paroisses</strong>, une ligne par paroisse : <code>noacass</code>,
+paroisse de Cassini, nom de 1999, bailliage et généralité de Brette,
+élection et généralité de 1789, source, citation recopiée de l'OCR,
+remarque). Une paroisse n'y figure que si une source lue la place dans
+une élection d'une autre généralité que celle de son bailliage chez
+Brette ; la généralité de l'élection est celle de l'<em>Almanach
+royal</em> de 1789 (p. 259-266). Sources (première citée par ligne) :
+Expilly (632) ; Saugrain (254) ; Ch. Porée (100) ; Hippeau (128) ;
+inventaires sommaires des archives départementales, série C, de l'Orne
+et du Cher (57) ; procès-verbal de la généralité de Moulins de 1686 (30)
+; Robert de Hesseln (17) ; Charpillon et Caresme (13) ; Y. Bohineust
+(12) ; Boutiot et Socard (4) ; L. Rédet (2) ; A. Roserot (1). Principaux
+mouvements (généralité de Brette → généralité de l'élection) : Rouen →
+Alençon (267) ; Caen → Alençon (190) ; Riom → Moulins (134) ; Limoges →
+La Rochelle (105) ; Moulins → Bourges (82) ; Poitiers → Bourges (62) ;
+Dijon → Paris (56) ; Amiens → Rouen (50) ; Dijon → Orléans (45) ;
+Moulins → Orléans (33) ; Poitiers → Limoges (32) ; Moulins → Paris (27)
+; Tours → Bourges (23) ; Orléans → Paris (21). Dans les citations, un «
+@ » produit par l'OCR (« Ele@ion » pour « Election ») est écrit « [@]
+».</p>
+<p>Effet sur les communes (31 octobre 2026) : 766 communes changent de
+généralité principale par rapport à Brette après la deuxième passe, et
+72 de plus après la troisième ; 159 lignes de plus dans la table des
+communes, pour les communes découpées entre paroisses de généralités
+différentes.</p>
+<h2 id="limites-connues">Limites connues</h2>
+<p>La généralité est celle de l'élection pour les 1 294 paroisses
+corrigées, celle du bailliage de Brette pour toutes les autres. Le
+relevé n'a porté que sur les bailliages dont un débordement était connu
+(Falaise, Orbec, Breteuil, Beaumont-le-Roger, Chartres, Ponthieu,
+Amiens, Clermont-en-Beauvaisis, Sens, Saint-Quentin, Ham, Roye, Bellême,
+Dijon, Fismes ; Montmorillon, Poitiers, Angoulême, Cognac, Moulins,
+Châtillon-sur-Indre, Auxerre, Nevers, Riom) : dans ces ressorts, environ
+2 100 paroisses restent indéterminées faute d'article identifiable (dont
+75 entourées de voisines établies d'une autre généralité après la
+troisième passe), et d'autres bailliages peuvent déborder sans qu'on le
+sache. D'où des îlots nouveaux (143 après la deuxième passe, 2 512 km²,
+non recomptés après la troisième ; 164 îlots avant correction, la
+plupart historiques, comme les enclaves des Trois-Évêchés en Lorraine) :
+parties d'une généralité entourées par une seule autre, souvent des
+paroisses non corrigées au milieu de paroisses corrigées. Les sources
+sont de 1726 (Saugrain), 1762-1770 (Expilly), 1771 (Hesseln), 1909
+(Porée, état de 1789) : un changement d'élection entre la source et 1789
+n'est relevé que s'il est connu. État de 1789 : un registre plus ancien
+peut donner une autre généralité, juste à sa date (pays de Foix :
+intendance de Perpignan dans l'<em>Almanach royal</em> de 1778, d'Auch
+dans celui de 1789). Précision de la commune actuelle, sauf communes
+découpées entre paroisses.</p>
+<h2 id="points-ouverts">Points ouverts</h2>
+<ul>
+<li><strong>Paroisses indéterminées des ressorts relevés</strong> : 34
+entourées de voisines établies d'une autre généralité après la sixième
+passe (Combraille, Nièvre, Angoumois, Poitou-Berry, une partie du comté
+d'Eu et de la Haute-Normandie ; Saint-Père, dans la Nièvre, dont
+l'article de Saugrain, « S. Pere du Mont, […] Election de Clamecy »,
+n'est pas sûrement identifié), 529 à voisines partagées, 101 sans
+voisine établie. Sources cherchées sans résultat en texte intégral :
+procès-verbaux de l'assemblée provinciale de Basse-Normandie,
+Odolant-Desnos, assemblée provinciale du Berry, Boislisle pour Vézelay ;
+il n'existe pas de dictionnaire topographique de l'Orne.</li>
+<li><strong>Élection du Blanc</strong> : les 12 paroisses corrigées le
+sont d'après une thèse de 1939 (Bohineust), tirée des convocations de
+1789, qui compte aussi des enclaves : Lussac-les-Églises y figure alors
+qu'Expilly le met en élection de Limoges ; à confirmer par un état de
+l'élection.</li>
+<li><strong>Identifications probables</strong> de la troisième passe :
+Notre-Dame-du-Bois pour le point « St Evroult », Sainte-Anne pour
+Sainte-Anne-d'Entremont, Saint-Quentin pour
+Saint-Quentin-de-la-Roche.</li>
+<li>Réserves : le <em>Procès-verbal de la généralité de Moulins</em>
+(1686) tranche le bailliage de Riom dans l'état de 1686 (au moins un
+transfert avant 1789 : Sauzay) ; six paroisses normandes où Hippeau ou
+Charpillon nomment une autre généralité que celle de l'élection (la
+généralité de l'élection est retenue) ; point de Brette de La Magdeleine
+(Charente) à vérifier.</li>
+<li>Paroisses douteuses relevées par les recherches : Coudray-au-Perche
+(mi-partie), Merry-Sec, Chitry, Javerdat (élection de Limoges ou de
+Confolens), Martel ; Roumare rangé à tort en Ponthieu par Brette.</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gouvernements généraux · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="gouvernements-généraux-militaires-en-1789">Gouvernements
+généraux militaires en 1789</h1>
+<p>Fiche de la couche <code>donnees/gouvernements/</code>. Principes
+communs à toutes les couches : <a href="methode.html"><code>docs/methode.md</code></a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Liste : ordonnance du 18 mars 1776 « portant règlement sur les
+gouvernements généraux des provinces, gouvernements particuliers… »,
+art. 1er : « Le nombre des gouvernements généraux des provinces restera
+fixé à trente-neuf, comme il l'est aujourd'hui, et divisé en deux
+classes » ; liste des dix-huit gouvernements de la première classe et
+des vingt et un de la seconde dans la note de l'éditeur : Jourdan,
+Decrusy, Isambert, <em>Recueil général des anciennes lois
+françaises</em>, t. XXIII, p. 436-437 (<a
+href="https://archive.org/details/recueilgnral23fran">Internet
+Archive</a>). Paris (« Ville, prévôté et vicomté ») et Monaco, hors des
+39 : A. Brette, <em>Les limites et les divisions territoriales de la
+France en 1789</em>, 1907, p. 77 ; noms et titulaires : <em>Almanach
+royal</em>, 1789, p. 101-104.</li>
+<li>Territoires : couche des provinces de l'atlas
+(<a href="couche-provinces.html"><code>docs/couches/provinces.md</code></a> : cartes de Milenioscuro,
+Wikimedia Commons, CC BY-SA 4.0) ; bailliages de convocation de Brette
+(1904), d'après V. Gay, P. E. Gobbi et M. Goñi, <a
+href="https://doi.org/10.7910/DVN/T8UXHK">doi:10.7910/DVN/T8UXHK</a> (CC
+BY 4.0) ; fond : IGN, ADMIN EXPRESS COG CARTO (Licence Ouverte
+2.0).</li>
+<li>Nature des gouvernements : Brette 1907, chap. V, p. 95-107 : « aucun
+ressort précis, comme nous l'entendrions aujourd'hui, n'était fixé » (p.
+100) ; « fonctions purement nominales des gouverneurs généraux, limites
+indécises des territoires qui leur sont nominalement soumis » (p.
+104).</li>
+<li>Contrôle prévu (aucune géométrie reprise) : <em>1789 France
+gouvernements généraux militaires map-fr.svg</em>, Flappiefh, Wikimedia
+Commons, 2016, CC BY-SA 4.0, « d'après Armand Brette ».</li>
+</ul>
+<h2 id="méthode">Méthode</h2>
+<ol type="1">
+<li>Chaque commune reçoit le gouvernement de sa province : Flandre,
+Hainaut et Cambrésis → Flandre et Hainaut ; Lorraine et Barrois →
+Lorraine et Barrois ; Guyenne et Gascogne → Guyenne et Gascogne ; Maine
+et Perche → Maine et Perche ; Saintonge et Angoumois → Saintonge et
+Angoumois ; Béarn → Navarre et Béarn ; Franche-Comté → Comté de
+Bourgogne ; Bourgogne → Duché de Bourgogne ; Lyonnais → Lyonnais, Forez
+et Beaujolais ; Champagne → Champagne et Brie ; Foix → Foix, Donnezan et
+Andorre ; Marche → Haute et Basse-Marche ; les autres provinces portent
+le nom de leur gouvernement.</li>
+<li>Cinq gouvernements que les provinces ne distinguent pas prennent le
+territoire de leur bailliage de convocation chez Brette (bailliage
+principal de la commune) : Le Havre (« Bailliage du Havre »,
+<code>bailliage-056</code>, secondaire de Caudebec ; Brette 1907 : « le
+Havre était constitué en gouvernement général identique quant aux droits
+» à la Normandie) ; Boulonnais (sénéchaussée de Boulogne,
+<code>bailliage-042</code>) ; principauté de Sedan (bailliage de Sedan,
+<code>bailliage-342</code>) ; Toul et Toulois (bailliage de Toul,
+<code>bailliage-337</code>) ; ville, prévôté et vicomté de Paris
+(prévôté et vicomté de Paris, ville et faubourgs,
+<code>bailliage-144</code>, et hors les murs,
+<code>bailliage-145</code>).</li>
+<li>Le Clermontois (bailliage de Clermont-en-Argonne,
+<code>bailliage-341</code>, formé des comtés de Clermont, Dun, Stenay et
+Jametz d'après le procès-verbal de son assemblée de 1789 cité par
+Brette) reste sans gouvernement : « le Clermontois, qui appartenait au
+prince de Condé, ne dépendait d'aucun gouvernement général » (Brette
+1907, p. 104, citant Brion, <em>Coup d'œil général sur la France</em>,
+1765 : « Le Clermontois... appartient au prince de Condé et ne dépend
+d'aucun gouvernement, le roi ne s'y étant réservé que l'hommage et le
+ressort de la justice »).</li>
+<li>Les communes sont réunies par gouvernement ; propriété
+<code>classe</code> : 1 (60 000 livres), 2 (30 000 livres) ou « hors
+série » (Paris).</li>
+</ol>
+<h2 id="entités">Entités</h2>
+<p>40 entités : les 39 gouvernements généraux de 1776 et la ville,
+prévôté et vicomté de Paris. Monaco, hors du royaume, n'y est pas. Table
+des communes : <code>gouvernements_1789_communes.csv</code> (colonne
+<code>mode</code> : <code>province</code> ou
+<code>bailliage</code>).</p>
+<h2 id="corrections">Corrections</h2>
+<p>Aucune correction propre à la couche ; elle hérite de celles des
+provinces et des bailliages (<a href="corrections.html"><code>docs/corrections.md</code></a>).</p>
+<h2 id="limites-connues">Limites connues</h2>
+<p>Couche <strong>conventionnelle</strong> : les gouvernements n'avaient
+pas de limites fixées (Brette 1907, p. 97, 100, 104), et les provinces
+de Commons ne sont ni la liste de 1776 ni ses limites. La prévôté et
+vicomté de Paris hors les murs, unité de convocation, couvre une large
+part de l'Île-de-France : le gouvernement d'Île-de-France en est réduit
+d'autant ; c'est un choix (« comme Brette »), non une limite attestée.
+Le Havre est réduit au bailliage du Havre. La Dombes, réunie en 1762,
+suit la province où la carte de Commons la place. Les gouvernements
+particuliers (villes et citadelles) ne sont pas représentés.</p>
+<h2 id="points-ouverts">Points ouverts</h2>
+<ul>
+<li>Comparaison avec la carte des gouvernements jointe à Brette 1907 (la
+carte de Flappiefh, faite « d'après Brette », a été comparée : voir «
+Contrôles »).</li>
+<li>Écarts les plus nombreux avec Flappiefh, à examiner : limite de la
+prévôté et vicomté de Paris (415 communes, dans les deux sens) ;
+Lorraine et Barrois contre Trois-Évêchés (359, enclaves) ; Champagne et
+Brie contre Île-de-France (136) ; Comté contre Duché de Bourgogne (108)
+; Artois contre Picardie (101) ; Bourbonnais contre Auvergne (86).</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1464 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vides enclavés · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="vides-enclavés-des-couches-1789">Vides enclavés des couches
+(1789)</h1>
+<p>Chaque vide est un territoire entouré par le royaume mais placé hors
+de lui par Brette (Gay, Gobbi et Goñi, 2024) : enclave étrangère ou
+lacune de la source. Les cas à vérifier sont discutés dans
+<code>corrections.md</code>.</p>
+<h2
+id="donneesbailliagesbailliages_1789geojson--27-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/bailliages/bailliages_1789.geojson"><code>donnees/bailliages/bailliages_1789.geojson</code></a>
+: 27 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>11.3</td>
+<td>Bergouey-Viellenave (64113)</td>
+</tr>
+<tr class="odd">
+<td>11.3</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="odd">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="odd">
+<td>5.6</td>
+<td>Escos (64205)</td>
+</tr>
+<tr class="even">
+<td>5.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesdiocesesdioceses_1789geojson--25-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/dioceses/dioceses_1789.geojson"><code>donnees/dioceses/dioceses_1789.geojson</code></a>
+: 25 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="odd">
+<td>8.5</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="even">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>2.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesexterieursterritoires_exterieurs_1789geojson--4-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/exterieurs/territoires_exterieurs_1789.geojson"><code>donnees/exterieurs/territoires_exterieurs_1789.geojson</code></a>
+: 4 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesgeneralitesgeneralites_1789geojson--27-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/generalites/generalites_1789.geojson"><code>donnees/generalites/generalites_1789.geojson</code></a>
+: 27 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>11.3</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="even">
+<td>8.5</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="odd">
+<td>5.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>2.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesgeneralitesgeneralites_1789_languedoc_unigeojson--27-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/generalites/generalites_1789_languedoc_uni.geojson"><code>donnees/generalites/generalites_1789_languedoc_uni.geojson</code></a>
+: 27 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>11.3</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="even">
+<td>8.5</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="odd">
+<td>5.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>2.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesgouvernementsgouvernements_1789geojson--33-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/gouvernements/gouvernements_1789.geojson"><code>donnees/gouvernements/gouvernements_1789.geojson</code></a>
+: 33 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>545.2</td>
+<td>Aubréville (55014), Autrécourt-sur-Aire (55017), Boureuilles
+(55065), Brabant-en-Argonne (55068), Brocourt-en-Argonne (55082),
+Béthelainville (55047), Béthincourt (55048), Charpentry (55103), Cheppy
+(55113), Clermont-en-Argonne (55117), Cumières-le-Mort-Homme (55139),
+Esnes-en-Argonne (55180), Forges-sur-Meuse (55193), Froidos (55199),
+Fromeréville-les-Vallons (55200), Futeau (55202), Ippécourt (55251),
+Julvécourt (55260), Lachalade (55266), Le Claon (55116), Le Neufour
+(55379), Les Islettes (55253), Montblainville (55343), Montzéville
+(55355), Neuvilly-en-Argonne (55383), Nixéville-Blercourt (55385),
+Nubécourt (55389), Récicourt (55419), Saint-Thomas-en-Argonne (51519),
+Servon-Melzicourt (51533), Varennes-en-Argonne (55527), Vauquois
+(55536), Vienne-le-Château (51621), Ville-sur-Cousances (55567), Véry
+(55549), Waly (55577)</td>
+</tr>
+<tr class="odd">
+<td>353.2</td>
+<td>Baâlon (55025), Brouennes (55083), Cesse (55095), Cléry-le-Grand
+(55118), Cléry-le-Petit (55119), Cunel (55140), Doulcon (55165),
+Dun-sur-Meuse (55167), Han-lès-Juvigny (55226), Inor (55250), Iré-le-Sec
+(55252), Jametz (55255), Juvigny-sur-Loison (55262),
+Laneuville-sur-Meuse (55279), Lion-devant-Dun (55293), Louppy-sur-Loison
+(55306), Luzy-Saint-Martin (55310), Martincourt-sur-Meuse (55323),
+Milly-sur-Bradon (55338), Mont-devant-Sassey (55345), Mouzay (55364),
+Murvaux (55365), Nantillois (55375), Nepvant (55377), Pouilly-sur-Meuse
+(55408), Quincy-Landzécourt (55410), Remoiville (55425),
+Romagne-sous-Montfaucon (55438), Sassey-sur-Meuse (55469), Stenay
+(55502), Wiseppe (55582)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>14.3</td>
+<td>Romagne-sous-les-Côtes (55437)</td>
+</tr>
+<tr class="even">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>11.3</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>11.3</td>
+<td>Vilosnes-Haraumont (55571)</td>
+</tr>
+<tr class="odd">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="even">
+<td>8.5</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>8.1</td>
+<td>Moulins-Saint-Hubert (55362)</td>
+</tr>
+<tr class="even">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="even">
+<td>5.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>4.2</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>2.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesparlementsparlements_1789geojson--27-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/parlements/parlements_1789.geojson"><code>donnees/parlements/parlements_1789.geojson</code></a>
+: 27 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>11.3</td>
+<td>Bergouey-Viellenave (64113)</td>
+</tr>
+<tr class="odd">
+<td>11.3</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="odd">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="odd">
+<td>5.6</td>
+<td>Escos (64205)</td>
+</tr>
+<tr class="even">
+<td>5.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="donneesprovincesprovinces_1789geojson--27-vides"><a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/donnees/provinces/provinces_1789.geojson"><code>donnees/provinces/provinces_1789.geojson</code></a>
+: 27 vides</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Surface (km²)</th>
+<th>Communes actuelles (code INSEE)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2176.2</td>
+<td>Althen-des-Paluds (84001), Aubignan (84004), Aurel (84005), Avignon
+(84007), Barret-de-Lioure (26026), Beaumes-de-Venise (84012),
+Beaumont-du-Ventoux (84015), Blauvac (84018), Bollène (84019), Brantes
+(84021), Buisson (84022), Bédarrides (84016), Bédoin (84017),
+Cabrières-d'Avignon (84025), Caderousse (84027), Cairanne (84028),
+Camaret-sur-Aigues (84029), Caromb (84030), Carpentras (84031),
+Caumont-sur-Durance (84034), Cavaillon (84035), Cheval-Blanc (84038),
+Châteauneuf-de-Gadagne (84036), Châteauneuf-du-Pape (84037), Crestet
+(84040), Crillon-le-Brave (84041), Entraigues-sur-la-Sorgue (84043),
+Entrechaux (84044), Faucon (84045), Ferrassières (26135), Flassan
+(84046), Fontaine-de-Vaucluse (84139), Jonquerettes (84055),
+L'Isle-sur-la-Sorgue (84054), La Roque-Alric (84100), La
+Roque-sur-Pernes (84101), Lafare (84059), Lagarde-Paréol (84061),
+Lagarde-d'Apt (84060), Lagnes (84062), Lamotte-du-Rhône (84063), Lapalud
+(84064), Le Barroux (84008), Le Beaucet (84011), Le Pontet (84092), Le
+Thor (84132), Loriol-du-Comtat (84067), Malaucène (84069),
+Malemort-du-Comtat (84070), Maubec (84071), Mazan (84072), Modène
+(84077), Monieux (84079), Monteux (84080), Morières-lès-Avignon (84081),
+Mormoiron (84082), Mornas (84083), Ménerbes (84073), Méthamis (84075),
+Oppède (84086), Pernes-les-Fontaines (84088), Piolenc (84091), Puyméras
+(84094), Rasteau (84096), Roaix (84098), Robion (84099), Rochegude
+(26275), Sablet (84104), Saint-Christol (84107), Saint-Didier (84108),
+Saint-Hippolyte-le-Graveyron (84109), Saint-Léger-du-Ventoux (84110),
+Saint-Marcellin-lès-Vaison (84111), Saint-Pierre-de-Vassols (84115),
+Saint-Romain-en-Viennois (84116), Saint-Roman-de-Malegarde (84117),
+Saint-Saturnin-lès-Avignon (84119), Saint-Trinit (84120),
+Sainte-Cécile-les-Vignes (84106), Sarrians (84122), Sault (84123),
+Saumane-de-Vaucluse (84124), Savoillan (84125), Sorgues (84129), Suzette
+(84130), Séguret (84126), Sérignan-du-Comtat (84127), Taillades (84131),
+Travaillan (84134), Uchaux (84135), Vacqueyras (84136),
+Vaison-la-Romaine (84137), Vedène (84141), Velleron (84142), Venasque
+(84143), Villedieu (84146), Villes-sur-Auzon (84148)</td>
+</tr>
+<tr class="even">
+<td>307.0</td>
+<td>Altwiller (67009), Asswiller (67013), Baerendorf (67017), Berg
+(67029), Bissert (67047), Burbach (67070), Dehlingen (67088), Diedendorf
+(67091), Diemeringen (67095), Domfessel (67099), Drulingen (67105),
+Eywiller (67136), Gœrlingen (67159), Harskirchen (67183), Herbitzheim
+(67191), Hirschland (67201), Keskastel (67234), Kirrberg (67241),
+Lorentzen (67274), Mackwiller (67278), Oermingen (67355), Ottwiller
+(67369), Rauwiller (67386), Rexingen (67396), Rimsdorf (67401),
+Sarre-Union (67434), Sarrewerden (67435), Schopperten (67456), Siewiller
+(67467), Siltzheim (67468), Thal-Drulingen (67488), Vœllerdingen
+(67508), Weyer (67528), Zetting (57760)</td>
+</tr>
+<tr class="odd">
+<td>267.8</td>
+<td>Allarmont (88005), Belval (88053), Celles-sur-Plaine (88082), Châtas
+(88093), Grandfontaine (67165), Grandrupt (88215), La Broque (67066), La
+Petite-Raon (88346), Le Mont (88306), Le Puid (88362), Le Saulcy
+(88444), Le Vermont (88501), Luvigny (88277), Moussey (88317),
+Ménil-de-Senones (88300), Plaine (67377), Raon-lès-Leau (54443),
+Raon-sur-Plaine (88373), Saint-Stail (88436), Saulxures (67436), Senones
+(88451), Vexaincourt (88503), Vieux-Moulin (88506)</td>
+</tr>
+<tr class="even">
+<td>163.0</td>
+<td>Bouchet (26054), Grillon (84053), Richerenches (84097),
+Rousset-les-Vignes (26285), Saint-Pantaléon-les-Vignes (26322), Valréas
+(84138), Visan (84150)</td>
+</tr>
+<tr class="odd">
+<td>135.4</td>
+<td>Allenjoie (25011), Allondans (25013), Arbouans (25020), Badevel
+(25040), Bart (25043), Bavans (25048), Bethoncourt (25057), Brognard
+(25097), Courcelles-lès-Montbéliard (25170), Dambenois (25188),
+Dampierre-les-Bois (25190), Dung (25207), Désandans (25198), Exincourt
+(25230), Fesches-le-Châtel (25237), Grand-Charmont (25284), Issans
+(25316), Le Vernoy (25608), Montbéliard (25388), Nommay (25428),
+Présentevillers (25469), Raynans (25481), Saint-Julien-lès-Montbéliard
+(25521), Sainte-Marie (25523), Sainte-Suzanne (25526), Semondans
+(25540), Sochaux (25547), Taillecourt (25555), Vieux-Charmont (25614),
+Échenans (25210), Étupes (25228)</td>
+</tr>
+<tr class="even">
+<td>104.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>51.4</td>
+<td>Bonnieux (84020)</td>
+</tr>
+<tr class="even">
+<td>40.0</td>
+<td>Belverne (70064), Clairegoutte (70157), Frédéric-Fontaine (70254),
+Magny-Danigon (70318), Étobon (70221)</td>
+</tr>
+<tr class="odd">
+<td>36.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>30.4</td>
+<td>Bidache (64123)</td>
+</tr>
+<tr class="odd">
+<td>29.8</td>
+<td>Illzach (68154), Mulhouse (68224)</td>
+</tr>
+<tr class="even">
+<td>15.2</td>
+<td>Mandeure (25367)</td>
+</tr>
+<tr class="odd">
+<td>15.1</td>
+<td>Eyroles (26130), Les Pilles (26238)</td>
+</tr>
+<tr class="even">
+<td>14.9</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>13.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>11.3</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>8.6</td>
+<td>Solérieux (26342)</td>
+</tr>
+<tr class="even">
+<td>8.5</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>7.6</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>6.3</td>
+<td>Valouse (26363)</td>
+</tr>
+<tr class="odd">
+<td>5.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>4.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>2.0</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="even">
+<td>1.8</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>1.7</td>
+<td>Couthenans (70184)</td>
+</tr>
+<tr class="even">
+<td>0.4</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+<tr class="odd">
+<td>0.1</td>
+<td>aucune commune française (territoire étranger enclavé, ex.
+Llívia)</td>
+</tr>
+</tbody>
+</table>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

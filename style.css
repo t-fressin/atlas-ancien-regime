@@ -1,0 +1,60 @@
+/* Atlas d'Ancien Régime : mise en page reprise de l'atlas de la gendarmerie (bleu #114A93, carte et volet latéral) */
+:root { --bleu: #114A93; --rouge: #DA121A; }
+
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; }
+
+#nav.navbar { background-color: var(--bleu); }
+#nav .nav-link, #nav .navbar-brand { color: #fff; }
+#site_title { letter-spacing: 0.2em; font-size: 18px; }
+#site_title small { letter-spacing: 0.1em; opacity: 0.75; }
+
+/* page de la carte */
+.page-carte #cadre { flex: 1; display: flex; min-height: 0; }
+#map { flex: 1; height: 100%; background: #ddd; }
+#volet { width: 26rem; max-width: 40%; height: 100%; overflow-y: auto; background: #fff;
+         border-left: 1px solid var(--bleu); padding: 1rem 1.5rem; }
+#tete-volet h4 { color: var(--bleu); }
+#suggestions { z-index: 1100; max-height: 20rem; overflow-y: auto; }
+#suggestions li { cursor: pointer; }
+#entites li { line-height: 1.6; }
+#entites a { color: #222; text-decoration: none; }
+#entites a:hover { color: var(--bleu); text-decoration: underline; }
+.pastille { display: inline-block; width: 0.8em; height: 0.8em; margin-right: 0.5em; vertical-align: -0.05em;
+            border: 1px solid var(--bleu); opacity: 0.8; }
+#fiche-lieu { border: 1px solid #dee2e6; border-left: 4px solid var(--rouge); padding: 0.75rem; border-radius: 4px; }
+#fiche-lieu th { width: 7.5rem; font-weight: 600; }
+#fiche-lieu details summary { color: var(--bleu); cursor: pointer; }
+
+.badge.certitude { font-weight: 500; }
+.badge.corrige { background: var(--bleu); }
+.badge.confirme { background: #1b7f5b; }
+.badge.douteux { background: #b35c00; }
+.badge.base { background: #6c757d; }
+
+.legend { background: #fff; }
+.citer .btn { box-shadow: 0 1px 4px rgba(0,0,0,0.25); }
+.citation { font-size: 1.05rem; }
+.info.survol { background: rgba(255,255,255,0.95); border: 1px solid #bbb; border-radius: 4px; max-width: 24rem; max-height: 45vh; overflow-y: auto; }
+.info.survol table { margin-bottom: 0; }
+details.details-legend summary { cursor: pointer; }
+#choix-couches label { cursor: pointer; white-space: nowrap; }
+.leaflet-popup-content th { font-weight: 600; padding-right: 0.5rem; }
+.leaflet-tooltip.etiquette { font-weight: 600; }
+.leaflet-control-attribution { max-width: 60vw; font-size: 10px; line-height: 1.3; }
+
+/* pages de documentation */
+main.doc { max-width: 60rem; }
+main.doc h1 { color: var(--bleu); font-size: 1.9rem; margin-bottom: 1rem; }
+main.doc h2 { color: var(--bleu); font-size: 1.35rem; margin-top: 2rem; border-bottom: 1px solid #dee2e6; padding-bottom: 0.25rem; }
+main.doc h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+main.doc table { font-size: 0.875rem; margin-bottom: 1rem; width: 100%; }
+main.doc th, main.doc td { border: 1px solid #dee2e6; padding: 0.3rem 0.5rem; vertical-align: top; }
+main.doc img { max-width: 100%; height: auto; }
+main.doc code { color: #6b2a1d; }
+
+@media (max-width: 768px) {
+    .page-carte #cadre { flex-direction: column; }
+    #map { height: 60vh; flex: none; }
+    #volet { width: 100%; max-width: none; height: auto; border-left: 0; border-top: 1px solid var(--bleu); }
+}

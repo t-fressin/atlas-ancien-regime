@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diocèses · Atlas d'Ancien Régime</title>
+    <meta name="description" content="Généralités, bailliages, diocèses, provinces, gouvernements et parlements du royaume de France en 1789, rattachés aux communes actuelles, avec les sources de chaque décision.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-doc">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark ps-3 pe-3">
+    <a id="site_title" class="navbar-brand text-uppercase" href="index.html">Atlas d'Ancien Régime <small>1789</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Carte</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Le projet</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Couches</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="couche-generalites.html">Généralités</a></li><li><a class="dropdown-item" href="couche-bailliages.html">Bailliages et sénéchaussées</a></li><li><a class="dropdown-item" href="couche-dioceses.html">Diocèses</a></li><li><a class="dropdown-item" href="couche-provinces.html">Provinces</a></li><li><a class="dropdown-item" href="couche-gouvernements.html">Gouvernements généraux</a></li><li><a class="dropdown-item" href="couche-parlements.html">Parlements et conseils souverains</a></li><li><a class="dropdown-item" href="couche-exterieurs.html">Territoires aujourd'hui hors de France</a></li></ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="donnees.html">Données et tableau des lieux</a></li>
+                    <li><a class="dropdown-item" href="methode.html">Méthode</a></li>
+                    <li><a class="dropdown-item" href="sources.html">Sources</a></li>
+                    <li><a class="dropdown-item" href="corrections.html">Corrections</a></li>
+                    <li><a class="dropdown-item" href="vides.html">Vides enclavés</a></li>
+                    <li><a class="dropdown-item" href="versions.html">Versions</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="ia.html">Réalisation avec l'IA</a></li>
+                    <li><a class="dropdown-item" href="licence.html">Licences</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="nav-link text-white d-flex align-items-center" href="https://github.com/t-fressin/atlas-ancien-regime" target="_blank" rel="noopener"><svg class="me-2" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Dépôt GitHub</a>
+    </div>
+</nav>
+<main class="doc container py-4"><h1 id="diocèses-en-1789">Diocèses en 1789</h1>
+<p>Fiche de la couche <code>donnees/dioceses/</code>. Principes communs
+à toutes les couches : <a href="methode.html"><code>docs/methode.md</code></a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Maxence Jeanjean, <em>Diocèses et provinces France 1789.svg</em> et
+146 cartes <em>Diocèse … 1789.svg</em>, Wikimedia Commons, CC BY-SA 4.0
+(liste, auteurs et empreintes :
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/commons_entites.json"><code>sources/commons_entites.json</code></a>,
+<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/manifeste.json"><code>sources/manifeste.json</code></a>).</li>
+<li>Fond : IGN, ADMIN EXPRESS COG CARTO, Licence Ouverte 2.0 ; étendue
+du royaume : Gay, Gobbi et Goñi (2024), d'après Brette, CC BY 4.0.</li>
+</ul>
+<h2 id="méthode">Méthode</h2>
+<p>Les tracés viennent de cartes vectorielles (SVG) de Wikimedia
+Commons, qui ne citent pas leurs sources ; les couches qui en dérivent
+sont donc <strong>des cartes d'après Wikipédia</strong>, à utiliser
+comme telles.</p>
+<ol type="1">
+<li><p><strong>Tracé de chaque entité</strong> : chaque carte « une
+entité par fichier » de Commons met une entité en évidence sur un fond
+commun (#c12838 dans le royaume, #881c28 au-dehors, ainsi pour les
+diocèses de Savoie et de Nice) ; ce tracé est extrait (courbes
+échantillonnées tous les 0,5 point). Les éléments mis en évidence dans
+<strong>toutes</strong> les cartes d'une série sont des artefacts du
+fond et sont écartés (quatre tracés communs à toutes les cartes de
+diocèses). Artefacts propres à une carte : la carte « Diocèse Agen
+1789.svg » met aussi en évidence des parties du Comtat Venaissin, à 300
+km de l'Agenais, que couvrent les cartes d'Avignon, de Carpentras, de
+Cavaillon et de Vaison ; les parties de l'entité dont le point
+représentatif est hors des longitudes −2° à 3° sont écartées.</p></li>
+<li><p><strong>Calage</strong> : le fond commun est une projection
+équirectangulaire ; une transformation affine du plan du SVG vers les
+longitudes et latitudes est ajustée par itérations du point le plus
+proche entre le contour de la France du SVG et celui des communes de
+l'IGN (écart médian de 0,005°, soit environ 400 m ; 90 % des points à
+moins de 0,044°, les plus grands écarts tenant aux côtes et aux
+estuaires).</p></li>
+<li><p><strong>Rattachement</strong> : chaque commune reçoit l'entité
+qui recouvre la plus grande part de sa surface, à condition que cette
+part atteigne 20 % ; les communes sont réunies par entité. Aucune
+commune n'est découpée. <strong>Complément</strong> : une commune du
+royaume de 1789 (Brette) restée sans entité, ce qui tient aux écarts du
+calage sur les côtes, les îles et les frontières, prend l'entité de la
+commune voisine avec laquelle sa limite est la plus longue, ou de la
+plus proche pour une île. <strong>L'étendue du royaume est celle de
+Brette dans toutes les couches</strong> : une commune qui a une
+généralité a aussi une province. Quand les cartes de Commons placent une
+telle commune dans un territoire hors du royaume (Comtat Venaissin,
+comté de Nice, comté de Sarrewerden, principauté de Montbéliard,
+Savoie), le désaccord est noté (colonne <code>territoire_commons</code>)
+et repris dans <code>corrections.md</code>.</p></li>
+<li><p><strong>Diocèses</strong> : cinq diocèses de la liste de
+Wikipédia n'ont pas de carte individuelle sur Commons (Grenoble, Le Puy,
+Riez, Troyes, Tournai) ; chacun reçoit la lacune de la carte d'ensemble
+qui contient son siège (ou, pour Tournai, dont le siège est hors de
+France, la lacune la plus proche, à moins de 20 km : la partie française
+du diocèse, autour de Lille), avec les lacunes voisines qu'elle est
+seule à toucher (propriété <code>source</code> : « diocèse sans carte
+individuelle »). La province ecclésiastique est celle du calque «
+Province de … » de la carte d'ensemble où tombe le diocèse.</p>
+<p><strong>Étendue</strong> : seules sont gardées les communes qui ont
+une généralité, c'est-à-dire le royaume de 1789 selon Brette,
+corrections comprises ; un diocèse étranger n'y figure que pour ses
+paroisses du royaume, et les diocèses sans paroisse du royaume
+disparaissent de la couche (Tarentaise, Maurienne : 843 communes
+écartées en tout). Restent, réduits à leurs paroisses du royaume : Nice
+(Saint-Laurent-du-Var), Carpentras (Lioux, Murs), Cavaillon (Gordes,
+Goult, Beaumettes, Saint-Pantaléon), Chambéry (sept paroisses du
+Grésivaudan : Allevard, Barraux, Chapareillan, La Chapelle-du-Bard, Le
+Moutaret, Pontcharra, Saint-Maximin). Les territoires du royaume
+aujourd'hui hors de France sont ajoutés par la couche des territoires
+extérieurs.</p></li>
+<li><p><strong>Communes sans entité</strong> : hors du royaume (voir
+l'étendue ci-dessus). Diocèses : Menton, la Roya et la Bévéra (diocèse
+de Vintimille, absent de la liste de Wikipédia), Ambilly (Genève).
+Provinces : territoires hors du royaume ci-dessus.</p></li>
+</ol>
+<h2 id="entités">Entités</h2>
+<p>149 diocèses, avec leur province ecclésiastique (151 avant la coupe à
+l'étendue du royaume : Tarentaise et Maurienne, entièrement savoyards,
+n'y figurent plus). Table des communes :
+<code>dioceses_1789_communes.csv</code>.</p>
+<h2 id="corrections">Corrections</h2>
+<p>Corrections en vigueur (<a href="https://github.com/t-fressin/atlas-ancien-regime/blob/main/sources/corrections.json"><code>sources/corrections.json</code></a>, une
+ligne par commune avec motif, citation et source ; résumé dans
+<a href="corrections.html"><code>docs/corrections.md</code></a>) :</p>
+<ul>
+<li>Flines-lès-Mortagne (59238) et Mortagne-du-Nord (59418) au diocèse
+de Tournai (Expilly, t. III et IV).</li>
+<li><strong>Corrections de tracé</strong> (31 octobre 2026), 56 communes
+: des lieux de la couche ont été confrontés aux dictionnaires
+topographiques départementaux (Matton pour l'Aisne, Merlet pour
+l'Eure-et-Loir, Roserot pour la Haute-Marne, Liénard pour la Meuse,
+Longnon pour la Marne, Loisne pour le Pas-de-Calais, Germer-Durand pour
+le Gard, Thomas pour l'Hérault), à Expilly, Hesseln (1771), Saugrain
+(1726), Durival (1779) et au pouillé d'Agen pour 1789 (Durengues, 1894).
+Ne sont corrigées que les communes dont la source, de certitude haute,
+nomme la paroisse et son diocèse (42), et les voisines que la même
+source nomme expressément (14 : Saint-Mard, Pont-Arcy, Brenelle et
+Serval à Soissons ; Audeloncourt, Coiffy-le-Haut et Laneuvelle à
+Langres, comme succursales de Clefmont et de Coiffy-le-Bas ; Melleray et
+Champrond à Chartres, paroisses du Perche-Gouet nommées par Merlet ;
+Bonvillet, Belrupt, Martinvelle, Regnévelle et Ameuvelle à Besançon,
+nommées par Durival). Principaux défauts de tracé révélés : limite
+Laon-Soissons dans la vallée de l'Aisne ; Langres-Besançon et
+Langres-Toul en Bassigny ; enclave de Besançon autour de Darney ; Vézère
+(Sarlat-Périgueux) ; Montauban (à Cahors dans la carte) ; Sisteron (à
+Gap) ; Ganges et Saint-Bauzille (Montpellier, non Alais) ; Tarascon
+(Avignon) ; Tournon (Valence).</li>
+<li><strong>Seconde passe</strong> (31 octobre 2026), 58 communes :
+voisines signalées par la première passe et cas de certitude moyenne,
+confrontés à Expilly (articles et listes des cures par diocèse de ses
+additions), Hesseln, Saugrain, Longnon, Loisne, Liénard, Boutiot et
+Socard, Charpillon et Caresme, Thomas, Porée (1909), Delettre
+(<em>Histoire du diocèse de Beauvais</em>, 1842, doyennés de Ressons et
+de Breteuil) et au pouillé d'Agen de 1789 (Durengues). Erreurs de tracé
+étendues : autour de Montauban (dix communes, dont Caussade,
+Nègrepelisse, Albias, Léojac, Monclar, à Montauban et non à Cahors) ;
+archiprêtré de Sainte-Foy (Pineuilh, Eynesse, Caplong, Ligueux,
+Margueron… à Agen, non à Périgueux ou Sarlat) ; archiprêtré de Villeréal
+(Dévillac, Montaut, Bournel, Lacapelle-Biron, à Agen) ; Morvan nivernais
+et environs de Tannay (Château-Chinon, Châtin, Montigny-en-Morvan,
+Saint-Hilaire-en-Morvan, Amazy, Saint-Didier, à Nevers, non à Autun) ;
+Beauvaisis (Mortemer, Orvillers-Sorel, Rouvroy-les-Merles, Tartigny, à
+Beauvais) ; Goëlo (Plouha, Lanloup, à Saint-Brieuc, non à Dol) ; Mantois
+(Mantes-la-Ville, Buchelay, Anet, Sorel-Moussel, à Chartres). Confirmés
+à l'atlas : 34 communes, dont Marmande et Sisteron (voisines).</li>
+<li>La Petite-Raon et Vieux-Moulin (principauté de Salm), d'abord
+corrigés au diocèse de Saint-Dié, sont hors du royaume : la correction
+est retirée avec la coupe de la couche à l'étendue du royaume (1er
+novembre 2026).</li>
+<li>La reconstruction du 31 octobre 2026 avec le filtre des artefacts
+rend au Comtat Venaissin 45 communes que la carte d'Agen attribuait à ce
+diocèse (Carpentras 16, Vaison 10, Cavaillon 9, Avignon 4, Orange 4, Gap
+2).</li>
+</ul>
+<h2 id="limites-connues">Limites connues</h2>
+<p>Tracés d'après Wikipédia, sans source citée par leur auteur ;
+précision du calage (environ 400 m) et de la commune ; une commune est
+rattachée en bloc au diocèse qui en couvre la plus grande part (environ
+2 900 communes ont une part inférieure à 0,8).</p>
+<h2 id="points-ouverts">Points ouverts</h2>
+<ul>
+<li>Lieux vérifiés sur les dictionnaires et les pouillés (166) : la
+couche est confirmée 70 fois ; les autres cas sont corrigés ci-dessus,
+ou bien la source contredisant la couche décrivait un état antérieur à
+1789 (diocèses de Dijon en 1731, de Saint-Claude en 1742, de Nancy et de
+Saint-Dié en 1777) ou nommait l'élection ou l'intendance plutôt que le
+diocèse.</li>
+<li>Après la seconde passe restent incertains ou non corrigés : Vernon
+(Vernonnet seul, sur la rive droite, était de Rouen : la commune entière
+reste à Évreux) ; Origny (Autun selon Expilly, Langres selon Saugrain) ;
+Asnois (Auxerre selon Saugrain, Nevers d'après une liste de 1287) ; La
+Flamengrie et Limay (sources divergentes, atlas gardé) ; Saint-Usage,
+Brémur, Thiant, Rocquencourt, Versigny (indéterminés) ; Lys, Tannay,
+Cahus (listes médiévales seulement) ; 14 cas de certitude moyenne de la
+seconde passe. Liste de la première passe, en partie reprise par la
+seconde : Lignac (Limoges ?), Orvillers-Sorel et Rouvroy-les-Merles
+(Beauvais ?), Châtillon-sur-Indre (Bourges ?), Saint-Jean-de-Losne
+(Dijon, si le passage de Langres à Dijon en 1731 est confirmé par un
+pouillé), Origny (Autun ?), Douchy-les-Mines (Cambrai ?),
+Nanteuil-le-Haudouin (Meaux ?), Plouha (Saint-Brieuc ?), Toucy (Auxerre
+?), Château-Chinon et Tannay (Nevers ? d'après une liste du XIIIᵉ
+siècle), Surbourg (Strasbourg ?), Bagnac-sur-Célé, Cahus (Cahors ?),
+Sergeac (Sarlat ?), Saint-Pierre-de-Chandieu (Vienne ?), Rives (Grenoble
+?), Avignonet-Lauragais (Saint-Papoul ?), Saint-Michel-de-Vax et Miolles
+(Albi ?), Cornil (Limoges ?) ; Les Septvallons, commune nouvelle
+partagée entre Soissons (Merval, Serval) et Laon (Glennes,
+Révillon).</li>
+<li>Voisines signalées sans source qui les nomme, à vérifier :
+Ponts-et-Marais (Eu) ; Losne et Saint-Usage ; Mouzay et Brandeville
+(Dun) ; Vacquerie-le-Boucq, Ligny-sur-Canche ; Jâlons, Aigny, Vraux ; Le
+Mesnil-le-Roi, Le Pecq ; Rocquigny, La Flamengrie ; Mantes-la-Ville,
+Buchelay, Limay ; Anet, Sorel-Moussel et Saussay (Merlet ne range dans
+le département que Chartres et Orléans, ce qui oublie le diocèse de
+Blois, créé en 1697 : à vérifier article par article) ; Traînel,
+Fontaine-Mâcon, Bouy-sur-Orvin ; Vernonnet ; Castanet-le-Haut, Rosis,
+Saint-Geniès-de-Varensal ; communes voisines de Montauban, Sisteron,
+Tournon, Marmande, Sainte-Foy-la-Grande, Villeréal ; limite
+Comminges-Rieux (Francon, Montoussin).</li>
+<li><strong>Diocèse de Lausanne</strong>, absent de la couche (pas de
+carte de Commons) : « les paroisses du décanat de Saint-Guillaume
+(Jougne, Les Hôpitaux et Les Longevilles) furent distraites du diocèse
+de Lausanne et incorporées à celui de B[esançon] » en 1801 (Dictionnaire
+historique de la Suisse, art. « Besançon (diocèse) » et « Lausanne
+(diocèse) », consultés le 1er novembre 2026) : Jougne (25318), Les
+Longevilles-Mont-d'Or (25348) et Les Hôpitaux (Neufs, 25307, ou Vieux,
+25308, à préciser) relevaient de Lausanne en 1789 ; la couche les met à
+Besançon. Diocèses de Pampelune et de Namur : aucune paroisse française
+trouvée.</li>
+<li>Citations à relire sur l'image et à recopier : Niort et Montauban
+(le diocèse est relevé dans Expilly, la phrase n'est pas recopiée).</li>
+<li>Le fragment du diocèse de Sens de 3,9 km², à 227 km du diocèse,
+était un artefact de la carte de Commons sur La Petite-Raon et
+Vieux-Moulin (principauté de Salm) : hors du royaume, ces communes sont
+écartées depuis la coupe du 1er novembre 2026.</li>
+<li>Paroisses du royaume rattachées par la carte de Commons à un diocèse
+savoyard ou niçois, non vérifiées : Saint-Laurent-du-Var (Nice) et les
+sept paroisses du Grésivaudan placées au diocèse de Chambéry, créé en
+1779 (certitude <code>base</code>).</li>
+</ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
