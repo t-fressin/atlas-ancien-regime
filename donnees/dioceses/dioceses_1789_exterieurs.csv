@@ -1,0 +1,116 @@
+lieu,nom_1789,fond,code_unite,nom_unite,entite,nom_entite
+BE01,Philippeville,division-be,93056,Philippeville,diocese-liege,Liège
+BE02,Jamagne,division-be,93035,Jamagne,diocese-liege,Liège
+BE03,Mariembourg (Marienbourg),division-be,93039,Mariembourg,diocese-liege,Liège
+BE04,Frasnes (Frasne),division-be,93026,Frasnes-Lez-Couvin,diocese-liege,Liège
+BE05,Barbençon,division-be,56004,Barbençon,diocese-liege,Liège
+BE06,Erpion,division-be,56021,Erpion,diocese-cambrai,Cambrai
+BE07,Renlies (Reulies),division-be,56062,Renlies,diocese-cambrai,Cambrai
+BE09,Agimont,division-be,93001,Agimont,diocese-liege,Liège
+DE01,"Saarlouis (Sarrelouis), ville",gemarkung-sl,106066,Saarlouis,diocese-treves,Trèves
+DE02,Beaumarais,gemarkung-sl,106061,Beaumarais,diocese-treves,Trèves
+DE03,Fraoulouttre,gemarkung-sl,106062,Fraulautern,diocese-treves,Trèves
+DE04,Listroff,gemarkung-sl,106063,Lisdorf,diocese-treves,Trèves
+DE05,Roden,gemarkung-sl,106065,Roden,diocese-treves,Trèves
+DE06,Enstroff (Ensnoff),gemarkung-sl,106020,Ensdorf,diocese-treves,Trèves
+DE07,Valdrevange (Vaudrevange),gemarkung-sl,106583,Wallerfangen,diocese-treves,Trèves
+DE20,Bérus,gemarkung-sl,106110,Berus,diocese-metz,Metz
+DE21,Bisten,gemarkung-sl,106120,Bisten,diocese-metz,Metz
+DE22,Felsberg & la cense de Mihoff,gemarkung-sl,106130,Felsberg,diocese-metz,Metz
+DE23,Forwiller-sous-Bérus ou Forwiller-le-grand,gemarkung-sl,106100,Altforweiler,diocese-metz,Metz
+DE24,Le nouveau-Forwiller,gemarkung-sl,106140,Neuforweiler,diocese-metz,Metz
+DE25,Diren ou Dieren,gemarkung-sl,106500,Düren,diocese-metz,Metz
+DE26,Ihn ou Lognon,gemarkung-sl,106520,Ihn,diocese-metz,Metz
+DE27,Leyding,gemarkung-sl,106550,Leidingen,diocese-metz,Metz
+DE28,Iterstroff,gemarkung-sl,106530,Ittersdorf,diocese-metz,Metz
+DE29,Becking ou Beckingen,gemarkung-sl,103020,Beckingen,diocese-treves,Trèves
+DE30,Biring,gemarkung-sl,106350,Biringen,diocese-treves,Trèves
+DE32,Dilling,gemarkung-sl,106011,Dillingen,diocese-treves,Trèves
+DE33,Effe & Hellendorff,gemarkung-sl,103510,Eft-Hellendorf,diocese-treves,Trèves
+DE34,Emerstroff,gemarkung-sl,106360,Eimersdorf,diocese-treves,Trèves
+DE35,Furweiller ou Firweiller,gemarkung-sl,106382,Fürweiler,diocese-treves,Trèves
+DE36,Guerlefang,gemarkung-sl,106390,Gerlfangen,diocese-treves,Trèves
+DE37,Haustatt,gemarkung-sl,103060,Haustadt,diocese-treves,Trèves
+DE38,Hontzerat,gemarkung-sl,103070,Honzrath,diocese-treves,Trèves
+DE39,Hultzweiller,gemarkung-sl,106030,Hülzweiler,diocese-treves,Trèves
+DE40,Iczback & le château de Siersberg,gemarkung-sl,106432,Itzbach,diocese-treves,Trèves
+DE41,Kerprich-Hemestroff,gemarkung-sl,106402,Kerprichhemmersdorf,diocese-treves,Trèves
+DE42,Haut-Limberg,gemarkung-sl,106582,Oberlimberg,diocese-treves,Trèves
+DE43,Mecheren,gemarkung-sl,103150,Mechern,diocese-treves,Trèves
+DE44,Merching,gemarkung-sl,103390,Merchingen,diocese-treves,Trèves
+DE45,Nidaltroff ou Niedaltroff,gemarkung-sl,106410,Niedaltdorf,diocese-treves,Trèves
+DE46,Nohn,gemarkung-sl,103440,Nohn,diocese-treves,Trèves
+DE47,Nunkirchen ou Neinkirchen,gemarkung-sl,103790,Nunkirchen,diocese-treves,Trèves
+DE48,Oberleken (partie droite de la Leuk),gemarkung-sl,103550,Oberleuken,diocese-treves,Trèves
+DE49,Obresch,gemarkung-sl,106420,Oberesch,diocese-treves,Trèves
+DE50,Orscholtz,gemarkung-sl,103450,Orscholz,diocese-treves,Trèves
+DE51,Ostembach ou Hostembach,gemarkung-sl,106450,Hostenbach,diocese-treves,Trèves
+DE52,Pachten ou Pacen,gemarkung-sl,106012,Pachten,diocese-treves,Trèves
+DE53,Ramelfang,gemarkung-sl,106560,Rammelfangen,diocese-treves,Trèves
+DE54-1,"Reimsbach, Erbring & Hargarten",gemarkung-sl,103080,Reimsbach,diocese-treves,Trèves
+DE54-2,"Reimsbach, Erbring & Hargarten",gemarkung-sl,103040,Erbringen,diocese-treves,Trèves
+DE54-3,"Reimsbach, Erbring & Hargarten",gemarkung-sl,103050,Hargarten,diocese-treves,Trèves
+DE56,"Tunstroff, Nédorff & Oberdorff",gemarkung-sl,103190,Tünsdorf,diocese-treves,Trèves
+DE57,Weiten,gemarkung-sl,103470,Weiten,diocese-treves,Trèves
+DE60,Hilbring (chef-lieu de la haute mairie),gemarkung-sl,103140,Hilbringen,diocese-treves,Trèves
+DE61,Mondorff,gemarkung-sl,103160,Mondorf,diocese-treves,Trèves
+DE62,Fitten,gemarkung-sl,103130,Fitten,diocese-treves,Trèves
+DE63,Silving,gemarkung-sl,103180,Silwingen,diocese-treves,Trèves
+DE66,Balleren,gemarkung-sl,103100,Ballern,diocese-treves,Trèves
+DE67,Schwemling (chef-lieu de la basse mairie),gemarkung-sl,103170,Schwemlingen,diocese-treves,Trèves
+DE68,Buchsdorff,gemarkung-sl,103500,Büschdorf,diocese-treves,Trèves
+DE69,Wehing,gemarkung-sl,103200,Wehingen,diocese-treves,Trèves
+DE70,Betting,gemarkung-sl,103110,Bethingen,diocese-treves,Trèves
+DE71,Weiller,gemarkung-sl,103210,Weiler,diocese-treves,Trèves
+DE73,Keuching (rive gauche de la Sarre),gemarkung-sl,103431,Keuchingen,diocese-treves,Trèves
+DE80,Augerlmacher (Auersmacher),gemarkung-sl,105260,Auersmacher,diocese-metz,Metz
+DE84,Utweiller,gemarkung-sl,102250,Utweiler,diocese-metz,Metz
+DE90,Landau (Landaw),gemarkung-rp,75551,Landau,diocese-spire,Spire
+DE91,Dambeim,gemarkung-rp,75555,Dammheim,diocese-spire,Spire
+DE92,Nusdorf,gemarkung-rp,75556,Nußdorf,diocese-spire,Spire
+DE93,Queichheim,gemarkung-rp,75554,Queichheim,diocese-spire,Spire
+DE100,Jockgrim,gemarkung-rp,75657,Jockgrim,diocese-spire,Spire
+DE101,Rheinzabern,gemarkung-rp,75658,Rheinzabern,diocese-spire,Spire
+DE102,Bûchelberg,gemarkung-rp,75688,Büchelberg,diocese-spire,Spire
+DE103,Hatzenbühl,gemarkung-rp,75659,Hatzenbühl,diocese-spire,Spire
+DE104,Herxheim,gemarkung-rp,75527,Herxheim,diocese-spire,Spire
+DE105,Herxheimweyer,gemarkung-rp,75526,Herxheimweyher,diocese-spire,Spire
+DE106,Heyna,gemarkung-rp,75528,Hayna,diocese-spire,Spire
+DE107,Rültzheim,gemarkung-rp,75642,Rülzheim,diocese-spire,Spire
+DE108,Artzheim,gemarkung-rp,75560,Arzheim,diocese-spire,Spire
+DE109,Eschbach,gemarkung-rp,75390,Eschbach,diocese-spire,Spire
+DE110,Ranspach,gemarkung-rp,75392,Ranschbach,diocese-spire,Spire
+DE111,Waldhambach,gemarkung-rp,75433,Waldhambach,diocese-spire,Spire
+DE112,Waldrohrbach,gemarkung-rp,75435,Waldrohrbach,diocese-spire,Spire
+DE113,Bruchwiller,gemarkung-rp,75328,Bruchweiler-Bärenbach,diocese-spire,Spire
+DE114,Dhan,gemarkung-rp,75321,Dahn,diocese-spire,Spire
+DE115,Erfwiller,gemarkung-rp,75322,Erfweiler,diocese-spire,Spire
+DE116,Fischbach,gemarkung-rp,75330,Fischbach,diocese-spire,Spire
+DE117,Hauenstein,gemarkung-rp,75307,Hauenstein,diocese-spire,Spire
+DE119,Schindhart,gemarkung-rp,75323,Schindhard,diocese-spire,Spire
+DE121,Bobenthal,gemarkung-rp,75335,Bobenthal,diocese-spire,Spire
+DE123,Schweighoffen,gemarkung-rp,75354,Schweighofen,diocese-spire,Spire
+DE124,Kapsweyer,gemarkung-rp,75355,Kapsweyer,diocese-spire,Spire
+DE127,Steinfeld,gemarkung-rp,75356,Steinfeld,diocese-spire,Spire
+DE129,Bundenthal,gemarkung-rp,75327,Bundenthal,diocese-spire,Spire
+DE130,Erlenbach,gemarkung-rp,75325,Erlenbach bei Dahn,diocese-spire,Spire
+DE132,Dœrrenbach,gemarkung-rp,75366,Dörrenbach,diocese-spire,Spire
+DE133,Freckenfeld,gemarkung-rp,75676,Freckenfeld,diocese-spire,Spire
+DE134,Langen-Candel,gemarkung-rp,75671,Kandel,diocese-spire,Spire
+DE136,Minfeld,gemarkung-rp,75675,Minfeld,diocese-spire,Spire
+DE137,Niederrotterbach,gemarkung-rp,75357,Niederotterbach,diocese-spire,Spire
+DE138,Oberotterbach,gemarkung-rp,75364,Oberotterbach,diocese-spire,Spire
+DE139,Rechtenbach,gemarkung-rp,75353,Rechtenbach,diocese-spire,Spire
+DE140,Wolmerswiller,gemarkung-rp,75677,Vollmersweiler,diocese-spire,Spire
+DE141,Bergen,gemarkung-rp,75698,Berg,diocese-spire,Spire
+DE142,Hagenbach,gemarkung-rp,75696,Hagenbach,diocese-spire,Spire
+DE143,Neubourg,gemarkung-rp,75697,Neuburg,diocese-spire,Spire
+DE144,Pfortz,gemarkung-rp,75690,Maximiliansau,diocese-spire,Spire
+DE145,Werth,gemarkung-rp,75689,Wörth,diocese-spire,Spire
+DE146,Schweigen,gemarkung-rp,75351,Schweigen,diocese-spire,Spire
+CH01,Versoix,commune-ch,6644,Versoix,diocese-geneve-siege-a-annecy,Genève (siège à Annecy)
+CH02,Collex-Bossy,commune-ch,6615,Collex-Bossy,diocese-geneve-siege-a-annecy,Genève (siège à Annecy)
+CH03,Meyrin,commune-ch,6630,Meyrin,diocese-geneve-siege-a-annecy,Genève (siège à Annecy)
+CH04,Pregny (Pregny-Chambésy),commune-ch,6634,Pregny,diocese-geneve-siege-a-annecy,Genève (siège à Annecy)
+CH05,Le Grand-Saconnex,commune-ch,6623,Le Grand-Saconnex,diocese-geneve-siege-a-annecy,Genève (siège à Annecy)
+CH07,Le Cerneux-Péquignot,commune-ch,6434,Le Cerneux-Péquignot,diocese-besancon,Besançon

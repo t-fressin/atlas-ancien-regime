@@ -1,0 +1,108 @@
+lieu,nom_1789,fond,code_unite,nom_unite,entite,nom_entite
+BE01,Philippeville,division-be,93056,Philippeville,parlement-parlement-de-flandre,Parlement de Flandre
+BE02,Jamagne,division-be,93035,Jamagne,parlement-parlement-de-flandre,Parlement de Flandre
+BE03,Mariembourg (Marienbourg),division-be,93039,Mariembourg,parlement-parlement-de-flandre,Parlement de Flandre
+BE04,Frasnes (Frasne),division-be,93026,Frasnes-Lez-Couvin,parlement-parlement-de-flandre,Parlement de Flandre
+BE05,Barbençon,division-be,56004,Barbençon,parlement-parlement-de-flandre,Parlement de Flandre
+BE06,Erpion,division-be,56021,Erpion,parlement-parlement-de-flandre,Parlement de Flandre
+BE07,Renlies (Reulies),division-be,56062,Renlies,parlement-parlement-de-flandre,Parlement de Flandre
+BE09,Agimont,division-be,93001,Agimont,parlement-parlement-de-flandre,Parlement de Flandre
+DE01,"Saarlouis (Sarrelouis), ville",gemarkung-sl,106066,Saarlouis,parlement-parlement-de-metz,Parlement de Metz
+DE02,Beaumarais,gemarkung-sl,106061,Beaumarais,parlement-parlement-de-metz,Parlement de Metz
+DE03,Fraoulouttre,gemarkung-sl,106062,Fraulautern,parlement-parlement-de-metz,Parlement de Metz
+DE04,Listroff,gemarkung-sl,106063,Lisdorf,parlement-parlement-de-metz,Parlement de Metz
+DE05,Roden,gemarkung-sl,106065,Roden,parlement-parlement-de-metz,Parlement de Metz
+DE06,Enstroff (Ensnoff),gemarkung-sl,106020,Ensdorf,parlement-parlement-de-metz,Parlement de Metz
+DE07,Valdrevange (Vaudrevange),gemarkung-sl,106583,Wallerfangen,parlement-parlement-de-metz,Parlement de Metz
+DE10,Fremersdorf,gemarkung-sl,106370,Fremersdorf,parlement-parlement-de-metz,Parlement de Metz
+DE11,Siersdorf,gemarkung-sl,106433,Siersdorf,parlement-parlement-de-metz,Parlement de Metz
+DE20,Bérus,gemarkung-sl,106110,Berus,parlement-parlement-de-nancy,Parlement de Nancy
+DE21,Bisten,gemarkung-sl,106120,Bisten,parlement-parlement-de-nancy,Parlement de Nancy
+DE22,Felsberg & la cense de Mihoff,gemarkung-sl,106130,Felsberg,parlement-parlement-de-nancy,Parlement de Nancy
+DE23,Forwiller-sous-Bérus ou Forwiller-le-grand,gemarkung-sl,106100,Altforweiler,parlement-parlement-de-nancy,Parlement de Nancy
+DE24,Le nouveau-Forwiller,gemarkung-sl,106140,Neuforweiler,parlement-parlement-de-nancy,Parlement de Nancy
+DE25,Diren ou Dieren,gemarkung-sl,106500,Düren,parlement-parlement-de-nancy,Parlement de Nancy
+DE26,Ihn ou Lognon,gemarkung-sl,106520,Ihn,parlement-parlement-de-nancy,Parlement de Nancy
+DE27,Leyding,gemarkung-sl,106550,Leidingen,parlement-parlement-de-nancy,Parlement de Nancy
+DE28,Iterstroff,gemarkung-sl,106530,Ittersdorf,parlement-parlement-de-nancy,Parlement de Nancy
+DE29,Becking ou Beckingen,gemarkung-sl,103020,Beckingen,parlement-parlement-de-nancy,Parlement de Nancy
+DE30,Biring,gemarkung-sl,106350,Biringen,parlement-parlement-de-nancy,Parlement de Nancy
+DE32,Dilling,gemarkung-sl,106011,Dillingen,parlement-parlement-de-nancy,Parlement de Nancy
+DE33,Effe & Hellendorff,gemarkung-sl,103510,Eft-Hellendorf,parlement-parlement-de-nancy,Parlement de Nancy
+DE34,Emerstroff,gemarkung-sl,106360,Eimersdorf,parlement-parlement-de-nancy,Parlement de Nancy
+DE35,Furweiller ou Firweiller,gemarkung-sl,106382,Fürweiler,parlement-parlement-de-nancy,Parlement de Nancy
+DE36,Guerlefang,gemarkung-sl,106390,Gerlfangen,parlement-parlement-de-nancy,Parlement de Nancy
+DE37,Haustatt,gemarkung-sl,103060,Haustadt,parlement-parlement-de-nancy,Parlement de Nancy
+DE38,Hontzerat,gemarkung-sl,103070,Honzrath,parlement-parlement-de-nancy,Parlement de Nancy
+DE39,Hultzweiller,gemarkung-sl,106030,Hülzweiler,parlement-parlement-de-nancy,Parlement de Nancy
+DE40,Iczback & le château de Siersberg,gemarkung-sl,106432,Itzbach,parlement-parlement-de-nancy,Parlement de Nancy
+DE41,Kerprich-Hemestroff,gemarkung-sl,106402,Kerprichhemmersdorf,parlement-parlement-de-nancy,Parlement de Nancy
+DE42,Haut-Limberg,gemarkung-sl,106582,Oberlimberg,parlement-parlement-de-nancy,Parlement de Nancy
+DE43,Mecheren,gemarkung-sl,103150,Mechern,parlement-parlement-de-nancy,Parlement de Nancy
+DE44,Merching,gemarkung-sl,103390,Merchingen,parlement-parlement-de-nancy,Parlement de Nancy
+DE45,Nidaltroff ou Niedaltroff,gemarkung-sl,106410,Niedaltdorf,parlement-parlement-de-nancy,Parlement de Nancy
+DE46,Nohn,gemarkung-sl,103440,Nohn,parlement-parlement-de-nancy,Parlement de Nancy
+DE47,Nunkirchen ou Neinkirchen,gemarkung-sl,103790,Nunkirchen,parlement-parlement-de-nancy,Parlement de Nancy
+DE48,Oberleken (partie droite de la Leuk),gemarkung-sl,103550,Oberleuken,parlement-parlement-de-nancy,Parlement de Nancy
+DE49,Obresch,gemarkung-sl,106420,Oberesch,parlement-parlement-de-nancy,Parlement de Nancy
+DE50,Orscholtz,gemarkung-sl,103450,Orscholz,parlement-parlement-de-nancy,Parlement de Nancy
+DE51,Ostembach ou Hostembach,gemarkung-sl,106450,Hostenbach,parlement-parlement-de-nancy,Parlement de Nancy
+DE52,Pachten ou Pacen,gemarkung-sl,106012,Pachten,parlement-parlement-de-nancy,Parlement de Nancy
+DE53,Ramelfang,gemarkung-sl,106560,Rammelfangen,parlement-parlement-de-nancy,Parlement de Nancy
+DE54-1,"Reimsbach, Erbring & Hargarten",gemarkung-sl,103080,Reimsbach,parlement-parlement-de-nancy,Parlement de Nancy
+DE54-2,"Reimsbach, Erbring & Hargarten",gemarkung-sl,103040,Erbringen,parlement-parlement-de-nancy,Parlement de Nancy
+DE54-3,"Reimsbach, Erbring & Hargarten",gemarkung-sl,103050,Hargarten,parlement-parlement-de-nancy,Parlement de Nancy
+DE56,"Tunstroff, Nédorff & Oberdorff",gemarkung-sl,103190,Tünsdorf,parlement-parlement-de-nancy,Parlement de Nancy
+DE57,Weiten,gemarkung-sl,103470,Weiten,parlement-parlement-de-nancy,Parlement de Nancy
+DE80,Augerlmacher (Auersmacher),gemarkung-sl,105260,Auersmacher,parlement-parlement-de-nancy,Parlement de Nancy
+DE81,Meingen & Bolchem,gemarkung-sl,107220,Bliesmengen-Bolchen,parlement-parlement-de-nancy,Parlement de Nancy
+DE82,Dieffercen ou Differten,gemarkung-sl,106440,Differten,parlement-parlement-de-nancy,Parlement de Nancy
+DE84,Utweiller,gemarkung-sl,102250,Utweiler,parlement-parlement-de-nancy,Parlement de Nancy
+DE90,Landau (Landaw),gemarkung-rp,75551,Landau,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE91,Dambeim,gemarkung-rp,75555,Dammheim,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE92,Nusdorf,gemarkung-rp,75556,Nußdorf,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE93,Queichheim,gemarkung-rp,75554,Queichheim,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE100,Jockgrim,gemarkung-rp,75657,Jockgrim,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE101,Rheinzabern,gemarkung-rp,75658,Rheinzabern,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE102,Bûchelberg,gemarkung-rp,75688,Büchelberg,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE103,Hatzenbühl,gemarkung-rp,75659,Hatzenbühl,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE104,Herxheim,gemarkung-rp,75527,Herxheim,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE105,Herxheimweyer,gemarkung-rp,75526,Herxheimweyher,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE106,Heyna,gemarkung-rp,75528,Hayna,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE107,Rültzheim,gemarkung-rp,75642,Rülzheim,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE108,Artzheim,gemarkung-rp,75560,Arzheim,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE109,Eschbach,gemarkung-rp,75390,Eschbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE110,Ranspach,gemarkung-rp,75392,Ranschbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE111,Waldhambach,gemarkung-rp,75433,Waldhambach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE112,Waldrohrbach,gemarkung-rp,75435,Waldrohrbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE113,Bruchwiller,gemarkung-rp,75328,Bruchweiler-Bärenbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE114,Dhan,gemarkung-rp,75321,Dahn,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE115,Erfwiller,gemarkung-rp,75322,Erfweiler,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE116,Fischbach,gemarkung-rp,75330,Fischbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE117,Hauenstein,gemarkung-rp,75307,Hauenstein,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE119,Schindhart,gemarkung-rp,75323,Schindhard,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE121,Bobenthal,gemarkung-rp,75335,Bobenthal,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE123,Schweighoffen,gemarkung-rp,75354,Schweighofen,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE124,Kapsweyer,gemarkung-rp,75355,Kapsweyer,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE127,Steinfeld,gemarkung-rp,75356,Steinfeld,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE129,Bundenthal,gemarkung-rp,75327,Bundenthal,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE130,Erlenbach,gemarkung-rp,75325,Erlenbach bei Dahn,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE132,Dœrrenbach,gemarkung-rp,75366,Dörrenbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE133,Freckenfeld,gemarkung-rp,75676,Freckenfeld,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE134,Langen-Candel,gemarkung-rp,75671,Kandel,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE136,Minfeld,gemarkung-rp,75675,Minfeld,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE137,Niederrotterbach,gemarkung-rp,75357,Niederotterbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE138,Oberotterbach,gemarkung-rp,75364,Oberotterbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE139,Rechtenbach,gemarkung-rp,75353,Rechtenbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE140,Wolmerswiller,gemarkung-rp,75677,Vollmersweiler,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE141,Bergen,gemarkung-rp,75698,Berg,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE142,Hagenbach,gemarkung-rp,75696,Hagenbach,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE143,Neubourg,gemarkung-rp,75697,Neuburg,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE144,Pfortz,gemarkung-rp,75690,Maximiliansau,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE145,Werth,gemarkung-rp,75689,Wörth,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+DE146,Schweigen,gemarkung-rp,75351,Schweigen,parlement-conseil-souverain-d-alsace,Conseil souverain d'Alsace
+CH01,Versoix,commune-ch,6644,Versoix,parlement-parlement-de-dijon,Parlement de Dijon
+CH02,Collex-Bossy,commune-ch,6615,Collex-Bossy,parlement-parlement-de-dijon,Parlement de Dijon
+CH03,Meyrin,commune-ch,6630,Meyrin,parlement-parlement-de-dijon,Parlement de Dijon
+CH04,Pregny (Pregny-Chambésy),commune-ch,6634,Pregny,parlement-parlement-de-dijon,Parlement de Dijon
+CH05,Le Grand-Saconnex,commune-ch,6623,Le Grand-Saconnex,parlement-parlement-de-dijon,Parlement de Dijon

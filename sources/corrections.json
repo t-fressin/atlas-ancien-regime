@@ -1,0 +1,1799 @@
+{
+ "_lisez_moi": "Corrections ponctuelles, chacune appuyée sur une source lue (docs/corrections.md). action « hors_royaume » : la commune n'est rattachée à aucune entité des couches citées ; action « entite » : la commune est rattachée à l'entité valeur. Appliquées par atlas.generalites et atlas.vectoriser.",
+ "corrections": [
+  {
+   "code_insee": "73204",
+   "commune": "Le Pont-de-Beauvoisin (Savoie)",
+   "couches": [
+    "generalites",
+    "provinces",
+    "bailliages"
+   ],
+   "action": "hors_royaume",
+   "motif": "rive savoyarde du Guiers, frontière entre la France et les États de Savoie ; la paroisse de Brette « le Pont de Beauvoisin » (élection de Vienne) est le bourg dauphinois, dont le point tombe dans le contour de la commune savoyarde",
+   "source": "Wikipédia, « Le Pont-de-Beauvoisin (Savoie) », révision 240233216 (le Guiers « marquait autrefois la frontière entre la France et les États de Savoie » ; « ville française depuis l'annexion de la Savoie à la France en 1860 »)"
+  },
+  {
+   "code_insee": "68138",
+   "commune": "Hirsingue",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68128",
+   "commune": "Heimersdorf",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68288",
+   "commune": "Ruederbach",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68055",
+   "commune": "Bruebach",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "64205",
+   "commune": "Escos",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Auch",
+   "motif": "« Escos dépendait du dioc. de Dax et du duché de Gramont » ; « Etcoz en Navarre, 1670 » (Raymond, art. Escos) ; la souveraineté des Gramont ne s'étendait qu'à la principauté de Bidache, « et non dans les autres fiefs » (Brette 1907, p. 53, n. 3) ; absente des données de Brette ; rattachée comme les paroisses du royaume de Navarre voisines (Saint-Palais, Ilharre) ; la « subdélégation de Navarre […] comprenait […] Bergouey, Viellenave, du canton de Bidache ; […] Escos, du canton de Salies » (Raymond, art. Navarre, p. 122)",
+   "source": "Paul Raymond, Dictionnaire topographique du département des Basses-Pyrénées, Paris, 1863, art. Escos, Bergouey et Navarre (p. 122) (Internet Archive, dictionnairetopo00raymuoft) ; Brette 1907"
+  },
+  {
+   "code_insee": "64205",
+   "commune": "Escos",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Béarn",
+   "motif": "« Escos dépendait du dioc. de Dax et du duché de Gramont » ; « Etcoz en Navarre, 1670 » (Raymond, art. Escos) ; la souveraineté des Gramont ne s'étendait qu'à la principauté de Bidache, « et non dans les autres fiefs » (Brette 1907, p. 53, n. 3) ; absente des données de Brette ; rattachée comme les paroisses du royaume de Navarre voisines (Saint-Palais, Ilharre) ; la « subdélégation de Navarre […] comprenait […] Bergouey, Viellenave, du canton de Bidache ; […] Escos, du canton de Salies » (Raymond, art. Navarre, p. 122)",
+   "source": "Paul Raymond, Dictionnaire topographique du département des Basses-Pyrénées, Paris, 1863, art. Escos, Bergouey et Navarre (p. 122) (Internet Archive, dictionnairetopo00raymuoft) ; Brette 1907"
+  },
+  {
+   "code_insee": "64113",
+   "commune": "Bergouey-Viellenave",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Auch",
+   "motif": "« le fief de Bergouey relev. du duché de Gramont » (Raymond, art. Bergouey) ; la paroisse « Viellenave » des données de Brette, classée au royaume de Navarre (généralité d'Auch), tombe à 146 m de la commune ; même réserve de Brette 1907, p. 53, n. 3 ; la « subdélégation de Navarre […] comprenait […] Bergouey, Viellenave, du canton de Bidache ; […] Escos, du canton de Salies » (Raymond, art. Navarre, p. 122)",
+   "source": "Paul Raymond, Dictionnaire topographique du département des Basses-Pyrénées, Paris, 1863, art. Escos, Bergouey et Navarre (p. 122) (Internet Archive, dictionnairetopo00raymuoft) ; Brette 1907"
+  },
+  {
+   "code_insee": "64113",
+   "commune": "Bergouey-Viellenave",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Béarn",
+   "motif": "« le fief de Bergouey relev. du duché de Gramont » (Raymond, art. Bergouey) ; la paroisse « Viellenave » des données de Brette, classée au royaume de Navarre (généralité d'Auch), tombe à 146 m de la commune ; même réserve de Brette 1907, p. 53, n. 3 ; la « subdélégation de Navarre […] comprenait […] Bergouey, Viellenave, du canton de Bidache ; […] Escos, du canton de Salies » (Raymond, art. Navarre, p. 122)",
+   "source": "Paul Raymond, Dictionnaire topographique du département des Basses-Pyrénées, Paris, 1863, art. Escos, Bergouey et Navarre (p. 122) (Internet Archive, dictionnairetopo00raymuoft) ; Brette 1907"
+  },
+  {
+   "code_insee": "59238",
+   "commune": "Flines-lès-Mortagne",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Tournai",
+   "motif": "« le chapitre de Tournai était patron de Flines » ; Thun-Saint-Amand, voisine de Mortagne, « faisait autrefois partie du Hainaut et du diocèse de Tournai » ; Maulde, autre voisine, est dans le diocèse de Tournai sur la carte de Commons ; confirmé par Expilly : « FLINES, dans la Flandre-Wallone, diocèse de Tournay, […] subdélégation & recette de Saint-Amand » et « MORTAGNE, bourg ou petite ville, dans la Flandre-Wallone, diocèse de Tournay » (état des années 1760)",
+   "source": "Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. III, 1764, art. Flines (Internet Archive, bub_gb_LlpEAAAAcAAJ), t. IV, 1766, art. Mortagne (bub_gb_MQci5Klt4McC) ; Wikipédia, « Flines-lès-Mortagne » (révision 240379607), « Thun-Saint-Amand » (révision 240747609)"
+  },
+  {
+   "code_insee": "59418",
+   "commune": "Mortagne-du-Nord",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Tournai",
+   "motif": "« le chapitre de Tournai était patron de Flines » ; Thun-Saint-Amand, voisine de Mortagne, « faisait autrefois partie du Hainaut et du diocèse de Tournai » ; Maulde, autre voisine, est dans le diocèse de Tournai sur la carte de Commons ; confirmé par Expilly : « FLINES, dans la Flandre-Wallone, diocèse de Tournay, […] subdélégation & recette de Saint-Amand » et « MORTAGNE, bourg ou petite ville, dans la Flandre-Wallone, diocèse de Tournay » (état des années 1760)",
+   "source": "Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. III, 1764, art. Flines (Internet Archive, bub_gb_LlpEAAAAcAAJ), t. IV, 1766, art. Mortagne (bub_gb_MQci5Klt4McC) ; Wikipédia, « Flines-lès-Mortagne » (révision 240379607), « Thun-Saint-Amand » (révision 240747609)"
+  },
+  {
+   "code_insee": "25402",
+   "commune": "Montjoie-le-Château",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25591",
+   "commune": "Vaufrey",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25386",
+   "commune": "Montancy",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25275",
+   "commune": "Glère",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25102",
+   "commune": "Burnevillers",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25314",
+   "commune": "Indevillers",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68138",
+   "commune": "Hirsingue",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68128",
+   "commune": "Heimersdorf",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68288",
+   "commune": "Ruederbach",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68055",
+   "commune": "Bruebach",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette ; Richard, p. 40, sur les terres de la seigneurie dans le Sundgau : « Ce sont les villages d'Hirsingen, Heymersdorf, Bisel en partie, Hundelingen, Ruederbach, […] Bruebach »",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25402",
+   "commune": "Montjoie-le-Château",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25591",
+   "commune": "Vaufrey",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25386",
+   "commune": "Montancy",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25275",
+   "commune": "Glère",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25102",
+   "commune": "Burnevillers",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "25314",
+   "commune": "Indevillers",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "comté de Montjoie-Vaufrey : « au moment de la révolution française de 1789, ce comté faisait partie de la province d'Alsace » (Richard, p. 41) ; ses officiers « furent placés sous la direction de l'intendant d'Alsace » (p. 46), qui statue sur les corvées et les impositions du comté (p. 66) ; terre aux « droits quasi souverains » (Brette, p. 30), absente de la convocation, donc des données de Brette",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, Besançon, 1860, p. 40-41, 46 et 66 (Internet Archive, bub_gb_IdDP3MIQH5UC) ; Brette 1907, p. 30-31"
+  },
+  {
+   "code_insee": "68384",
+   "commune": "Zillisheim",
+   "couches": [
+    "generalites"
+   ],
+   "action": "entite",
+   "valeur": "Strasbourg (Alsace)",
+   "motif": "seigneurie de l'Alsace royale, non dépendance de Mulhouse : « Zillisheim […] Phirreti Nobilium pignus evasit » (gage, Schoepflin, p. 40), acheté en 1713 par Jean-Baptiste de Klinglin, « ex pignoribus regia in feuda tum primum conversos » (p. 729) ; au « Bailliage d'Altkirch » dans la liste de 1730 ; Baquol (1865) range sous la « République alliée aux Suisses » seulement Mulhouse et ses « Dépendances » Illzach et Modenheim, puis Zillisheim sous « M. de Klinglin » ; Brette (1907, p. 52) le compte par erreur, d'après Baquol, parmi les dépendances de Mulhouse. Bailliage de convocation : celui de toutes les paroisses voisines (Brunstatt, Didenheim, Flaxlanden, Hochstatt, Illfurth), certitude moyenne",
+   "source": "J. D. Schoepflin, Alsatia illustrata, t. II, Colmar, 1761, p. 40 et 729 (https://archive.org/details/bub_gb_XZ3uHMGcnd0C) ; liste des bailliages d'Alsace de 1730, publiée par O. Berger-Levrault, Catalogue des Alsatica de la bibliothèque de Oscar Berger-Levrault, 1886, introduction, p. XIII (https://archive.org/details/cataloguedesals03berggoog) ; Baquol, L'Alsace ancienne et moderne, 1865, p. 612 (https://archive.org/details/bub_gb_GDkbAAAAYAAJ) ; Brette 1907, p. 52"
+  },
+  {
+   "code_insee": "68384",
+   "commune": "Zillisheim",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Alsace",
+   "motif": "seigneurie de l'Alsace royale, non dépendance de Mulhouse : « Zillisheim […] Phirreti Nobilium pignus evasit » (gage, Schoepflin, p. 40), acheté en 1713 par Jean-Baptiste de Klinglin, « ex pignoribus regia in feuda tum primum conversos » (p. 729) ; au « Bailliage d'Altkirch » dans la liste de 1730 ; Baquol (1865) range sous la « République alliée aux Suisses » seulement Mulhouse et ses « Dépendances » Illzach et Modenheim, puis Zillisheim sous « M. de Klinglin » ; Brette (1907, p. 52) le compte par erreur, d'après Baquol, parmi les dépendances de Mulhouse. Bailliage de convocation : celui de toutes les paroisses voisines (Brunstatt, Didenheim, Flaxlanden, Hochstatt, Illfurth), certitude moyenne",
+   "source": "J. D. Schoepflin, Alsatia illustrata, t. II, Colmar, 1761, p. 40 et 729 (https://archive.org/details/bub_gb_XZ3uHMGcnd0C) ; liste des bailliages d'Alsace de 1730, publiée par O. Berger-Levrault, Catalogue des Alsatica de la bibliothèque de Oscar Berger-Levrault, 1886, introduction, p. XIII (https://archive.org/details/cataloguedesals03berggoog) ; Baquol, L'Alsace ancienne et moderne, 1865, p. 612 (https://archive.org/details/bub_gb_GDkbAAAAYAAJ) ; Brette 1907, p. 52"
+  },
+  {
+   "code_insee": "68384",
+   "commune": "Zillisheim",
+   "couches": [
+    "bailliages"
+   ],
+   "action": "entite",
+   "valeur": "bailliage-328",
+   "motif": "seigneurie de l'Alsace royale, non dépendance de Mulhouse : « Zillisheim […] Phirreti Nobilium pignus evasit » (gage, Schoepflin, p. 40), acheté en 1713 par Jean-Baptiste de Klinglin, « ex pignoribus regia in feuda tum primum conversos » (p. 729) ; au « Bailliage d'Altkirch » dans la liste de 1730 ; Baquol (1865) range sous la « République alliée aux Suisses » seulement Mulhouse et ses « Dépendances » Illzach et Modenheim, puis Zillisheim sous « M. de Klinglin » ; Brette (1907, p. 52) le compte par erreur, d'après Baquol, parmi les dépendances de Mulhouse. Bailliage de convocation : celui de toutes les paroisses voisines (Brunstatt, Didenheim, Flaxlanden, Hochstatt, Illfurth), certitude moyenne",
+   "source": "J. D. Schoepflin, Alsatia illustrata, t. II, Colmar, 1761, p. 40 et 729 (https://archive.org/details/bub_gb_XZ3uHMGcnd0C) ; liste des bailliages d'Alsace de 1730, publiée par O. Berger-Levrault, Catalogue des Alsatica de la bibliothèque de Oscar Berger-Levrault, 1886, introduction, p. XIII (https://archive.org/details/cataloguedesals03berggoog) ; Baquol, L'Alsace ancienne et moderne, 1865, p. 612 (https://archive.org/details/bub_gb_GDkbAAAAYAAJ) ; Brette 1907, p. 52"
+  },
+  {
+   "code_insee": "68138",
+   "commune": "Hirsingue",
+   "couches": [
+    "bailliages"
+   ],
+   "action": "entite",
+   "valeur": "bailliage-328",
+   "motif": "terre du comté de Montjoie dans le Sundgau (Richard 1860, p. 40) ; au « Bailliage d'Altkirch » dans la liste de 1730 (« Hirsingen. Heimersdorff. Ruderbach. ») ; bailliage de convocation des paroisses voisines, « Districts de Belfort et Huningue », par voisinage (certitude moyenne). Réserve : Brette (1907, p. 30-31) dit le comté de Montjoie absent de la convocation",
+   "source": "liste des bailliages d'Alsace de 1730, Berger-Levrault 1886, p. XIII (https://archive.org/details/cataloguedesals03berggoog) ; abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, 1860, p. 40 (https://archive.org/details/bub_gb_IdDP3MIQH5UC)"
+  },
+  {
+   "code_insee": "68128",
+   "commune": "Heimersdorf",
+   "couches": [
+    "bailliages"
+   ],
+   "action": "entite",
+   "valeur": "bailliage-328",
+   "motif": "terre du comté de Montjoie dans le Sundgau (Richard 1860, p. 40) ; au « Bailliage d'Altkirch » dans la liste de 1730 (« Hirsingen. Heimersdorff. Ruderbach. ») ; bailliage de convocation des paroisses voisines, « Districts de Belfort et Huningue », par voisinage (certitude moyenne). Réserve : Brette (1907, p. 30-31) dit le comté de Montjoie absent de la convocation",
+   "source": "liste des bailliages d'Alsace de 1730, Berger-Levrault 1886, p. XIII (https://archive.org/details/cataloguedesals03berggoog) ; abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, 1860, p. 40 (https://archive.org/details/bub_gb_IdDP3MIQH5UC)"
+  },
+  {
+   "code_insee": "68288",
+   "commune": "Ruederbach",
+   "couches": [
+    "bailliages"
+   ],
+   "action": "entite",
+   "valeur": "bailliage-328",
+   "motif": "terre du comté de Montjoie dans le Sundgau (Richard 1860, p. 40) ; au « Bailliage d'Altkirch » dans la liste de 1730 (« Hirsingen. Heimersdorff. Ruderbach. ») ; bailliage de convocation des paroisses voisines, « Districts de Belfort et Huningue », par voisinage (certitude moyenne). Réserve : Brette (1907, p. 30-31) dit le comté de Montjoie absent de la convocation",
+   "source": "liste des bailliages d'Alsace de 1730, Berger-Levrault 1886, p. XIII (https://archive.org/details/cataloguedesals03berggoog) ; abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, 1860, p. 40 (https://archive.org/details/bub_gb_IdDP3MIQH5UC)"
+  },
+  {
+   "code_insee": "68055",
+   "commune": "Bruebach",
+   "couches": [
+    "bailliages"
+   ],
+   "action": "entite",
+   "valeur": "bailliage-328",
+   "motif": "terre du comté de Montjoie dans le Sundgau (Richard 1860, p. 40) ; absente de la liste de 1730 lue ; bailliage de convocation des paroisses voisines, « Districts de Belfort et Huningue », par voisinage (certitude moyenne). Réserve : Brette (1907, p. 30-31) dit le comté de Montjoie absent de la convocation",
+   "source": "abbé Richard, Essai sur l'histoire de la maison et baronie de Montjoie, 1860, p. 40 (https://archive.org/details/bub_gb_IdDP3MIQH5UC)"
+  },
+  {
+   "code_insee": "76255",
+   "commune": "Eu",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Rouen",
+   "motif": "la couche rattache la commune au diocèse de Amiens (tracé de la carte de Commons) ; la source donne Rouen : « EU, ville de la haute Normandie, dans le pays de Caux, avec titre de comté-pairie, le chef-lieu d'une élection, diocèse & généralité de Rouen »",
+   "source": "Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, s.v. Eu (page imprimée non établie), https://archive.org/details/dictionnaireuniv02hessuoft"
+  },
+  {
+   "code_insee": "02255",
+   "commune": "Cys-la-Commune",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Soissons",
+   "motif": "la couche rattache la commune au diocèse de Laon (tracé de la carte de Commons) ; la source donne Soissons : « Le doyenné rural, qui dépendait de l'archidiaconé de Soissons, comptait vingt-deux cures : [...] Cys-la-Commune [...] Pontarcy, Presles-la-Commune, Saint-Mard » ; « Diocèse de Soissons : la circonscription des arrondissements de Soissons et de Château-Thierry lui appartenait en entier, en exceptant du premier Glennes, Révillon et Soupir, qui dépendaient du diocèse de Laon »",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, s.v. Vailly (p. 278) et introduction (p. XIII), https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "28280",
+   "commune": "Nogent-le-Rotrou",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Séez (tracé de la carte de Commons) ; la source donne Chartres : « NOGENT le Rotrou [...] trois paroisses (Notre-Dame, St. Hilaire & St. Laurent) [...] dans le Perche, diocèse de Chartres » ; Merlet : « Doyenné du Perche ou de Nogent-le-Rotrou » (grand archidiaconé de Chartres)",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, p. 212 (feuillet IA n219), https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; Merlet, Dictionnaire topographique du département d'Eure-et-Loir, Paris, 1861, introduction (p. VII-VIII d'après l'OCR), https://archive.org/details/dictionnairetopo00merluoft"
+  },
+  {
+   "code_insee": "28371",
+   "commune": "Saussay",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Évreux (tracé de la carte de Commons) ; la source donne Chartres : « Un seul évêché voisin comprenait quelques paroisses renfermées aujourd'hui dans le département : c'était celui d'Orléans » (liste de paroisses des cantons de Voves, Janville et Orgères)",
+   "source": "Merlet, Dictionnaire topographique du département d'Eure-et-Loir, Paris, 1861, introduction (p. VII-VIII d'après l'OCR), https://archive.org/details/dictionnairetopo00merluoft"
+  },
+  {
+   "code_insee": "55293",
+   "commune": "Lion-devant-Dun",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Reims",
+   "motif": "la couche rattache la commune au diocèse de Trèves (tracé de la carte de Commons) ; la source donne Reims : « Avant 1790, Barrois lorrain, puis Clermontois [...] — Dioc. de Reims, archid. de Champagne, doy. de Dun »",
+   "source": "Liénard, Dictionnaire topographique du département de la Meuse, Paris, 1872, s.v. Lion-devant-Dun, https://archive.org/details/dictionnairetop00meugoog"
+  },
+  {
+   "code_insee": "52483",
+   "commune": "Soyers",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Langres",
+   "motif": "la couche rattache la commune au diocèse de Besançon (tracé de la carte de Commons) ; la source donne Langres : « Son église paroissiale, dédiée à saint Valbert, était du diocèse de Langres, doyenné de Pierrefaite » (Roserot)",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. VI, feuillet IA n881 (page imprimée non établie), https://archive.org/details/bub_gb_U6xl_qMmSWgC ; Roserot, Dictionnaire topographique du département de la Haute-Marne, Paris, 1903, s.v. Soyers (p. 168 d'après l'OCR), https://archive.org/details/dictionnairetopo00rose"
+  },
+  {
+   "code_insee": "62346",
+   "commune": "Fortel-en-Artois",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Amiens",
+   "motif": "la couche rattache la commune au diocèse de Boulogne (tracé de la carte de Commons) ; la source donne Amiens : « Fortel, en 1789, faisait partie du bailliage d'Hesdin. Son église, diocèse d'Amiens, doyenné d'Auxy-le-Château, secours de Villers-l'Hôpital » (Loisne)",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. III, p. 326 (feuillet IA n337), https://archive.org/details/bub_gb_LlpEAAAAcAAJ ; Loisne, Dictionnaire topographique du département du Pas-de-Calais, Paris, 1907, s.v. Fortel, https://archive.org/details/dictionnairetopo00mencuoft"
+  },
+  {
+   "code_insee": "52132",
+   "commune": "Clefmont",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Langres",
+   "motif": "la couche rattache la commune au diocèse de Toul (tracé de la carte de Commons) ; la source donne Langres : « Son église paroissiale, dédiée à saint Thiébaud, était du diocèse de Langres, doyenné d'Is-en-Bassigny, et avait pour succursale celle d'Audeloncourt »",
+   "source": "Roserot, Dictionnaire topographique du département de la Haute-Marne, Paris, 1903, s.v. Clefmont (p. 49 d'après l'OCR), https://archive.org/details/dictionnairetopo00rose"
+  },
+  {
+   "code_insee": "02797",
+   "commune": "Viel-Arcy",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Soissons",
+   "motif": "la couche rattache la commune au diocèse de Laon (tracé de la carte de Commons) ; la source donne Soissons : « Diocèse de Soissons : la circonscription des arrondissements de Soissons et de Château-Thierry lui appartenait en entier, en exceptant du premier Glennes, Révillon et Soupir » ; Vieil-Arcy, « c°ⁿ de Braine » ; « Vetus archeium, 1678 (pouillé du dioc. de Soissons) »",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, introduction (p. XIII) et s.v. Vieil-Arcy, https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "51023",
+   "commune": "Aulnay-sur-Marne",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Châlons",
+   "motif": "la couche rattache la commune au diocèse de Reims (tracé de la carte de Commons) ; la source donne Châlons : « Son église paroissiale, diocèse de Châlons, doyenné de Châlons, était consacrée à saint Remy »",
+   "source": "Longnon, Dictionnaire topographique du département de la Marne, Paris, 1891, p. 10, https://archive.org/details/dictionnairetopo00longuoft"
+  },
+  {
+   "code_insee": "72208",
+   "commune": "Montmirail",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Le Mans (tracé de la carte de Commons) ; la source donne Chartres : « MONTMIRAIL [...] chef-lieu du Perche-Gouet [...] au diocèse de Chartres » ; Merlet, note : « Quelques paroisses à l'E. de ce doyenné sont aujourd'hui partie du département de la Sarthe : ce sont celles de Melleray, de Montmirail et de Champrond »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, p. 869 (feuillet IA n882), https://archive.org/details/bub_gb_MQci5Klt4McC ; Merlet, Dictionnaire topographique du département d'Eure-et-Loir, Paris, 1861, introduction (p. VII-VIII d'après l'OCR), https://archive.org/details/dictionnairetopo00merluoft"
+  },
+  {
+   "code_insee": "62588",
+   "commune": "Montreuil-sur-Mer",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Amiens",
+   "motif": "la couche rattache la commune au diocèse de Boulogne (tracé de la carte de Commons) ; la source donne Amiens : « La ville était divisée en six paroisses dépendant du diocèse d'Amiens et du doyenné de Montreuil »",
+   "source": "Loisne, Dictionnaire topographique du département du Pas-de-Calais, Paris, 1907, s.v. Montreuil-sur-Mer, https://archive.org/details/dictionnairetopo00mencuoft"
+  },
+  {
+   "code_insee": "78551",
+   "commune": "Saint-Germain-en-Laye",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Paris",
+   "motif": "la couche rattache la commune au diocèse de Chartres (tracé de la carte de Commons) ; la source donne Paris : « diocèse, parlement, intendance, élection de Paris » ; « elle n'a qu'une seule paroisse, sous l'invocation de saint Germain »",
+   "source": "Hesseln, Dictionnaire universel de la France, Paris, 1771, t. VI, s.v. Saint-Germain-en-Laye (page imprimée non établie), https://archive.org/details/dictionnaireuniv06hessuoft (feuillet Internet Archive 80)"
+  },
+  {
+   "code_insee": "02197",
+   "commune": "Clairfontaine",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Laon",
+   "motif": "la couche rattache la commune au diocèse de Cambrai (tracé de la carte de Commons) ; la source donne Laon : « Diocèse de Laon : [...] le troisième [arrondissement de Vervins], toute sa circonscription, à l'exception de quelques territoires des diocèses de Cambrai et de Reims » ; la liste des paroisses de Cambrai (Fontenelle, Papleux, Barzy, Fesmy, Molain, Ribeauville, Saint-Martin-Rivière, le Sart, Vaux-Andigny, Wassigny...) ne nomme pas Clairfontaine",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, introduction (p. XII-XIII), https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "52135",
+   "commune": "Coiffy-le-Bas",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Langres",
+   "motif": "la couche rattache la commune au diocèse de Besançon (tracé de la carte de Commons) ; la source donne Langres : « Son église paroissiale, dédiée à la Nativité de la Sainte-Vierge, avait pour succursales celles de Coiffy-le-Haut et de la Neuvelle-lez-Coiffy, et dépendait du diocèse de Langres, doyenné de Pierrefaite »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, p. 386 (feuillet IA n397), https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Roserot, Dictionnaire topographique du département de la Haute-Marne, Paris, 1903, s.v. Coiffy-le-Bas (p. 49 d'après l'OCR), https://archive.org/details/dictionnairetopo00rose"
+  },
+  {
+   "code_insee": "10154",
+   "commune": "Fontenay-de-Bossery",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Sens",
+   "motif": "la couche rattache la commune au diocèse de Troyes (tracé de la carte de Commons) ; la source donne Sens : « Le doyenné de Traînel, avant 1790, relevait de l'archevêché de Sens et comprenait [...] Courceroy, Fontenay-de-Bossery, Gumery, la Louptière, la Motte-Tilly, le Plessis-Gâtebled, Pouy et Traînel »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. III, p. 212 (feuillet IA n223), https://archive.org/details/bub_gb_LlpEAAAAcAAJ ; Boutiot et Socard, Dictionnaire topographique du département de l'Aube, Paris, 1874, s.v. Traînel (p. 160 d'après l'OCR), https://archive.org/details/dictionnairetopo00boutuoft"
+  },
+  {
+   "code_insee": "78361",
+   "commune": "Mantes-la-Jolie",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Rouen (tracé de la carte de Commons) ; la source donne Chartres : MANTES, « diocèse de Chartres » (citation à relire sur l'image) ; Merlet : « L'archidiaconé du Pinserais était divisé en : 1° Doyenné de Poissy [...] 2° Doyenné de Mantes »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, p. 522 (feuillet IA n535), https://archive.org/details/bub_gb_MQci5Klt4McC ; Merlet, Dictionnaire topographique du département d'Eure-et-Loir, Paris, 1861, introduction (p. VII-VIII d'après l'OCR), https://archive.org/details/dictionnairetopo00merluoft"
+  },
+  {
+   "code_insee": "88124",
+   "commune": "Darney",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Besançon",
+   "motif": "la couche rattache la commune au diocèse de Saint-Dié (tracé de la carte de Commons) ; la source donne Besançon : « Darney, Bonviller, Belrupt, Hennezel & partie des Verreries & Granges, Martinvelle, Regniéville, Ameuvelle [...] sont du diocèse de Besançon [...] Le surplus du bailliage était du diocèse de Toul ; à présent le diocèse de St. Diez y est le plus étendu » ; Création du diocèse de Saint-Dié (1777) aux dépens de Toul seulement : les paroisses bisontines du bailliage de Darney restent à Besançon (Durival, 1779).",
+   "source": "Durival, Description de la Lorraine et du Barrois, t. II, Nancy, 1779, article « Bailliage de Darney » (p. 155 d'après la table), https://archive.org/details/bub_gb_8jUli2255SMC"
+  },
+  {
+   "code_insee": "27681",
+   "commune": "Vernon",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Évreux",
+   "motif": "la couche rattache la commune au diocèse de Rouen (tracé de la carte de Commons) ; la source donne Évreux : « VERNON, petite ville [...] sur la rive gauche de la Seine [...] diocèse d'Evreux, parlement & intendance de Rouen » (Hesseln) ; « Vernon, l'un des quatre doyennés de l'archidiaconé d'Evreux avant la Révolution » (Blosseville)",
+   "source": "Hesseln, Dictionnaire universel de la France, Paris, 1771, t. VI, s.v. Vernon (page imprimée non établie), https://archive.org/details/dictionnaireuniv06hessuoft ; Blosseville, Dictionnaire topographique du département de l'Eure, Paris, 1877, https://archive.org/details/dictionnairetopo00blosuoft, s.v. Vernon"
+  },
+  {
+   "code_insee": "13108",
+   "commune": "Tarascon",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Avignon",
+   "motif": "la couche rattache la commune au diocèse de Arles (tracé de la carte de Commons) ; la source donne Avignon : « TARASCON, […] Ville, dans la Provence, Diocèse d'Avignon, Parlement & Intendance d'Aix, Chef-lieu d'une Viguerie »",
+   "source": "Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. TARASCON (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "30311",
+   "commune": "Sauve",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Alès (Alais)",
+   "motif": "la couche rattache la commune au diocèse de Nîmes (tracé de la carte de Commons) ; la source donne Alès (Alais) : « Archiprêtré de Saint-Hippolyte-du-Fort, 13 paroisses : Aguzan, Baucels […] Pompignan, Saint-Hippolyte-du-Fort, Sauve » (Germer-Durand, p. xi) ; « SAUVE petite ville du bas Languedoc, diocèse & recette d'Alais » (Hesseln) ; Diocèse d'Alais créé en 1694 par démembrement de celui de Nîmes (sept archiprêtrés, Germer-Durand p. xi).",
+   "source": "E. Germer-Durand, Dictionnaire topographique du département du Gard, 1868, Introduction, p. ix-xii (circonscriptions diocésaines), https://archive.org/details/dictionnairetopo00germuoft ; Robert de Hesseln, Dictionnaire universel de la France, 1771, t. VI, art. SAUVE (page non établie dans l'OCR), https://archive.org/details/dictionnaireuniv06hessuoft ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. SAUVE (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC ; J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. VI, 1770, art. SAUVE, feuillet IA n537, https://archive.org/details/bub_gb_U6xl_qMmSWgC"
+  },
+  {
+   "code_insee": "47157",
+   "commune": "Marmande",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Bazas (tracé de la carte de Commons) ; la source donne Agen : « MARMANDE, ville, chef-lieu d'une juridiction de son nom, dans l'Agenois, en Guyenne, diocèse & élection d'Agen » (Expilly) ; « Voici les cures du diocèse qui exigeaient des grades depuis l'Edit de 1770 : Agen, le Port-Sainte-Marie, Aiguillon, Tonneins, Marmande […] » (Durengues)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. IV, 1766, art. MARMANDE, p. 559, https://archive.org/details/bub_gb_MQci5Klt4McC ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. II, art. MARMANDE (page non établie dans l'OCR), https://archive.org/details/cihm_47576 ; Abbé Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, Introduction, note 2 de la page notée « 8: » dans l'OCR (cures graduées), https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "46229",
+   "commune": "Puybrun",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Cahors",
+   "motif": "la couche rattache la commune au diocèse de Limoges (tracé de la carte de Commons) ; la source donne Cahors : « PUIBRUN & Tavirac, dans le Quercy ; Diocèse de Cahors, Parlement de Toulouse, Intendance de Montauban, Élection de Figeac »",
+   "source": "Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. II, art. PUIBRUN (page non établie dans l'OCR), https://archive.org/details/cihm_47576 ; Pouillé du diocèse de Cahors (XIVe s.) et compte des décimes de 1526, dans Mélanges historiques. Choix de documents, t. II, Paris, 1877, n° 90 et 337 (« S. Blasii de Podio Bruno »), https://archive.org/details/melangeshistoriqueschoixdedocu2"
+  },
+  {
+   "code_insee": "16005",
+   "commune": "Aigre",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Saintes",
+   "motif": "la couche rattache la commune au diocèse de Poitiers (tracé de la carte de Commons) ; la source donne Saintes : « AIGRE & Notre-Dame-des-Monts, bourg de l'Angoumois, diocèse de Saintes, parlement de Bordeaux, intendance de la Rochelle, élection de Cognac » (Hesseln)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. I, 1762, art. AIGRE, p. 38, https://archive.org/details/bub_gb_OPA2c3XRzxAC ; Robert de Hesseln, Dictionnaire universel de la France, 1771, t. I, art. AIGRE (page non établie dans l'OCR), https://archive.org/details/dictionnaireuniv01hessuoft"
+  },
+  {
+   "code_insee": "82050",
+   "commune": "Dunes",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Condom",
+   "motif": "la couche rattache la commune au diocèse de Agen (tracé de la carte de Commons) ; la source donne Condom : « DUNES, bourg, chef-lieu d'une juridiction de son nom, dans le Condomois, en Gascogne, diocèse & élection de Condom » (Expilly) ; Diocèse de Condom érigé en 1317 aux dépens de celui d'Agen.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. DUNES, page non établie dans l'OCR, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. I, art. DUNES (page non établie dans l'OCR), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "30336",
+   "commune": "Vallabrègues",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Uzès",
+   "motif": "la couche rattache la commune au diocèse de Arles (tracé de la carte de Commons) ; la source donne Uzès : « Doyenné de Remoulins : Aramont, Castillon-du-Gard […] Valabrègue, Valeyguières, Vers » (Germer-Durand, p. x) ; « VALABREGUES, dans le bas-Languedoc, Diocèse d'Uzès, Parlement de Toulouse, Intendance de Montpellier, Recette d'Uzès »",
+   "source": "E. Germer-Durand, Dictionnaire topographique du département du Gard, 1868, Introduction, p. ix-xii (circonscriptions diocésaines), https://archive.org/details/dictionnairetopo00germuoft ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. VALABREGUES (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "16106",
+   "commune": "Confolens",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Limoges",
+   "motif": "la couche rattache la commune au diocèse de Poitiers (tracé de la carte de Commons) ; la source donne Limoges : « CONFOLANS ou Confoulans, Confluentes, ville, chef-lieu d'une élection de son nom, dans la Marche, diocèse de Limoges, parlement de Paris, intendance de Poitiers »",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONFOLANS, p. 447, https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "31196",
+   "commune": "Francon",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Comminges",
+   "motif": "la couche rattache la commune au diocèse de Rieux (tracé de la carte de Commons) ; la source donne Comminges : « FRANCON, dans le comté de Comminges, en Gascogne, diocèse & élection de Comminges » (Expilly)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. III, 1765, art. FRANCON, p. 509, https://archive.org/details/bub_gb_LlpEAAAAcAAJ ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. I, art. FRANCON (page non établie dans l'OCR), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "24130",
+   "commune": "Condat-sur-Vézère",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Sarlat",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Sarlat : « CONDAT, en Périgord, diocèse & élection de Sarlat […] Cette paroisse est située sur la rive gauche de la Vezere, à 3 l. & quart N. N. E. de Sarlat » (Expilly) ; Diocèse de Sarlat érigé en 1317.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONDAT, p. 439, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; A. de Gourgues, Dictionnaire topographique du département de la Dordogne, 1873, art. SARLAT (« Ce nouveau territoire fut composé de la partie méridionale de l'ancien diocèse de Périgueux… ») et art. AUDRIX (page non établie dans l'OCR), https://archive.org/details/dictionnairetopo00gouruoft"
+  },
+  {
+   "code_insee": "47324",
+   "commune": "Villeréal",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « Voici les cures du diocèse qui exigeaient des grades depuis l'Edit de 1770 : […] Castillonnès, Beauville, Penne, Valence, Puymirol, Cancon, Villeréal, Pujols, Sainte-Livrade, Sainte-Foy-la-Grande et Verteuil »",
+   "source": "Abbé Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, p. 417 (art. SAINT-ÉTIENNE DE LÉZENNE ET SON ANNEXE : NOTRE-DAME DE VILLERÉAL, archiprêtré de Villeréal) et Introduction, note 2 de la page notée « 8: » dans l'OCR, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "24396",
+   "commune": "Saint-Cyprien",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Sarlat",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Sarlat : « S. CYPRIEN, Bourg, dans le Périgord, Diocèse de Sarlat, Parlement & Intendance de Bordeaux, Élection de Sarlat » ; Diocèse de Sarlat érigé en 1317.",
+   "source": "Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. S. CYPRIEN (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC ; A. de Gourgues, Dictionnaire topographique du département de la Dordogne, 1873, art. SARLAT (« Ce nouveau territoire fut composé de la partie méridionale de l'ancien diocèse de Périgueux… ») et art. AUDRIX (page non établie dans l'OCR), https://archive.org/details/dictionnairetopo00gouruoft"
+  },
+  {
+   "code_insee": "34111",
+   "commune": "Ganges",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montpellier",
+   "motif": "la couche rattache la commune au diocèse de Alès (Alais) (tracé de la carte de Commons) ; la source donne Montpellier : « GANGES, ville assez commerçante, en Languedoc, diocèse, recette & généralité de Montpellier » (Expilly) ; « dans le diocèse de Montpellier, les baronnies de Lavérune, de Fabrègues, de Ganges, de Castries, de Montlaur » (Thomas) ; Siège de Maguelone transféré à Montpellier en 1536.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. III, 1765, art. GANGES, p. 541, https://archive.org/details/bub_gb_LlpEAAAAcAAJ ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. II, art. GANGES (page non établie dans l'OCR), https://archive.org/details/cihm_47576 ; E. Thomas, Dictionnaire topographique du département de l'Hérault, 1865, Introduction, p. ix (baronnies du diocèse de Montpellier), https://archive.org/details/dictionnairetopo00thomuoft"
+  },
+  {
+   "code_insee": "04209",
+   "commune": "Sisteron",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Sisteron",
+   "motif": "la couche rattache la commune au diocèse de Gap (tracé de la carte de Commons) ; la source donne Sisteron : « 1764 SISTERON, Louis Jérôme de Suffren de Saint-Tropez » (Almanach royal 1789, OCR corrigé)",
+   "source": "Almanach royal, année 1789, Paris, d'Houry, liste des archevêques et évêques de France (page non établie dans l'OCR), https://archive.org/details/almanachroyalann00hour"
+  },
+  {
+   "code_insee": "32459",
+   "commune": "Valence-sur-Baïse",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Auch",
+   "motif": "la couche rattache la commune au diocèse de Condom (tracé de la carte de Commons) ; la source donne Auch : « VALENCE, petite ville de l'Armagnac, située sur la Baïse, à 5 lieues au septentrion d'Auch, diocèse, intendance & élection de cette ville » (Hesseln)",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, 1771, t. VI, art. VALENCE (page non établie dans l'OCR), https://archive.org/details/dictionnaireuniv06hessuoft ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. VALENCE (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "79191",
+   "commune": "Niort",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "La Rochelle",
+   "motif": "la couche rattache la commune au diocèse de Poitiers (tracé de la carte de Commons) ; la source donne La Rochelle : Expilly : Niort, diocèse de la Rochelle, intendance de Poitiers (citation à relire sur l'image) ; Siège de Maillezais transféré à La Rochelle en 1648 ; Niort passe alors au diocèse de La Rochelle.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. V, 1768, art. NIORT, p. 185, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ"
+  },
+  {
+   "code_insee": "17253",
+   "commune": "Muron",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Saintes",
+   "motif": "la couche rattache la commune au diocèse de La Rochelle (tracé de la carte de Commons) ; la source donne Saintes : « MURON, bourg, en Saintonge, diocèse de Saintes, parlement de Bordeaux, intendance de la Rochelle, élection de St. Jean-d'Angely » (Expilly)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. IV, 1766, art. MURON, p. 945, https://archive.org/details/bub_gb_MQci5Klt4McC ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. II, art. MURON (page non établie dans l'OCR), https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "34260",
+   "commune": "Saint-Gervais-sur-Mare",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Castres",
+   "motif": "la couche rattache la commune au diocèse de Béziers (tracé de la carte de Commons) ; la source donne Castres : « Saint-Gervais, au dioc. de Castres, 1625 (pouillé) […] Saint-Gervais était l'une des neuf villes du diocèse de Castres qui envoyaient par tour un député aux États généraux de Languedoc »",
+   "source": "E. Thomas, Dictionnaire topographique du département de l'Hérault, 1865, art. SAINT-GERVAIS et Introduction, p. xii, note, https://archive.org/details/dictionnairetopo00thomuoft"
+  },
+  {
+   "code_insee": "34071",
+   "commune": "Ceilhes-et-Rocozels",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Béziers",
+   "motif": "la couche rattache la commune au diocèse de Vabres (tracé de la carte de Commons) ; la source donne Béziers : « Ces deux villages formaient une paroisse de l'anc. dioc. de Béziers » (Thomas)",
+   "source": "E. Thomas, Dictionnaire topographique du département de l'Hérault, 1865, art. CEILHES-ET-ROCOZELS, https://archive.org/details/dictionnairetopo00thomuoft ; J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CEILLES, p. 145, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. I, art. CEILLES (page non établie dans l'OCR), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "34243",
+   "commune": "Saint-Bauzille-de-Putois",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montpellier",
+   "motif": "la couche rattache la commune au diocèse de Alès (Alais) (tracé de la carte de Commons) ; la source donne Montpellier : « Saint-Bauzille de P. appartenait à la rectorie de Montpellier et, comme église, à l'archiprêtré de Brissac, 1625 (pouillé) ; 1756 (état des égl. du dioc. de Montp.) »",
+   "source": "E. Thomas, Dictionnaire topographique du département de l'Hérault, 1865, art. SAINT-BAUZILLE-DE-PUTOIS et Introduction, note des p. xii-xiii, https://archive.org/details/dictionnairetopo00thomuoft"
+  },
+  {
+   "code_insee": "81121",
+   "commune": "Lacabarède",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Castres",
+   "motif": "la couche rattache la commune au diocèse de Saint-Pons-de-Thomières (tracé de la carte de Commons) ; la source donne Castres : « CABAREDE (la), en Languedoc, diocèse & recette de Castres, parlement & généralité de Toulouse » (Expilly)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CABAREDE (la), page non établie dans l'OCR, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. I, art. CABAREDE (page non établie dans l'OCR), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "82121",
+   "commune": "Montauban",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : Expilly : évêché suffragant de Toulouse (citation à relire sur l'image) ; Évêché érigé en 1317.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. IV, 1766, art. MONTAUBAN, p. 801, https://archive.org/details/bub_gb_MQci5Klt4McC"
+  },
+  {
+   "code_insee": "24547",
+   "commune": "Terrasson-Lavilledieu",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Sarlat",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Sarlat : « TERASSON, petite ville du haut Périgord, sur la rive gauche de la Vezère, à 4 ou 5 lieues au septentrion de Sarlat ; diocèse & élection de cette ville » (Hesseln) ; Diocèse de Sarlat érigé en 1317.",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, 1771, t. VI, art. TERASSON (page non établie dans l'OCR), https://archive.org/details/dictionnaireuniv06hessuoft ; Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. TERASSON (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC ; A. de Gourgues, Dictionnaire topographique du département de la Dordogne, 1873, art. SARLAT (« Ce nouveau territoire fut composé de la partie méridionale de l'ancien diocèse de Périgueux… ») et art. AUDRIX (page non établie dans l'OCR), https://archive.org/details/dictionnairetopo00gouruoft"
+  },
+  {
+   "code_insee": "33402",
+   "commune": "Sainte-Foy-la-Grande",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « Ste FOY, […] Ville, dans l'Agenois, Diocèse d'Agen, Parlement & Intendance de Bordeaux, Élection d'Agen […] La ville de Sainte Foy est située sur la Dordogne, à quatre lieues à l'occident de Bergerac » (Saugrain)",
+   "source": "Dictionnaire universel de la France ancienne et moderne [Saugrain], 1726, t. III, art. Ste FOY (page non établie dans l'OCR), https://archive.org/details/bub_gb_w36W7TE7SSEC ; Abbé Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, Introduction, note 2 de la page notée « 8: » dans l'OCR, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "07324",
+   "commune": "Tournon-sur-Rhône",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Valence",
+   "motif": "la couche rattache la commune au diocèse de Vienne (tracé de la carte de Commons) ; la source donne Valence : « TOURNON, petite ville & comté dans le haut-Vivarais, diocèse de Valence, parlement de Toulouse, intendance de Montpellier, recette de Viviers »",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, 1771, t. VI, art. TOURNON (page non établie dans l'OCR), https://archive.org/details/dictionnaireuniv06hessuoft"
+  },
+  {
+   "code_insee": "02682",
+   "commune": "Saint-Mard",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Soissons",
+   "motif": "la couche rattache la commune au diocèse de Laon ; commune de l'arrondissement de Soissons et du doyenné de Vailly, cité par la même source : « Le doyenné rural, qui dépendait de l'archidiaconé de Soissons, comptait vingt-deux cures : [...] Cys-la-Commune [...] Pontarcy, Presles-la-Commune, Saint-Mard » ; « Diocèse de Soissons : la circonscription des arrondissements de Soissons et de Château-Thierry lui appartenait en entier, en exceptant du premier Glennes, Révillon et Soupir, qui dépendaient du diocèse de Laon »",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, s.v. Vailly (p. 278) et introduction (p. XIII), https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "02612",
+   "commune": "Pont-Arcy",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Soissons",
+   "motif": "la couche rattache la commune au diocèse de Laon ; « Pontarcy », doyenné de Vailly, cité par la même source : « Le doyenné rural, qui dépendait de l'archidiaconé de Soissons, comptait vingt-deux cures : [...] Cys-la-Commune [...] Pontarcy, Presles-la-Commune, Saint-Mard » ; « Diocèse de Soissons : la circonscription des arrondissements de Soissons et de Château-Thierry lui appartenait en entier, en exceptant du premier Glennes, Révillon et Soupir, qui dépendaient du diocèse de Laon »",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, s.v. Vailly (p. 278) et introduction (p. XIII), https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "02120",
+   "commune": "Brenelle",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Soissons",
+   "motif": "la couche rattache la commune au diocèse de Laon ; commune de l'arrondissement de Soissons, hors des trois exceptions de Matton : « Le doyenné rural, qui dépendait de l'archidiaconé de Soissons, comptait vingt-deux cures : [...] Cys-la-Commune [...] Pontarcy, Presles-la-Commune, Saint-Mard » ; « Diocèse de Soissons : la circonscription des arrondissements de Soissons et de Château-Thierry lui appartenait en entier, en exceptant du premier Glennes, Révillon et Soupir, qui dépendaient du diocèse de Laon »",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, s.v. Vailly (p. 278) et introduction (p. XIII), https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "02715",
+   "commune": "Serval",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Soissons",
+   "motif": "la couche rattache la commune au diocèse de Laon ; commune de l'arrondissement de Soissons, hors des trois exceptions de Matton : « Le doyenné rural, qui dépendait de l'archidiaconé de Soissons, comptait vingt-deux cures : [...] Cys-la-Commune [...] Pontarcy, Presles-la-Commune, Saint-Mard » ; « Diocèse de Soissons : la circonscription des arrondissements de Soissons et de Château-Thierry lui appartenait en entier, en exceptant du premier Glennes, Révillon et Soupir, qui dépendaient du diocèse de Laon »",
+   "source": "Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, s.v. Vailly (p. 278) et introduction (p. XIII), https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "52025",
+   "commune": "Audeloncourt",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Langres",
+   "motif": "la couche rattache la commune au diocèse de Toul ; succursale de Clefmont : « Son église paroissiale, dédiée à saint Thiébaud, était du diocèse de Langres, doyenné d'Is-en-Bassigny, et avait pour succursale celle d'Audeloncourt »",
+   "source": "Roserot, Dictionnaire topographique du département de la Haute-Marne, Paris, 1903, s.v. Clefmont (p. 49 d'après l'OCR), https://archive.org/details/dictionnairetopo00rose"
+  },
+  {
+   "code_insee": "52136",
+   "commune": "Coiffy-le-Haut",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Langres",
+   "motif": "la couche rattache la commune au diocèse de Besançon ; succursale de Coiffy-le-Bas : « Son église paroissiale, dédiée à la Nativité de la Sainte-Vierge, avait pour succursales celles de Coiffy-le-Haut et de la Neuvelle-lez-Coiffy, et dépendait du diocèse de Langres, doyenné de Pierrefaite »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, p. 386 (feuillet IA n397), https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Roserot, Dictionnaire topographique du département de la Haute-Marne, Paris, 1903, s.v. Coiffy-le-Bas (p. 49 d'après l'OCR), https://archive.org/details/dictionnairetopo00rose"
+  },
+  {
+   "code_insee": "52264",
+   "commune": "Laneuvelle",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Langres",
+   "motif": "la couche rattache la commune au diocèse de Besançon ; « la Neuvelle-lez-Coiffy », succursale de Coiffy-le-Bas : « Son église paroissiale, dédiée à la Nativité de la Sainte-Vierge, avait pour succursales celles de Coiffy-le-Haut et de la Neuvelle-lez-Coiffy, et dépendait du diocèse de Langres, doyenné de Pierrefaite »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, p. 386 (feuillet IA n397), https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Roserot, Dictionnaire topographique du département de la Haute-Marne, Paris, 1903, s.v. Coiffy-le-Bas (p. 49 d'après l'OCR), https://archive.org/details/dictionnairetopo00rose"
+  },
+  {
+   "code_insee": "72193",
+   "commune": "Melleray",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Blois ; paroisse du doyenné du Perche-Gouet nommée par Merlet : « MONTMIRAIL [...] chef-lieu du Perche-Gouet [...] au diocèse de Chartres » ; Merlet, note : « Quelques paroisses à l'E. de ce doyenné sont aujourd'hui partie du département de la Sarthe : ce sont celles de Melleray, de Montmirail et de Champrond »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, p. 869 (feuillet IA n882), https://archive.org/details/bub_gb_MQci5Klt4McC ; Merlet, Dictionnaire topographique du département d'Eure-et-Loir, Paris, 1861, introduction (p. VII-VIII d'après l'OCR), https://archive.org/details/dictionnairetopo00merluoft"
+  },
+  {
+   "code_insee": "72057",
+   "commune": "Champrond",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Le Mans ; paroisse du doyenné du Perche-Gouet nommée par Merlet : « MONTMIRAIL [...] chef-lieu du Perche-Gouet [...] au diocèse de Chartres » ; Merlet, note : « Quelques paroisses à l'E. de ce doyenné sont aujourd'hui partie du département de la Sarthe : ce sont celles de Melleray, de Montmirail et de Champrond »",
+   "source": "Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, p. 869 (feuillet IA n882), https://archive.org/details/bub_gb_MQci5Klt4McC ; Merlet, Dictionnaire topographique du département d'Eure-et-Loir, Paris, 1861, introduction (p. VII-VIII d'après l'OCR), https://archive.org/details/dictionnairetopo00merluoft"
+  },
+  {
+   "code_insee": "88065",
+   "commune": "Bonvillet",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Besançon",
+   "motif": "la couche rattache la commune au diocèse de Saint-Dié ; « Bonviller », nommé par Durival : « Darney, Bonviller, Belrupt, Hennezel & partie des Verreries & Granges, Martinvelle, Regniéville, Ameuvelle [...] sont du diocèse de Besançon [...] Le surplus du bailliage était du diocèse de Toul ; à présent le diocèse de St. Diez y est le plus étendu »",
+   "source": "Durival, Description de la Lorraine et du Barrois, t. II, Nancy, 1779, article « Bailliage de Darney » (p. 155 d'après la table), https://archive.org/details/bub_gb_8jUli2255SMC"
+  },
+  {
+   "code_insee": "88052",
+   "commune": "Belrupt",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Besançon",
+   "motif": "la couche rattache la commune au diocèse de Saint-Dié ; nommé par Durival : « Darney, Bonviller, Belrupt, Hennezel & partie des Verreries & Granges, Martinvelle, Regniéville, Ameuvelle [...] sont du diocèse de Besançon [...] Le surplus du bailliage était du diocèse de Toul ; à présent le diocèse de St. Diez y est le plus étendu »",
+   "source": "Durival, Description de la Lorraine et du Barrois, t. II, Nancy, 1779, article « Bailliage de Darney » (p. 155 d'après la table), https://archive.org/details/bub_gb_8jUli2255SMC"
+  },
+  {
+   "code_insee": "88377",
+   "commune": "Regnévelle",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Besançon",
+   "motif": "la couche rattache la commune au diocèse de Toul ; « Regniéville », nommé par Durival : « Darney, Bonviller, Belrupt, Hennezel & partie des Verreries & Granges, Martinvelle, Regniéville, Ameuvelle [...] sont du diocèse de Besançon [...] Le surplus du bailliage était du diocèse de Toul ; à présent le diocèse de St. Diez y est le plus étendu »",
+   "source": "Durival, Description de la Lorraine et du Barrois, t. II, Nancy, 1779, article « Bailliage de Darney » (p. 155 d'après la table), https://archive.org/details/bub_gb_8jUli2255SMC"
+  },
+  {
+   "code_insee": "55071",
+   "commune": "Brandeville",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Reims",
+   "motif": "la couche rattache la commune au diocèse de Trèves (tracé de la carte de Commons) ; la source donne Reims : — Sanctus Martinus de Brandevilla, xvie s. (pouillé ms de Reims). [...] — Diocèse de Reims, archidiaconé de Champagne, doyenné de Dun ; Part 0,74 de la commune dans le tracé de Trèves : limite décalée au nord de Dun.",
+   "source": "Liénard, Dictionnaire topographique du département de la Meuse, Paris, 1872, s.v. Brandeville, https://archive.org/details/dictionnairetop00meugoog"
+  },
+  {
+   "code_insee": "51303",
+   "commune": "Jâlons",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Châlons",
+   "motif": "la couche rattache la commune au diocèse de Reims (tracé de la carte de Commons) ; la source donne Châlons : II. Diocèse de Châlons-sur-Marne. [...] 1. Grand archidiaconé ou archidiaconé de Châlons. Doyenné de Châlons. — Aulnay-sur-Marne, [...] Fagnières, Germinon, Jaalons, Matougues ; Même doyenné qu'Aulnay-sur-Marne, déjà corrigé.",
+   "source": "A. Longnon, Dictionnaire topographique du département de la Marne, Paris, 1891, Introduction, p. LIX (dénombrement du diocèse de Châlons en 1789), https://archive.org/details/dictionnairetopo00longuoft"
+  },
+  {
+   "code_insee": "62833",
+   "commune": "Vacquerie-le-Boucq",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Amiens",
+   "motif": "la couche rattache la commune au diocèse de Boulogne (tracé de la carte de Commons) ; la source donne Amiens : En 1789, le diocèse d'Amiens était divisé en deux archidiaconés [...] b. Archidiaconé de Ponthieu. Doyenné d'Auxy-le-Château. Auxy-le-Château, [...] Ligny-sur-Canche, Mézerolles, [...] Vacquerie-le-Boucq, Villers-l'Hôpital, Wavans ; OCR très dégradé (« lJ{;iiy-siir-Gandie », « \\ jKMiiiciie-li'-Boiicti ») : noms restitués. Les paroisses du doyenné de Frévent (diocèse de Boulogne) qui suivent dans la même introduction ne les comprennent pas.",
+   "source": "Comte de Loisne, Dictionnaire topographique du département du Pas-de-Calais, Paris, 1907, Introduction, p. LI (§ V, Diocèse d'Amiens, d'après le pouillé publié par Darsy), https://archive.org/details/dictionnairetopo00mencuoft"
+  },
+  {
+   "code_insee": "62513",
+   "commune": "Ligny-sur-Canche",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Amiens",
+   "motif": "la couche rattache la commune au diocèse de Boulogne (tracé de la carte de Commons) ; la source donne Amiens : En 1789, le diocèse d'Amiens était divisé en deux archidiaconés [...] b. Archidiaconé de Ponthieu. Doyenné d'Auxy-le-Château. Auxy-le-Château, [...] Ligny-sur-Canche, Mézerolles, [...] Vacquerie-le-Boucq, Villers-l'Hôpital, Wavans ; OCR très dégradé (« lJ{;iiy-siir-Gandie », « \\ jKMiiiciie-li'-Boiicti ») : noms restitués. Les paroisses du doyenné de Frévent (diocèse de Boulogne) qui suivent dans la même introduction ne les comprennent pas.",
+   "source": "Comte de Loisne, Dictionnaire topographique du département du Pas-de-Calais, Paris, 1907, Introduction, p. LI (§ V, Diocèse d'Amiens, d'après le pouillé publié par Darsy), https://archive.org/details/dictionnairetopo00mencuoft"
+  },
+  {
+   "code_insee": "02650",
+   "commune": "Rocquigny",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Laon",
+   "motif": "la couche rattache la commune au diocèse de Cambrai (tracé de la carte de Commons) ; la source donne Laon : Expilly : « ROQUIGNY, en Picardie, diocese de Laon, parlement de Paris, intendance de Soissons, élection de Guise. On y compte 345 feux, y compris ceux de Montreuil » ; Matton : « Roquigni, 1780 (chambre du clergé du dioc. de Laon) » ; Rocquigny ne figure pas dans la liste des paroisses de l'Aisne qui relevaient de Cambrai (Matton, Introduction).",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. VI, s.v. ROQUIGNY (2e article), https://archive.org/details/bub_gb_U6xl_qMmSWgC ; M. Matton, Dictionnaire topographique du département de l'Aisne, Paris, 1871, s.v. Rocquigny et Introduction, p. XII-XIII, https://archive.org/details/dictionnairetopo00mattuoft"
+  },
+  {
+   "code_insee": "28007",
+   "commune": "Anet",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Évreux (tracé de la carte de Commons) ; la source donne Chartres : Hesseln : « ANET, bourg [...] dans le pays Mantois en Beausse, diocèse de Chartres, parlement & intendance de Paris, élection de Dreux » ; Saugrain : « ANET, Ænetum, Château, dans le pays Mantois en Beauce, Diocèse de Chartres » ; Merlet (Introduction, p. III) range quelques paroisses du canton d'Anet dans le doyenné de Mantes, archidiaconé du Pinserais, du diocèse de Chartres ; l'archidiaconé de Blois, détaché en 1697, ne touche pas ce secteur.",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. I, s.v. ANET, https://archive.org/details/dictionnaireuniv01hessuoft ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. I, s.v. ANET, p. 108, https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "28377",
+   "commune": "Sorel-Moussel",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Évreux (tracé de la carte de Commons) ; la source donne Chartres : Expilly : « SOREL, dans le Mantois, au gouvernement général de l'Isle-de-France, diocese de Chartres, parlement & intendance de Paris, élection de Dreux [...] Cette paroisse est sur la rive droite de l'Eure, à une lieue S. O. d'Anet » ; Saugrain : « SOREL, dans la Beauce, Diocèse de Chartres [...] Election de Dreux » ; Moussel est un hameau de Sorel (Merlet, s.v. Moussel).",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. VI, s.v. SOREL (1er article), https://archive.org/details/bub_gb_U6xl_qMmSWgC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. SOREL, https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "21356",
+   "commune": "Losne",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Besançon",
+   "motif": "la couche rattache la commune au diocèse de Châlon (tracé de la carte de Commons) ; la source donne Besançon : Expilly : « LOSNE ou Lône, paroisse & prieuré, en Bourgogne, diocese de Besançon, parlement & intendance de Dijon, bailliage & près de la ville de St. Jean-de-Losne, district d'Auxonne. On y compte 66 feux » ; Saugrain : « [LAONE] [...] Diocèse de Besançon, Bailliage & Grenier à sel de S. Jean-de-Lône, Recette d'Auxonne, a 321 habitans. Laone est sur une éminence proche S. Jean de Lône » ; Rive gauche de la Saône : ni Chalon (atlas) ni Dijon. Losne n'est pas dans la liste des cures du diocèse de Dijon d'Expilly.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. LOSNE, https://archive.org/details/bub_gb_MQci5Klt4McC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. LAONE, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "21554",
+   "commune": "Saint-Jean-de-Losne",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Dijon",
+   "motif": "la couche rattache la commune au diocèse de Châlon (tracé de la carte de Commons) ; la source donne Dijon : Expilly : « Le diocese de Dijon est divisé en deux archidiaconés & en neuf doyennés ruraux [...] Noms des Cures & Vicariats du diocese de Dijon [...] St. Jean-de-Lône, ville » ; Saugrain (1726) : « S. JEAN de Losne [...] Ville, dans la Bourgogne, Diocèse de Langres » ; Hesseln : « SAINT-JEAN-DE-LOSNE, petite ville du duché de Bourgogne ; diocèse de Châlons » ; Changement avant 1789 : paroisse du diocèse de Langres jusqu'à la création du diocèse de Dijon (1731), qui la reçoit ; Hesseln (1771), isolé, dit Chalon. La liste d'Expilly, postérieure à 1731, tranche.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. III, Additions et corrections au t. II, p. 640 (article DIJON), https://archive.org/details/bub_gb_LlpEAAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. S. JEAN de Losne, https://archive.org/details/bub_gb_w36W7TE7SSEC ; contra Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. VI, s.v. SAINT-JEAN-DE-LOSNE, https://archive.org/details/dictionnaireuniv06hessuoft"
+  },
+  {
+   "code_insee": "78481",
+   "commune": "Le Pecq",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Paris",
+   "motif": "la couche rattache la commune au diocèse de Chartres (tracé de la carte de Commons) ; la source donne Paris : Expilly : « PECQ (le), bourg, dans l'Isle-de-France, diocese, parlement, intendance & élection de Paris. On y compte 100 feux. Ce bourg est sur la rive gauche de la Seine [...] à une petite distance E. de St. Germain-en-Laye » ; Saugrain : « le PECQ, Bourg, dans l'Isle de France, Diocèse, Parlement, Intendance & Election de Paris, a 889 habitans » ; Comme Saint-Germain-en-Laye (Paris), et contrairement au Mesnil-le-Roi voisin (Chartres).",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. PECQ (le), https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. le PECQ, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "78362",
+   "commune": "Mantes-la-Ville",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Rouen (tracé de la carte de Commons) ; la source donne Chartres : « MANTES la Ville, dans le Mantois, au gouvernement-général de l'Isle-de-France, diocese de Chartres, parlement & intendance de Paris, élection de Mantes. On y compte 215 feux. Cette paroisse est située sur un ruisseau couvert de moulins, à un bon quart de lieue S. de la ville de Mantes » ; Rive gauche de la Seine, doyenné de Mantes (Merlet, Introduction).",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. MANTES la Ville, https://archive.org/details/bub_gb_MQci5Klt4McC"
+  },
+  {
+   "code_insee": "78118",
+   "commune": "Buchelay",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Chartres",
+   "motif": "la couche rattache la commune au diocèse de Rouen (tracé de la carte de Commons) ; la source donne Chartres : « BUCHELAY, dans le Pays-Mantois, au Gouvernement général de l'Isle-de-France, Diocese de Chartres, Parlement & Intendance de Paris, Election de Mantes. On y compte 90 feux. Cette Paroisse est à une bonne demi-lieue O. S. O. de Mantes »",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. I, s.v. BUCHELAY, https://archive.org/details/bub_gb_OPA2c3XRzxAC"
+  },
+  {
+   "code_insee": "10382",
+   "commune": "Traînel",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Sens",
+   "motif": "la couche rattache la commune au diocèse de Troyes (tracé de la carte de Commons) ; la source donne Sens : « Pagus Trecassinus et Pagus Senonicus ; diocèse anc. de Sens ; coût. et baill. de Troyes [...] Le doyenné de Traînel, avant 1790, relevait de l'archevêché de Sens et comprenait [...] Courceroy, Fontenay-de-Bossery, Gumery, la Louptière, la Motte-Tilly, le Plessis-Gâtebled, Pouy et Traînel » ; Part 0,46 seulement dans le tracé de Troyes ; même doyenné que Fontenay-de-Bossery, déjà corrigé.",
+   "source": "Th. Boutiot et É. Socard, Dictionnaire topographique du département de l'Aube, Paris, 1874, s.v. Traînel, https://archive.org/details/dictionnairetopo00boutuoft"
+  },
+  {
+   "code_insee": "76507",
+   "commune": "Ponts-et-Marais",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Rouen",
+   "motif": "la couche rattache la commune au diocèse de Amiens (tracé de la carte de Commons) ; la source donne Rouen : Expilly : « PONT & Haraucourt, en Normandie, diocese, parlement & intendance de Rouen, élection d'Eu. On y compte un feu privilégié & 49 feux taillables. Cette paroisse est sur la rive gauche de la Bresle, à quelque distance E. S. E. de la ville d'Eu » ; Saugrain : « PONT & Harancourt, dans la Normandie, Diocèse, Parlement & Intendance de Rouen, Election d'Eu, a 214 habitans » ; Paroisse de Pont (Ponts) et Harancourt, voisine d'Eu (Rouen) ; identification avec Ponts-et-Marais tirée de la situation donnée par Expilly (rive gauche de la Bresle, à l'E.-S.-E. d'Eu) et de la carte de Cassini (« Pt Marais », « Harancourt »). La Bresle sépare Rouen d'Amiens : le tracé de l'atlas déborde sur la rive gauche.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. PONT & Haraucourt, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. PONT & Harancourt, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "34235",
+   "commune": "Rosis",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Castres",
+   "motif": "la couche rattache la commune au diocèse de Béziers (tracé de la carte de Commons) ; la source donne Castres : « L'arrondissement de Béziers prit [...] à celui de Castres 4 : Castanet, Saint-Gervais, Saint-Gervais-Terre-Foraine (Rosis), Saint-Geniès-de-Varensal » ; Saugrain : « S. GERVAIS Terre-Foraine, dans le haut-Languedoc, Diocèse de Castres, Parlement & Intendance de Toulouse, Recette de Castres, a 1450 habitans » ; Rosis est l'ancienne communauté de Saint-Gervais-Terre-Foraine (Thomas).",
+   "source": "E. Thomas, Dictionnaire topographique du département de l'Hérault, Paris, 1865, Introduction, p. XII, note, https://archive.org/details/dictionnairetopo00thomuoft ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. S. GERVAIS Terre-Foraine, https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "46313",
+   "commune": "Tauriac",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Cahors",
+   "motif": "la couche rattache la commune au diocèse de Limoges (tracé de la carte de Commons) ; la source donne Cahors : Expilly : « PUIBRUN, en Quercy, diocese de Cahors, parlement de Toulouse, intendance de Montauban, élection de Figeac. On y compte 11 feux 19 bellugues & trois quarts de bellugue de feu, y compris ceux de Tauriac. Cette communauté est sur la rive droite de la Dordogne, près des confins du Limosin » ; Saugrain : « PUIBRUN & Tavirac, dans le Quercy ; Diocèse de Cahors » ; Les deux sources nomment la communauté de Puybrun et Tauriac ; le pouillé de Cahors (XIVᵉ s., éd. 1877, n° 337) cite aussi Tauriac. Tracé de Limoges décalé au sud de la Dordogne.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. PUIBRUN, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. PUIBRUN & Tavirac, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "59179",
+   "commune": "Douchy-les-Mines",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Cambrai",
+   "motif": "la couche rattache la commune au diocèse de Arras (tracé de la carte de Commons) ; la source donne Cambrai : Expilly : « DOUCHY, dans la Flandre-Wallonne, diocese de Cambray, parlement de Douay, intendance de Lille, subdélégation de Bouchain. On y compte 68 feux. Cette paroisse est située sur la rivière de Selle » ; Saugrain : « DOUCHY, dans la Flandre Valonne, Diocèse de Cambray, Parlement de Douay, Intendance de Lille, Subdélégation de Bouchain, a 306 habitans » ; Seconde source trouvée. Sur l'Escaut, l'Ostrevant (rive gauche : Denain, Lourches, Neuville) est d'Arras, la rive droite (Douchy, Haulchin) de Cambrai.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, s.v. DOUCHY (1er article), p. 679, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. I, s.v. DOUCHY (1er article), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "60434",
+   "commune": "Mortemer",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Beauvais",
+   "motif": "la couche rattache la commune au diocèse de Amiens (tracé de la carte de Commons) ; la source donne Beauvais : Expilly : « MORTEINER ou Mortemer, en Picardie, diocese de Beauvais, parlement de Paris, intendance d'Amiens, élection de Montdidier. On y compte 85 feux » ; Delettre, doyenné de Ressons : « Mortemer, Notre-Dame » ; Delettre : « Ainsi [...] Hardivillers, Bonneuil, Esquennoy, Rouvroy, Tartigny, Bacouel, Chepoix, Mory, Moranvillers, Courcelles-Epayelles, Mortemer, Biermont, Canny, et leurs dépendances, étaient les dernières paroisses du diocèse de Beauvais au nord, et formaient sa limite septentrionale » ; Saugrain (1726) dit Amiens. Delettre (t. III) rapporte l'érection de Mortemer en paroisse par l'évêque de Beauvais en 1650. Citation de Delettre restituée d'après un OCR fautif.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. MORTEINER ou Mortemer, https://archive.org/details/bub_gb_MQci5Klt4McC ; J. Delettre, Histoire du diocèse de Beauvais, t. I, Beauvais, 1842, Introduction, p. 9 et p. 95 (doyenné de Ressons), https://archive.org/details/bub_gb_JlgdAAAAYAAJ ; contra [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. MORTEINER, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "60483",
+   "commune": "Orvillers-Sorel",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Beauvais",
+   "motif": "la couche rattache la commune au diocèse de Amiens (tracé de la carte de Commons) ; la source donne Beauvais : Expilly : « ORVILLERS, en Picardie, diocese de Beauvais, parlement de Paris, intendance d'Amiens, élection de Montdidier. On y compte 74 feux, y compris ceux de Sorel » ; Delettre, doyenné de Ressons : « Orvillers, S. Martin » ; Seconde source trouvée (liste des cures par doyenné, état de la fin de l'Ancien Régime : doyens de 1788). Citation de Delettre restituée d'après un OCR fautif.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. ORVILLERS (2e article), p. 369-370, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; J. Delettre, Histoire du diocèse de Beauvais, t. I, Beauvais, 1842, Introduction, p. 95 (doyenné de Ressons), https://archive.org/details/bub_gb_JlgdAAAAYAAJ"
+  },
+  {
+   "code_insee": "60555",
+   "commune": "Rouvroy-les-Merles",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Beauvais",
+   "motif": "la couche rattache la commune au diocèse de Amiens (tracé de la carte de Commons) ; la source donne Beauvais : Delettre, doyenné de Breteuil : « Rouvroy, S. Nicolas » ; Delettre : « Ainsi [...] Hardivillers, Bonneuil, Esquennoy, Rouvroy, Tartigny, Bacouel, Chepoix, Mory, Moranvillers, Courcelles-Epayelles, Mortemer, Biermont, Canny, et leurs dépendances, étaient les dernières paroisses du diocèse de Beauvais au nord, et formaient sa limite septentrionale » ; Saugrain (1726) dit Amiens, comme pour Biermont et Mortemer que Delettre et Expilly placent à Beauvais ; l'article d'Expilly n'a pas été retrouvé dans l'OCR.",
+   "source": "J. Delettre, Histoire du diocèse de Beauvais, t. I, Beauvais, 1842, Introduction, p. 9 et p. 96 (doyenné de Breteuil), https://archive.org/details/bub_gb_JlgdAAAAYAAJ ; contra [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. ROUVROY-les-Merles, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "60627",
+   "commune": "Tartigny",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Beauvais",
+   "motif": "la couche rattache la commune au diocèse de Amiens (tracé de la carte de Commons) ; la source donne Beauvais : Delettre, doyenné de Breteuil : « Tartigny, S. Martin » ; Delettre : « Ainsi [...] Hardivillers, Bonneuil, Esquennoy, Rouvroy, Tartigny, Bacouel, Chepoix, Mory, Moranvillers, Courcelles-Epayelles, Mortemer, Biermont, Canny, et leurs dépendances, étaient les dernières paroisses du diocèse de Beauvais au nord, et formaient sa limite septentrionale » ; Delettre (t. III) rapporte en outre la résignation de la cure de Tartigny au XVIIᵉ siècle dans le cadre du diocèse. Citation de Delettre restituée d'après un OCR fautif.",
+   "source": "J. Delettre, Histoire du diocèse de Beauvais, t. I, Beauvais, 1842, Introduction, p. 9 et p. 96 (doyenné de Breteuil), https://archive.org/details/bub_gb_JlgdAAAAYAAJ"
+  },
+  {
+   "code_insee": "60446",
+   "commune": "Nanteuil-le-Haudouin",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Meaux",
+   "motif": "la couche rattache la commune au diocèse de Senlis (tracé de la carte de Commons) ; la source donne Meaux : Expilly : « NANTEUIL le Haudouin, petite ville ou bourg [...] dans le Valois, au gouvernement-général de l'Isle-de-France, diocese de Meaux » ; Hesseln : « NANTEUIL-LE-HAUDOUIN, bourg ou petite ville du Valois [...] à trois ou quatre lieues au couchant d'été de Meaux, diocèse de cette ville » ; Seconde source trouvée.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. NANTEUIL le Haudouin, p. 131, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. IV, s.v. NANTEUIL-LE-HAUDOUIN, https://archive.org/details/dictionnaireuniv04hessuoft"
+  },
+  {
+   "code_insee": "22109",
+   "commune": "Lanloup",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Saint-Brieuc",
+   "motif": "la couche rattache la commune au diocèse de Dol (tracé de la carte de Commons) ; la source donne Saint-Brieuc : Expilly : « LANLOUP, en Bretagne, diocese & recette de St. Brieux, parlement & intendance de Rennes. On y compte 6 feux un tiers & un quart de feu » ; Saugrain : « LANLOUP, dans la Bretagne, Diocèse de S. Brieux, Parlement de Rennes, Intendance de Nantes, Recette de S. Brieux, a 168 habitans » ; Voisine de Plouha ; aucune des deux n'est une enclave de Dol selon ces sources.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. LANLOUP, https://archive.org/details/bub_gb_MQci5Klt4McC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. LANLOUP, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "22222",
+   "commune": "Plouha",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Saint-Brieuc",
+   "motif": "la couche rattache la commune au diocèse de Dol (tracé de la carte de Commons) ; la source donne Saint-Brieuc : Expilly : « PLOUHA, en Bretagne, diocese & recette de St. Brieux, parlement & intendance de Rennes, bailliage de Lanvolon » ; Saugrain : « PLOUHA, dans la Bretagne, Diocèse de S. Brieu, Parlement de Rennes, Intendance de Nantes ; Recette de S. Brieu, a 710 habitans » ; Seconde source trouvée.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. PLOUHA, p. 709, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. PLOUHA, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "58066",
+   "commune": "Châtin",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; la source donne Nevers : Expilly : « CHATIN, en Nivernois, diocese de Nevers, parlement de Paris, intendance de Moulins, élection de Château-Chinon. On y compte 21 feux. Cette paroisse est à cinq quarts de lieue N. O. de Château-Chinon » ; Saugrain : « CHATIN, dans le Nivernois, Diocèse de Nevers [...] Election de Château-Chinon, a 135 habitans »",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, s.v. CHATIN, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. I, s.v. CHATIN (2e article), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "58244",
+   "commune": "Saint-Hilaire-en-Morvan",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; la source donne Nevers : « S. HILAIRE, dans le Nivernois, Diocèse de Nevers, Parlement de Paris, Intendance de Moulins, Election de Château-Chinon, a 193 habitans » ; Identification par l'élection de Château-Chinon ; Soultrait (s.v. Châtillon-en-Bazois) le range aussi dans l'archiprêtré de Châtillon au XIIIᵉ siècle.",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. S. HILAIRE (Nivernois), https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "58177",
+   "commune": "Montigny-en-Morvan",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; la source donne Nevers : Expilly : « MONTIGNY en Morvant, en Nivernois, diocese de Nevers, parlement de Paris, intendance de Moulins, élections de Nevers & de Château-Chinon » ; Saugrain : « MONTIGNY en Morvant, dans le Nivernois, Diocèse de Nevers [...] Election de Nevers, a 540 habitans »",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. MONTIGNY en Morvant, https://archive.org/details/bub_gb_MQci5Klt4McC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. MONTIGNY en Morvant, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "58062",
+   "commune": "Château-Chinon (Ville)",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; la source donne Nevers : Hesseln : « CHATEAUCHINON ou Chatelchinon, petite ville, avec titre de comté, dans le Nivernois, diocèse de Nevers, parlement de Paris, intendance de Moulins, chef-lieu d'une élection » ; Seconde source, du XVIIIᵉ siècle, qui confirme la liste du XIIIᵉ siècle de Soultrait. Le tracé Nevers-Autun de l'atlas est trop à l'ouest dans le Morvan (Châtin, Saint-Hilaire, Montigny, Château-Chinon).",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, s.v. CHATEAUCHINON, https://archive.org/details/dictionnaireuniv02hessuoft ; G. de Soultrait, Dictionnaire topographique du département de la Nièvre, Paris, 1865, s.v. Châtillon-en-Bazois, https://archive.org/details/dictionnairetopo00souluoft"
+  },
+  {
+   "code_insee": "58005",
+   "commune": "Amazy",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; la source donne Nevers : Saugrain : « AMAZY, dans le Nivernois, Diocèse de Nevers, Parlement de Paris, Intendance d'Orléans, Election de Clamecy, a 164 habitans » ; Soultrait : « L'archiprêtré de Prémery comprenait, en 1287, les paroisses de Prémery, Amazy [...] »",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. I, s.v. AMAZY, https://archive.org/details/cihm_47574 ; G. de Soultrait, Dictionnaire topographique du département de la Nièvre, Paris, 1865, s.v. Prémery, https://archive.org/details/dictionnairetopo00souluoft"
+  },
+  {
+   "code_insee": "58237",
+   "commune": "Saint-Didier",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; la source donne Nevers : « S. DIDIER, dans le Nivernois, Diocèse de Nevers, Parlement de Paris, Intendance d'Orléans, Election de Clamecy, a 122 habitans » ; Identification par l'élection de Clamecy ; Soultrait le range aussi dans l'archiprêtré de Prémery en 1287.",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. S. DIDIER (Nivernois), https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "89419",
+   "commune": "Toucy",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Auxerre",
+   "motif": "la couche rattache la commune au diocèse de Sens (tracé de la carte de Commons) ; la source donne Auxerre : « [Au sud de la limite du diocèse de Sens] s'étendait le diocèse d'Auxerre, dont les paroisses de Bléneau, Septfonds, Mézilles, Toucy, Parly, Beauvoir, Egleny, Charbuy, Appoigny, Chichery [...] formaient les confins de ce côté » ; Porée décrit les circonscriptions « à la veille de la Révolution », d'après les pouillés de Sens (Quesvers et Stein) et de la province de Sens (Longnon) ; confirme Quantin (Toucy du diocèse d'Auxerre). Seconde source trouvée.",
+   "source": "Ch. Porée, « La formation du département de l'Yonne en 1790 », Bulletin de la Société des sciences historiques et naturelles de l'Yonne, année 1909 (63e vol.), Auxerre, 1910, p. 14, https://archive.org/details/bulletin04auxegoog"
+  },
+  {
+   "code_insee": "46015",
+   "commune": "Bagnac-sur-Célé",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Cahors",
+   "motif": "la couche rattache la commune au diocèse de Saint-Flour (tracé de la carte de Commons) ; la source donne Cahors : Expilly : « CAPELLE Baniac (la), en Quercy, diocese de Cahors, parlement de Toulouse, intendance de Montauban, élection de Figeac [...] Cette paroisse est à 3 l. N. E. de Figeac » ; pouillé : « Lachapelle-Banhac [...] Capella Baniaci [...] Unita capitulo Aureliaci » ; commentaire : « Banhac, c°° de la Capelle-Banhac » ; Seconde source, du XVIIIᵉ siècle. Bagnac-sur-Célé est l'ancienne commune de la Capelle-Banhac.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, s.v. CAPELLE Baniac (la), https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Pouillé du diocèse de Cahors, dans Mélanges historiques. Choix de documents, t. II, Paris, 1877, archiprêtré de Figeac et commentaire n° 398, https://archive.org/details/melangeshistoriqueschoixdedocu2"
+  },
+  {
+   "code_insee": "38337",
+   "commune": "Rives",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Grenoble",
+   "motif": "la couche rattache la commune au diocèse de Vienne (tracé de la carte de Commons) ; la source donne Grenoble : Expilly, liste du diocèse de Grenoble : « [...] Charnècle, succursale de Rives [...] Revel, Risset, Rives, Rivière (la) [...] » (collateur : « Prieur de Rives ») ; article : « RIVES, en Dauphiné, diocese, parlement & intendance de Grenoble, élection de Romans [...] sur la route de Grenoble à Lyon, à 4 l. de Grenoble » ; Saugrain : « RIVES, dans le Dauphiné, Diocèse de Vienne » ; Deux textes d'Expilly (article et dénombrement par diocèses) contre Saugrain (1726).",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, Additions au t. II, p. 590 (dénombrement du Dauphiné par diocèses, section du diocèse de Grenoble), https://archive.org/details/bub_gb_MQci5Klt4McC ; J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. VI, s.v. RIVES (1er article), https://archive.org/details/bub_gb_U6xl_qMmSWgC ; contra [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. RIVES (Dauphiné), https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "31037",
+   "commune": "Avignonet-Lauragais",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Saint-Papoul",
+   "motif": "la couche rattache la commune au diocèse de Toulouse (tracé de la carte de Commons) ; la source donne Saint-Papoul : Expilly : « AVIGNONET ou Vignonet, en Languedoc, Diocese & Recette de Saint-Papoul, Parlement & Généralité de Toulouse, Intendance de Languedoc. On y compte 177 feux » ; Hesseln : « AVIGNONET, ou Vignonet, paroisse du haut Languedoc, en pays Lauraguais, diocèse & recette de S. Papoul » ; Saugrain : « AVIGNONET, [...] petite Ville, dans le haut Languedoc, Diocèse de S. Papoul » ; Trois sources concordantes pour la commune.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. I, s.v. AVIGNONET ou Vignonet, https://archive.org/details/bub_gb_OPA2c3XRzxAC ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. I, s.v. AVIGNONET, https://archive.org/details/dictionnaireuniv01hessuoft ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. I, s.v. AVIGNONET (2e article), https://archive.org/details/cihm_47574"
+  },
+  {
+   "code_insee": "81167",
+   "commune": "Miolles",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Albi",
+   "motif": "la couche rattache la commune au diocèse de Vabres (tracé de la carte de Commons) ; la source donne Albi : Expilly : « MIOLÉS, en Languedoc, diocese & recette d'Alby, parlement & généralité de Toulouse, intendance de Languedoc. On y compte 34 feux » ; Saugrain : « MIOLES, dans le haut Languedoc, Diocèse d'Alby, Parlement & Intendance de Toulouse, Recette d'Alby, a 155 habitans » ; Seconde source trouvée.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. MIOLÉS, https://archive.org/details/bub_gb_MQci5Klt4McC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. MIOLES, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "82002",
+   "commune": "Albias",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : « ALBIAS, en Quercy, Diocese de Montauban, Parlement de Toulouse, Intendance & Election de Montauban [...] sur la rive gauche de l'Aveiron, à une lieue O. de Negrepelisse » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. I, s.v. ALBIAS, https://archive.org/details/bub_gb_OPA2c3XRzxAC"
+  },
+  {
+   "code_insee": "82098",
+   "commune": "Léojac",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : Expilly : « LÉOJAC, en Quercy, diocese, intendance & élection de Montauban, parlement de Toulouse [...] à une petite lieue E. N. E. de Montauban » ; Saugrain : « LEOJAC, dans le Quercy, Diocèse de Montauban » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. LÉOJAC, https://archive.org/details/bub_gb_MQci5Klt4McC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. LEOJAC, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "82195",
+   "commune": "Villemade",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : « VILLEMADE, dans le Quercy, Diocèse de Montauban, Parlement de Toulouse, Intendance & Election de Montauban » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. VILLEMADE, https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "82167",
+   "commune": "Saint-Nauphary",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : « [S.] NAUFARY, dans le haut-Languedoc, Diocèse de Montauban, Parlement & Intendance de Toulouse, Election de Montauban » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. S. NAUFARY, https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "82134",
+   "commune": "Nègrepelisse",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : Expilly : « NEGREPELISSE, Nigrum Palatium, ville avec un vieux château, en Quercy, diocese, intendance & élection de Montauban » ; Hesseln : « NÉGREPELISSE, petite ville du Quercy [...] diocèse, intendance & élection de cette ville [Montauban] » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. NEGREPELISSE, https://archive.org/details/bub_gb_T1Q_AAAAcAAJ ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. IV, s.v. NÉGREPELISSE, https://archive.org/details/dictionnaireuniv04hessuoft"
+  },
+  {
+   "code_insee": "82140",
+   "commune": "Piquecos",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : « PIQUECOS, dans le [Quercy], Diocèse de Montauban, Parlement de Toulouse, Intendance & Election de Montauban, a 660 habitans » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. PIQUECOS, https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "82192",
+   "commune": "Verlhac-Tescou",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : « VERLHAC de Tescou, dans le haut-Languedoc, Diocèse de Montauban, Parlement & Intendance de Toulouse, Recette de Montauban, a 378 habitans » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "[Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. III, s.v. VERLHAC de Tescou, https://archive.org/details/bub_gb_w36W7TE7SSEC"
+  },
+  {
+   "code_insee": "82115",
+   "commune": "Monclar-de-Quercy",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : Expilly : « MONCLAR, bourg, en Quercy, diocese, intendance & élection de Montauban, parlement de Toulouse [...] à 4 l. E. S. E. de Montauban » ; Saugrain : « MONCLAR, Bourg, Marquisat, dans le Quercy, Diocèse de Montauban » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. MONCLAR (1er article), https://archive.org/details/bub_gb_MQci5Klt4McC ; [Saugrain], Dictionnaire universel de la France ancienne et moderne, Paris, 1726, t. II, s.v. MONCLAR (Quercy), https://archive.org/details/cihm_47576"
+  },
+  {
+   "code_insee": "82037",
+   "commune": "Caussade",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : Expilly : « CAUSSADE, ville, en Quercy, diocese, intendance & élection de Montauban, parlement de Toulouse » ; Hesseln : « CAUSSADE, petite ville du bas Quercy [...] à 6 lieues vers le septentrion de Montauban, diocèse, intendance & élection de cette ville » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. II, s.v. CAUSSADE, https://archive.org/details/bub_gb_EVk_AAAAcAAJ ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, s.v. CAUSSADE, https://archive.org/details/dictionnaireuniv02hessuoft"
+  },
+  {
+   "code_insee": "82113",
+   "commune": "Molières",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Montauban",
+   "motif": "la couche rattache la commune au diocèse de Cahors (tracé de la carte de Commons) ; la source donne Montauban : Expilly : « MOLIERES, ville avec une justice-royale, en Quercy, diocese, intendance & élection de Montauban [...] à 4 lieues & tiers N. de Montauban » ; Hesseln : « MOLIÈRES, petite ville du bas Quercy [...] à environ sept lieues au septentrion de Montauban ; diocèse, intendance & élection de cette ville » ; Groupe 3 (voisines de Montauban). La couche réduit le diocèse de Montauban à quelques communes au sud de la ville et donne le reste à Cahors : erreur de tracé étendue, à reprendre pour tout le nord et l'est du diocèse.",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. IV, s.v. MOLIERES (2e article), https://archive.org/details/bub_gb_MQci5Klt4McC ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. IV, s.v. MOLIÈRES, https://archive.org/details/dictionnaireuniv04hessuoft"
+  },
+  {
+   "code_insee": "07169",
+   "commune": "Ozon",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Valence",
+   "motif": "la couche rattache la commune au diocèse de Vienne (tracé de la carte de Commons) ; la source donne Valence : « OZON, dans le Vivarais, en Languedoc, diocese de Valence, parlement de Toulouse, intendance de Languedoc, recette de Tournon. On y compte 117 feux, y compris ceux d'Esclassan & dix mas de Vaux » ; Groupe 3 (voisines de Tournon). ",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, Paris, 1762-1770, t. V, s.v. OZON (1er article), https://archive.org/details/bub_gb_T1Q_AAAAcAAJ"
+  },
+  {
+   "code_insee": "47080",
+   "commune": "Dévillac",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « ARCHIPRÊTRÉ DE VILLERÉAL [...] SAINT-BARTHÉLEMY DE DÉVILLAC. Valéri place cette paroisse dans l'archiprêtré de Fumel » ; Groupe 3 (voisines de Villeréal). La couche place à Sarlat une large part de l'archiprêtré de Villeréal, qui était d'Agen en 1789.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Villeréal, s.v. Saint-Barthélemy de Dévillac, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "47184",
+   "commune": "Montaut",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « SAINT-PIERRE DE MONTAUT ET SON ANNEXE : SAINTE-MADELEINE DE BOURNEL. On lit dans le pouillé de Valéri : In archipresbyteratu Montaldensi : Prior de Monte alto, rector ejusdem, rector de Marsilhaco, rector de Bornello » ; Groupe 3 (voisines de Villeréal). La couche place à Sarlat une large part de l'archiprêtré de Villeréal, qui était d'Agen en 1789.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Villeréal, s.v. Saint-Pierre de Montaut et son annexe Sainte-Madeleine de Bournel, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "47037",
+   "commune": "Bournel",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « SAINT-PIERRE DE MONTAUT ET SON ANNEXE : SAINTE-MADELEINE DE BOURNEL » ; Groupe 3 (voisines de Villeréal). La couche place à Sarlat une large part de l'archiprêtré de Villeréal, qui était d'Agen en 1789.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Villeréal, s.v. Saint-Pierre de Montaut et son annexe Sainte-Madeleine de Bournel, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "47123",
+   "commune": "Lacapelle-Biron",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « ARCHIPRÊTRÉ DE FUMEL [...] SAINT-AVIT DE LÈDE (LACAPELLE-BIRON). Valéri place cette paroisse dans l'archiprêtré de Fumel » ; Groupe 3 (voisines de Villeréal). La couche place à Sarlat une large part de l'archiprêtré de Villeréal, qui était d'Agen en 1789.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Fumel, s.v. Saint-Avit de Lède (Lacapelle-Biron), https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33324",
+   "commune": "Pineuilh",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « ARCHIPRÊTRÉ DE SAINTE-FOY [...] SAINT-MARTIN DE PINEUIL ET SON ANNEXE : SAINTE-FOY-LA-GRANDE » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Martin de Pineuil et son annexe Sainte-Foy-la-Grande, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33369",
+   "commune": "Saint-André-et-Appelles",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « SAINT-MARTIN D'APPELES. Valéri place cette paroisse dans l'archiprêtré de Besaume. A la prochaine circonscription elle sera incorporée au diocèse de Bordeaux » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Martin d'Appelles, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33269",
+   "commune": "Margueron",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « SAINT-MARTIN DE MARGUERON ET SON ANNEXE : SAINT-PIERRE DE LAROQUETTE. Le pouillé de Valéri porte : In archipresbyteratu Vesalmensi : Prior de Margarone, rector ejusdem » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Martin de Margueron et son annexe Saint-Pierre de Laroquette, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33246",
+   "commune": "Ligueux",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Sarlat (tracé de la carte de Commons) ; la source donne Agen : « NOTRE-DAME DE LIGUEUX ET SON ANNEXE : SAINT-JEAN DE CLUSEAU OU DE LA ROQUILLE. Le pouillé de Valéri porte : In archipresbyteratu Vesalmensi : Prior de Ligucrio » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Notre-Dame de Ligueux et son annexe Saint-Jean de Cluseau, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33094",
+   "commune": "Caplong",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « SAINT-IMERRE DE CAPLONG ET SON ANNEXE : SAINT-QUENTIN. Le pouillé de Valéri porte : In archipresbyteratu Vesalmensi : Rector de Campo longo et Sancti Quintini » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Imerre de Caplong et son annexe Saint-Quentin, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33467",
+   "commune": "Saint-Quentin-de-Caplong",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « SAINT-IMERRE DE CAPLONG ET SON ANNEXE : SAINT-QUENTIN » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Imerre de Caplong et son annexe Saint-Quentin, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33160",
+   "commune": "Eynesse",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « SAINT-PIERRE D'EYNESSE. Le pouillé de Valéri porte : In archipresbyteratu Vesalmensi. Prior de Anessa, rector ejusdem » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Pierre d'Eynesse, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "33242",
+   "commune": "Les Lèves-et-Thoumeyragues",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Agen",
+   "motif": "la couche rattache la commune au diocèse de Périgueux (tracé de la carte de Commons) ; la source donne Agen : « SAINT-PIERRE DES LÈVES. Valéri place cette paroisse dans l'archiprêtré de Besaume. A la prochaine circonscription elle passera au diocèse de Bordeaux » ; Groupe 3 (voisines de Sainte-Foy-la-Grande). La rive gauche de la Dordogne autour de Sainte-Foy (archiprêtré de Sainte-Foy) était d'Agen ; la couche la donne à Périgueux et à Sarlat.",
+   "source": "Abbé J. Durengues, Pouillé historique du diocèse d'Agen pour l'année 1789, Agen, 1894, archiprêtré de Sainte-Foy, s.v. Saint-Pierre des Lèves, https://archive.org/details/pouillhistoriq00dure"
+  },
+  {
+   "code_insee": "08190",
+   "commune": "Givet",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08166",
+   "commune": "Fépin",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08183",
+   "commune": "Fromelennes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08214",
+   "commune": "Hargnies",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08247",
+   "commune": "Landrichamps",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08353",
+   "commune": "Rancennes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08106",
+   "commune": "Charnois",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08487",
+   "commune": "Vireux-Wallerand",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : paroisse du gouvernement de Charlemont (« Namur-François »), que Expilly dit « dans le Haynault ou plutôt au gouvernement général de Flandres & Haynault, diocèse de Liège, parlement de Douay, intendance de Haynault & Maubeuge » et dont il donne le « Dénombrement du gouvernement de Charlemont » (Agimont, Charlemont, Givet Notre-Dame et Saint-Hilaire, Ermeton-sur-Meuse, Fépin, Fromelenne & Flohimont, Gochenée, Haybes (« Haib » à l'OCR), Hargnies, Heer, Landrichamp, Matignolle, Rancennes & Charnoy, Romerée, Vireux-le-Wallerand)",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. « Charlemont » et « Dénombrement du gouvernement de Charlemont » (page imprimée non établie dans l'OCR), https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "08226",
+   "commune": "Hierges",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : village cédé par le prince-évêque de Liège au roi par le traité du 24 mai 1772 (art. V : « les villages d'Hierges, de Han & d'Auberive-sur-Meuse »), « pour être le tout ensemble uni & incorporé à perpétuité au Royaume & à la Couronne de France & au comté d'Agimont-françois » (art. VI), c'est-à-dire au gouvernement de Charlemont, en Hainaut ; convoqué en 1789 avec la prévôté d'Agimont ou Givet, secondaire d'Avesnes (Brette, Recueil, t. I, p. 216)",
+   "source": "Traité entre le Roi et le Prince-Évêque, l'Église et l'État de Liège, concernant les limites, Versailles, 24 mai 1772, art. V-VI, p. 10-11, https://archive.org/details/traitentrelero00fran ; A. Brette, Recueil de documents relatifs à la convocation des États généraux de 1789, t. I, 1894, p. 216, https://archive.org/details/recueildedocumen01bretuoft"
+  },
+  {
+   "code_insee": "08207",
+   "commune": "Ham-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : village cédé par le prince-évêque de Liège au roi par le traité du 24 mai 1772 (art. V : « les villages d'Hierges, de Han & d'Auberive-sur-Meuse »), « pour être le tout ensemble uni & incorporé à perpétuité au Royaume & à la Couronne de France & au comté d'Agimont-françois » (art. VI), c'est-à-dire au gouvernement de Charlemont, en Hainaut ; convoqué en 1789 avec la prévôté d'Agimont ou Givet, secondaire d'Avesnes (Brette, Recueil, t. I, p. 216)",
+   "source": "Traité entre le Roi et le Prince-Évêque, l'Église et l'État de Liège, concernant les limites, Versailles, 24 mai 1772, art. V-VI, p. 10-11, https://archive.org/details/traitentrelero00fran ; A. Brette, Recueil de documents relatifs à la convocation des États généraux de 1789, t. I, 1894, p. 216, https://archive.org/details/recueildedocumen01bretuoft"
+  },
+  {
+   "code_insee": "08028",
+   "commune": "Aubrives",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : village cédé par le prince-évêque de Liège au roi par le traité du 24 mai 1772 (art. V : « les villages d'Hierges, de Han & d'Auberive-sur-Meuse »), « pour être le tout ensemble uni & incorporé à perpétuité au Royaume & à la Couronne de France & au comté d'Agimont-françois » (art. VI), c'est-à-dire au gouvernement de Charlemont, en Hainaut ; convoqué en 1789 avec la prévôté d'Agimont ou Givet, secondaire d'Avesnes (Brette, Recueil, t. I, p. 216)",
+   "source": "Traité entre le Roi et le Prince-Évêque, l'Église et l'État de Liège, concernant les limites, Versailles, 24 mai 1772, art. V-VI, p. 10-11, https://archive.org/details/traitentrelero00fran ; A. Brette, Recueil de documents relatifs à la convocation des États généraux de 1789, t. I, 1894, p. 216, https://archive.org/details/recueildedocumen01bretuoft"
+  },
+  {
+   "code_insee": "08122",
+   "commune": "Chooz",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : village cédé par le prince-évêque de Liège au roi par le traité du 24 mai 1772 (art. V : « cèdent pareillement la souveraineté des villages de Chooz, de Vireux-Saint-Martin & de Molhain, avec leurs territoires, appartenances & dépendances »), « pour être le tout ensemble uni & incorporé à perpétuité au Royaume & à la Couronne de France & au comté d'Agimont-françois » (art. VI), c'est-à-dire au gouvernement de Charlemont, en Hainaut ; convoqué en 1789 avec la prévôté d'Agimont ou Givet, secondaire d'Avesnes (Brette, Recueil, t. I, p. 216)",
+   "source": "Traité entre le Roi et le Prince-Évêque, l'Église et l'État de Liège, concernant les limites, Versailles, 24 mai 1772, art. V-VI, p. 10-11, https://archive.org/details/traitentrelero00fran ; A. Brette, Recueil de documents relatifs à la convocation des États généraux de 1789, t. I, 1894, p. 216, https://archive.org/details/recueildedocumen01bretuoft"
+  },
+  {
+   "code_insee": "08486",
+   "commune": "Vireux-Molhain",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : village cédé par le prince-évêque de Liège au roi par le traité du 24 mai 1772 (art. V : « cèdent pareillement la souveraineté des villages de Chooz, de Vireux-Saint-Martin & de Molhain, avec leurs territoires, appartenances & dépendances »), « pour être le tout ensemble uni & incorporé à perpétuité au Royaume & à la Couronne de France & au comté d'Agimont-françois » (art. VI), c'est-à-dire au gouvernement de Charlemont, en Hainaut ; convoqué en 1789 avec la prévôté d'Agimont ou Givet, secondaire d'Avesnes (Brette, Recueil, t. I, p. 216)",
+   "source": "Traité entre le Roi et le Prince-Évêque, l'Église et l'État de Liège, concernant les limites, Versailles, 24 mai 1772, art. V-VI, p. 10-11, https://archive.org/details/traitentrelero00fran ; A. Brette, Recueil de documents relatifs à la convocation des États généraux de 1789, t. I, 1894, p. 216, https://archive.org/details/recueildedocumen01bretuoft"
+  },
+  {
+   "code_insee": "08222",
+   "commune": "Haybes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Hainaut",
+   "motif": "province de Hainaut au lieu de la Champagne de la carte de Commons : « HAIBES, en Hainault, diocèse de Liège, parlement de Douay, intendance de Maubeuge, gouvernement & recette de Charlemont » (Expilly) ; « Haib » du dénombrement du gouvernement de Charlemont",
+   "source": "J.-J. Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. III, 1765, art. « Haibes », p. 707 (page déduite de l'article voisin), https://archive.org/details/bub_gb_LlpEAAAAcAAJ ; t. II, art. « Charlemont », https://archive.org/details/bub_gb_EVk_AAAAcAAJ"
+  },
+  {
+   "code_insee": "58286",
+   "commune": "Tannay",
+   "couches": [
+    "dioceses"
+   ],
+   "action": "entite",
+   "valeur": "Nevers",
+   "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; Saugrain nomme le bourg et son diocèse : « TANNAY, Bourg, dans le Nivernois, Diocèse de Nevers, Parlement de Paris, Intendance d'Orléans, Élection de Clamecy, a 1139 habitants. Il y a un Chapitre. » (OCR corrigé) ; Soultrait (1865) range aussi Tannay dans l'archiprêtré de Prémery, diocèse de Nevers",
+   "source": "Saugrain, Dictionnaire universel de la France, Paris, 1726 (IA cihm_47574 pour la lettre A, cihm_47577 pour la lettre T) ; consulté le 31 octobre 2026, art. TANNAY"
+  }
+ ]
+}

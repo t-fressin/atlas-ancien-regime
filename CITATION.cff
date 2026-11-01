@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces données, citez l'atlas et les sources dont la couche utilisée dérive (docs/sources.md)."
+title: "Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789"
+authors:
+  - family-names: Fressin
+    given-names: Thomas
+repository: "https://github.com/t-fressin/atlas-ancien-regime"
+url: "https://t-fressin.github.io/atlas-ancien-regime/"
+type: dataset
+date-released: "2026-11-01"
+# généralités, bailliages, parlements, territoires extérieurs et documentation : CC BY 4.0 ; diocèses, provinces et gouvernements : CC BY-SA 4.0 (voir README.md)
+license:
+  - CC-BY-4.0
+  - CC-BY-SA-4.0
+version: 1.0.0
+references:
+  - type: dataset
+    title: "Bailliages in 1789 France"
+    version: "2.0"
+    authors:
+      - family-names: Gay
+        given-names: Victor
+      - family-names: Gobbi
+        given-names: Paula E.
+      - family-names: Goñi
+        given-names: Marc
+    doi: 10.7910/DVN/T8UXHK
+    license: CC-BY-4.0
+  - type: article
+    title: "The Atlas of Local Jurisdictions of Ancien Régime France"
+    authors:
+      - family-names: Gay
+        given-names: Victor
+      - family-names: Gobbi
+        given-names: Paula E.
+      - family-names: Goñi
+        given-names: Marc
+    journal: "Journal of Historical Geography"
+    volume: 84
+    start: 49
+    end: 60
+    year: 2024
+    doi: 10.1016/j.jhg.2024.03.008

@@ -1,0 +1,7 @@
+# Licence : CC BY-SA 4.0
+
+Les fichiers de ce dossier dérivent de cartes de Wikimedia Commons sous licence CC BY-SA 4.0 ; ils sont diffusés sous la même licence, [Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Toute version modifiée doit être diffusée sous cette licence.
+
+Attribution à reprendre : « Atlas d'Ancien Régime (https://github.com/t-fressin/atlas-ancien-regime), d'après Milenioscuro, *France location map-Provinces 1789.svg* (sur le fond *France location map-Departements 1790.svg* de Sémhur) et cartes *… in France (1789).svg*, Wikimedia Commons (CC BY-SA 4.0) ; étendue du royaume et généralités (complément par voisinage) : V. Gay, P. E. Gobbi et M. Goñi, *Bailliages in 1789 France*, d'après A. Brette (1904), doi:10.7910/DVN/T8UXHK (CC BY 4.0) ; fond communal : IGN, ADMIN EXPRESS COG CARTO, dernière édition téléchargée le 30 octobre 2026 (Licence Ouverte 2.0) ; territoires aujourd'hui hors de France : LVermGeo Rheinland-Pfalz, Gemarkungen, dl-de/by-2-0 ; © GeoBasis DE/LVGL-SL (2026), dl-de/by-2-0 ; SPF Finances, plan parcellaire cadastral (divisions cadastrales), licence plan open data ; ©swisstopo, swissBOUNDARIES3D. » L'auteur et la page de chaque carte source sont dans la propriété `source` de chaque entité et dans `sources/commons_entites.json`.
+
+Modifications apportées aux sources : extraction des tracés, calage géographique, rattachement aux communes actuelles, réunion par entité, noms francisés (voir `docs/methode.md`).

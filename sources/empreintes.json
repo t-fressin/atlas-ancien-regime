@@ -1,0 +1,44 @@
+{
+  "ign_admin_express": {
+    "adresse": "https://data.geopf.fr/wfs/ows (ADMINEXPRESS-COG-CARTO.LATEST:commune)",
+    "fichier": "communes_ign.geojson",
+    "sha256": "56971f8885b09ac3100087b0e3e72e0c711033a021977ceea42324c9c8c80591",
+    "telecharge_le": "2026-10-30"
+  },
+  "brette_paroisses": {
+    "adresse": "https://dataverse.harvard.edu/api/access/datafile/10148646?format=original",
+    "fichier": "brette_paroisses.zip",
+    "sha256": "0e9433f1b48eccec160e897f7375f3a0afba46153c0b89f1f83a06da37650ec0",
+    "telecharge_le": "2026-10-30"
+  },
+  "brette_france": {
+    "adresse": "https://dataverse.harvard.edu/api/access/datafile/10148649?format=original",
+    "fichier": "brette_france.zip",
+    "sha256": "3d07be921db8ef8fc445cd24b07f69b7a6a7040a69b4cbce7bcf3df85255592b",
+    "telecharge_le": "2026-10-30"
+  },
+  "commons_generalites": {
+    "adresse": "https://upload.wikimedia.org/wikipedia/commons/0/08/G%C3%A9n%C3%A9ralit%C3%A9s.svg",
+    "fichier": "commons_generalites.svg",
+    "sha256": "00b90cd4cbba8a922c2cb235decb1ed022064ad70ac3231b6ef7542f74f26b24",
+    "telecharge_le": "2026-10-30"
+  },
+  "commons_dioceses": {
+    "adresse": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dioc%C3%A8ses_et_provinces_France_1789.svg",
+    "fichier": "commons_dioceses.svg",
+    "sha256": "5cd132f008bb0d3a3d80ab6b4c59df857b1f94a547dcb52f3589b6ed91437188",
+    "telecharge_le": "2026-10-30"
+  },
+  "commons_provinces": {
+    "adresse": "https://upload.wikimedia.org/wikipedia/commons/a/af/France_location_map-Provinces_1789.svg",
+    "fichier": "commons_provinces.svg",
+    "sha256": "e6333725daeaecdbb48c8dc87d7586c521abe08667092c88c5ec4945a74719ed",
+    "telecharge_le": "2026-10-30"
+  },
+  "brette_bailliages": {
+    "adresse": "https://dataverse.harvard.edu/api/access/datafile/10148657",
+    "fichier": "brette_bailliages.txt",
+    "sha256": "f6ee67f41a413f141d4c17c1e45794584be80a1f9247e2e849b7be84518b6f32",
+    "telecharge_le": "2026-10-31"
+  }
+}

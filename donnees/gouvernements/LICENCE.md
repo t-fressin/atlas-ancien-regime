@@ -1,0 +1,7 @@
+# Licence : CC BY-SA 4.0
+
+Les fichiers de ce dossier dérivent de la couche des provinces de l'atlas, elle-même tirée de cartes de Wikimedia Commons sous licence CC BY-SA 4.0 ; ils sont diffusés sous la même licence, [Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Toute version modifiée doit être diffusée sous cette licence.
+
+Attribution à reprendre : « Atlas d'Ancien Régime (https://github.com/t-fressin/atlas-ancien-regime), gouvernements de l'ordonnance du 18 mars 1776 ; d'après Milenioscuro, *France location map-Provinces 1789.svg* (sur le fond *France location map-Departements 1790.svg* de Sémhur) et cartes *… in France (1789).svg*, Wikimedia Commons (CC BY-SA 4.0) ; bailliages et étendue du royaume : V. Gay, P. E. Gobbi et M. Goñi, *Bailliages in 1789 France*, d'après A. Brette (1904), doi:10.7910/DVN/T8UXHK (CC BY 4.0) ; fond communal : IGN, ADMIN EXPRESS COG CARTO, dernière édition téléchargée le 30 octobre 2026 (Licence Ouverte 2.0) ; territoires aujourd'hui hors de France : LVermGeo Rheinland-Pfalz, Gemarkungen, dl-de/by-2-0 ; © GeoBasis DE/LVGL-SL (2026), dl-de/by-2-0 ; SPF Finances, plan parcellaire cadastral (divisions cadastrales), licence plan open data ; ©swisstopo, swissBOUNDARIES3D. »
+
+Modifications apportées aux sources : regroupement des provinces de l'atlas par gouvernement, territoire de cinq gouvernements pris aux bailliages de Brette, Clermontois laissé sans gouvernement (voir `docs/couches/gouvernements.md`).

@@ -1,0 +1,76 @@
+{
+ "_lisez_moi": "Sources de l'atlas. Chaque source est téléchargée dans un cache non versionné ; l'empreinte SHA-256 et la date de téléchargement sont écrites dans sources/empreintes.json. Usage : « fond » (géométrie reprise dans les données publiées), « attribution » (rattachements repris), « contrôle » (comparaison seulement, rien n'est repris).",
+ "sources": [
+  {
+   "id": "ign_admin_express",
+   "titre": "ADMIN EXPRESS COG CARTO (édition la plus récente), couche des communes",
+   "producteur": "Institut national de l'information géographique et forestière (IGN)",
+   "notice": "https://www.data.gouv.fr/datasets/admin-express-admin-express-cog-admin-express-cog-carto-admin-express-cog-carto-pe-admin-express-cog-carto-plus-pe",
+   "acces": "service WFS https://data.geopf.fr/wfs/ows, couche ADMINEXPRESS-COG-CARTO.LATEST:commune",
+   "licence": "Licence Ouverte / Open Licence 2.0 (Etalab)",
+   "attribution": "IGN, ADMIN EXPRESS COG CARTO",
+   "usage": "fond : contours des communes actuelles"
+  },
+  {
+   "id": "brette_paroisses",
+   "titre": "Bailliages in 1789 France, v. 2.0, couche BAILLIAGES_1789_BRETTE_POINTS (paroisses de Cassini rattachées aux bailliages et aux généralités d'après Brette, 1904)",
+   "producteur": "Victor Gay, Paula E. Gobbi, Marc Goñi",
+   "notice": "https://doi.org/10.7910/DVN/T8UXHK",
+   "acces": "https://dataverse.harvard.edu/api/access/datafile/10148646?format=original",
+   "licence": "CC BY 4.0",
+   "attribution": "Gay, Gobbi et Goñi, « The Atlas of Local Jurisdictions of Ancien Régime France », Journal of Historical Geography, 84, 2024, p. 49-60 ; données : Harvard Dataverse, doi:10.7910/DVN/T8UXHK ; d'après Armand Brette, Atlas des bailliages, 1904",
+   "usage": "attribution : généralité et bailliage de chaque paroisse ; découpage des communes qui réunissent des paroisses d'entités différentes"
+  },
+  {
+   "id": "brette_france",
+   "titre": "Bailliages in 1789 France, v. 2.0, couche FRANCE_1789_BRETTE (étendue du royaume en 1789)",
+   "producteur": "Victor Gay, Paula E. Gobbi, Marc Goñi",
+   "notice": "https://doi.org/10.7910/DVN/T8UXHK",
+   "acces": "https://dataverse.harvard.edu/api/access/datafile/10148649?format=original",
+   "licence": "CC BY 4.0",
+   "attribution": "Gay, Gobbi et Goñi, 2024, doi:10.7910/DVN/T8UXHK",
+   "usage": "attribution : étendue du royaume en 1789 (communes rattachées aux généralités, aux bailliages et aux provinces)"
+  },
+  {
+   "id": "brette_bailliages",
+   "titre": "Bailliages in 1789 France, v. 2.0, table BAILLIAGES_1789_BRETTE.txt (noms, rang, bailliage principal et chef-lieu de chaque bailliage ou juridiction assimilée)",
+   "producteur": "Victor Gay, Paula E. Gobbi, Marc Goñi",
+   "notice": "https://doi.org/10.7910/DVN/T8UXHK",
+   "acces": "https://dataverse.harvard.edu/api/access/datafile/10148657",
+   "extension": ".txt",
+   "licence": "CC BY 4.0",
+   "attribution": "Gay, Gobbi et Goñi, 2024, doi:10.7910/DVN/T8UXHK ; d'après Armand Brette, Atlas des bailliages, 1904",
+   "usage": "attribution : nom, rang (principal ou secondaire), bailliage principal et chef-lieu des bailliages"
+  },
+  {
+   "id": "commons_generalites",
+   "titre": "Généralités.svg (Généralités dans le Royaume de France en 1789)",
+   "producteur": "Maxence Jeanjean, Wikimedia Commons, 25 août 2023",
+   "notice": "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9ralit%C3%A9s.svg",
+   "acces": "https://upload.wikimedia.org/wikipedia/commons/0/08/G%C3%A9n%C3%A9ralit%C3%A9s.svg",
+   "licence": "CC BY-SA 4.0",
+   "attribution": "Maxence Jeanjean, Généralités.svg, Wikimedia Commons, CC BY-SA 4.0",
+   "usage": "contrôle : liste des écarts avec les généralités de Brette ; aucune frontière reprise"
+  },
+  {
+   "id": "commons_dioceses",
+   "titre": "Diocèses et provinces France 1789.svg (Diocèses et provinces ecclésiastiques en France en 1789)",
+   "producteur": "Maxence Jeanjean, Wikimedia Commons, 12 décembre 2023",
+   "notice": "https://commons.wikimedia.org/wiki/File:Dioc%C3%A8ses_et_provinces_France_1789.svg",
+   "acces": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dioc%C3%A8ses_et_provinces_France_1789.svg",
+   "licence": "CC BY-SA 4.0",
+   "attribution": "Maxence Jeanjean, Diocèses et provinces France 1789.svg, Wikimedia Commons, CC BY-SA 4.0",
+   "usage": "fond : lacunes de la carte d'ensemble pour les diocèses sans carte individuelle (Grenoble, Le Puy, Riez, Troyes, Tournai) ; provinces ecclésiastiques (calques « Province de … ») ; contrôle des lacunes"
+  },
+  {
+   "id": "commons_provinces",
+   "titre": "France location map-Provinces 1789.svg (Map of provinces of France in 1789)",
+   "producteur": "Milenioscuro, Wikimedia Commons, 27 novembre 2019",
+   "notice": "https://commons.wikimedia.org/wiki/File:France_location_map-Provinces_1789.svg",
+   "acces": "https://upload.wikimedia.org/wikipedia/commons/a/af/France_location_map-Provinces_1789.svg",
+   "licence": "CC BY-SA 4.0",
+   "attribution": "Milenioscuro, France location map-Provinces 1789.svg, Wikimedia Commons, CC BY-SA 4.0 ; fond : Sémhur, France location map-Departements 1790.svg, Wikimedia Commons",
+   "usage": "contrôle : lacunes des cartes individuelles des provinces"
+  }
+ ]
+}
