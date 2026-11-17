@@ -43,7 +43,13 @@
     </div>
 </nav>
 <div id="cadre">
-    <div id="map" role="region" aria-label="Carte"></div>
+    <div id="zone-carte">
+        <div id="map" role="region" aria-label="Carte"></div>
+        <div id="chargement" role="status" aria-live="polite" hidden>
+            <div class="spinner-border" aria-hidden="true"></div>
+            <span class="texte-chargement">Chargement de la couche…</span>
+        </div>
+    </div>
     <aside id="volet">
         <div id="tete-volet">
             <h4 id="titre-couche">Atlas d'Ancien Régime</h4>
@@ -71,13 +77,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
             </div>
             <div class="modal-body">
-                <p id="citation-texte" class="citation">Thomas Fressin, <i>Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789</i>, version 1.0.1, 2026, <a href="https://t-fressin.github.io/atlas-ancien-regime/">https://t-fressin.github.io/atlas-ancien-regime/</a>.</p>
+                <p id="citation-texte" class="citation">Thomas Fressin, <i>Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789</i>, version 1.0.2, 2026, <a href="https://t-fressin.github.io/atlas-ancien-regime/">https://t-fressin.github.io/atlas-ancien-regime/</a>.</p>
                 <button type="button" class="btn btn-sm btn-outline-primary mb-3" data-copier="citation-texte">Copier</button>
                 <h6>BibTeX</h6>
                 <pre id="citation-bibtex" class="small bg-light p-2">@dataset{fressin_atlas_ancien_regime_2026,
   author  = {Fressin, Thomas},
   title   = {Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789},
-  version = {1.0.1},
+  version = {1.0.2},
   year    = {2026},
   url     = {https://t-fressin.github.io/atlas-ancien-regime/}
 }</pre>

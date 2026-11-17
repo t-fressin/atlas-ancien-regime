@@ -67,9 +67,29 @@ function popup(p) {
     return h;
 }
 
+// voile de chargement pendant le téléchargement et le dessin d'une couche (plusieurs mégaoctets)
+const voile = document.getElementById("chargement");
+let chargements = 0;
+function chargement(actif) {
+    chargements = Math.max(0, chargements + (actif ? 1 : -1));
+    voile.hidden = chargements === 0;
+}
+const peindre = () => new Promise(r => requestAnimationFrame(() => setTimeout(r)));  // laisse le voile s'afficher avant le dessin
+
 async function choisirCouche(id) {
+    chargement(true);
+    try {
+        await dessinerCouche(id);
+    } finally {
+        chargement(false);
+    }
+}
+
+async function dessinerCouche(id) {
     const c = config.couches.find(x => x.id === id) || config.couches[0];
+    await peindre();
     const donnees = await json(`donnees/${c.id}.json`);
+    await peindre();
     if (couche) map.removeLayer(couche);
     if (attributionCourante) map.attributionControl.removeAttribution(attributionCourante);
     coucheId = c.id;
