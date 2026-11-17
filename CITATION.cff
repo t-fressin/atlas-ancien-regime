@@ -7,12 +7,12 @@ authors:
 repository: "https://github.com/t-fressin/atlas-ancien-regime"
 url: "https://t-fressin.github.io/atlas-ancien-regime/"
 type: dataset
-date-released: "2026-11-01"
+date-released: "2026-11-17"
 # généralités, bailliages, parlements, territoires extérieurs et documentation : CC BY 4.0 ; diocèses, provinces et gouvernements : CC BY-SA 4.0 (voir README.md)
 license:
   - CC-BY-4.0
   - CC-BY-SA-4.0
-version: 1.0.0
+version: 1.0.1
 references:
   - type: dataset
     title: "Bailliages in 1789 France"

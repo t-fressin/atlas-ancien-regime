@@ -47,13 +47,13 @@ L'atlas a été réalisé avec l'aide d'une intelligence artificielle (Claude Co
 
 Citer l'atlas :
 
-> Thomas Fressin, *Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789*, version 1.0.0, 2026, https://t-fressin.github.io/atlas-ancien-regime/ (données : https://github.com/t-fressin/atlas-ancien-regime).
+> Thomas Fressin, *Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789*, version 1.0.1, 2026, https://t-fressin.github.io/atlas-ancien-regime/ (données : https://github.com/t-fressin/atlas-ancien-regime).
 
 ```bibtex
 @dataset{fressin_atlas_ancien_regime_2026,
   author  = {Fressin, Thomas},
   title   = {Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789},
-  version = {1.0.0},
+  version = {1.0.1},
   year    = {2026},
   url     = {https://t-fressin.github.io/atlas-ancien-regime/}
 }

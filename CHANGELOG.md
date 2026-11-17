@@ -1,5 +1,10 @@
 # Versions
 
+## 1.0.1 (17 novembre 2026)
+
+* Diocèses : province ecclésiastique corrigée pour dix diocèses (Carpentras, Cavaillon, Boulogne, Ypres, Le Puy, Ajaccio, Aléria, Sagone, Mariana, Nebbio), d'après la liste des provinces ecclésiastiques de Wikipédia (`sources/provinces_ecclesiastiques.csv`, `docs/corrections.md`).
+* Généralités : source supplémentaire pour Vaudricourt (80780), généralité de Rouen par l'élection d'Eu (notice d'Ault des Archives départementales de la Somme).
+
 ## 1.0.0 (1er novembre 2026)
 
 Première version publiée.
