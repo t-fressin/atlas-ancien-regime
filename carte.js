@@ -19,6 +19,9 @@ const COLONNES_LIEU = [
 ];
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"})[c]);
+// lien de la configuration : adresse https ou fichier relatif du site seulement (jamais javascript:, ni guillemet), échappé
+const url = u => /^(https:\/\/[^\s"'<>]+|[\w./-]+\.(html|geojson|csv|json))$/.test(String(u ?? "")) ? esc(u) : "#";
+const COULEUR = /^#[0-9a-f]{3,8}$/i;
 const plier = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[-'’]/g, " ").replace(/\bsaint\b/g, "st").replace(/\bsainte\b/g, "ste").replace(/\s+/g, " ").trim();
 
 const map = L.map("map", {zoomSnap: 0.1, zoomDelta: 0.5, minZoom: 4, maxZoom: 13, attributionControl: true});
@@ -69,27 +72,39 @@ function popup(p) {
 
 // voile de chargement pendant le téléchargement et le dessin d'une couche (plusieurs mégaoctets)
 const voile = document.getElementById("chargement");
+const annonce = document.getElementById("annonce-chargement");  // zone lue par les lecteurs d'écran, toujours présente
 let chargements = 0;
-function chargement(actif) {
+let demande = 0;  // jeton de la dernière couche demandée : une réponse plus ancienne est ignorée
+function chargement(actif, message = "") {
     chargements = Math.max(0, chargements + (actif ? 1 : -1));
     voile.hidden = chargements === 0;
+    annonce.textContent = chargements ? "Chargement de la couche…" : message;
 }
-const peindre = () => new Promise(r => requestAnimationFrame(() => setTimeout(r)));  // laisse le voile s'afficher avant le dessin
+// laisse le voile s'afficher avant le dessin (setTimeout seul si l'onglet est en arrière-plan)
+const peindre = () => new Promise(r => document.hidden ? setTimeout(r) : requestAnimationFrame(() => setTimeout(r)));
 
 async function choisirCouche(id) {
+    const jeton = ++demande;
     chargement(true);
+    let message = "";
     try {
-        await dessinerCouche(id);
+        await dessinerCouche(id, jeton);
+    } catch (e) {
+        message = "La couche n'a pas pu être chargée ; vérifiez la connexion et réessayez.";
+        document.querySelectorAll("#choix-couches input").forEach(i => { i.checked = i.value === coucheId; });
+        console.error(e);
     } finally {
-        chargement(false);
+        chargement(false, message);
     }
 }
 
-async function dessinerCouche(id) {
+async function dessinerCouche(id, jeton) {
     const c = config.couches.find(x => x.id === id) || config.couches[0];
     await peindre();
     const donnees = await json(`donnees/${c.id}.json`);
+    if (jeton !== demande) return;  // une autre couche a été demandée entre-temps
     await peindre();
+    if (jeton !== demande) return;
     if (couche) map.removeLayer(couche);
     if (attributionCourante) map.attributionControl.removeAttribution(attributionCourante);
     coucheId = c.id;
@@ -110,9 +125,9 @@ async function dessinerCouche(id) {
     document.getElementById("titre-couche").textContent = c.titre + " en 1789";
     document.getElementById("resume-couche").textContent = `${donnees.features.length} entités · licence ${c.licence}`;
     document.getElementById("liens-couche").innerHTML =
-        `<a href="${c.fiche}">Fiche de la couche</a> · <a href="${c.telecharger}">Télécharger (GeoJSON)</a>` +
-        (c.variante ? ` · <a href="${c.variante}">version au Languedoc réuni</a>` : "") +
-        ` · <a href="${config.tableau}">Tableau des lieux (CSV)</a>`;
+        `<a href="${url(c.fiche)}">Fiche de la couche</a> · <a href="${url(c.telecharger)}">Télécharger (GeoJSON)</a>` +
+        (c.variante ? ` · <a href="${url(c.variante)}">version au Languedoc réuni</a>` : "") +
+        ` · <a href="${url(config.tableau)}">Tableau des lieux (CSV)</a>`;
     document.querySelectorAll("#choix-couches input").forEach(i => { i.checked = i.value === c.id; });
     const liste = document.getElementById("entites");
     liste.innerHTML = "";
@@ -121,7 +136,9 @@ async function dessinerCouche(id) {
     couches.sort((a, b) => a.feature.properties.nom.localeCompare(b.feature.properties.nom, "fr"));
     for (const l of couches) {
         const li = document.createElement("li");
-        li.innerHTML = `<span class="pastille" style="background:${esc(l.feature.properties.couleur)}"></span><a href="#">${esc(l.feature.properties.nom)}</a>`;
+        li.innerHTML = `<span class="pastille"></span><a href="#">${esc(l.feature.properties.nom)}</a>`;
+        const couleur = l.feature.properties.couleur;
+        if (COULEUR.test(couleur || "")) li.querySelector(".pastille").style.background = couleur;
         li.querySelector("a").addEventListener("click", e => {
             e.preventDefault();
             map.fitBounds(l.getBounds(), {maxZoom: 9, padding: [20, 20]});
@@ -169,7 +186,7 @@ function controleCouches() {
         let h = `<details ${MOBILE ? "" : "open"} class="details-legend">`;
         h += '<summary><h6 class="d-inline">Couches</h6></summary><div id="choix-couches" class="mt-1">';
         for (const c of config.couches) {
-            h += `<label class="d-block"><input type="radio" name="couche" value="${c.id}"> ${esc(c.titre)}</label>`;
+            h += `<label class="d-block"><input type="radio" name="couche" value="${esc(c.id)}"> ${esc(c.titre)}</label>`;
         }
         d.innerHTML = h + "</div></details>";
         L.DomEvent.disableClickPropagation(d);
@@ -241,7 +258,7 @@ async function afficherLieu(code) {
     for (const [c, t] of COLONNES_LIEU) {
         h += bloc(t, l[c], l[c + "_certitude"], l[c + "_decision"], l[c + "_source"]);
     }
-    h += `</tbody></table><div class="small text-secondary mt-1">Ligne du <a href="${config.tableau}">tableau des lieux</a> ; certitude : voir <a href="donnees.html">Données</a>.</div>`;
+    h += `</tbody></table><div class="small text-secondary mt-1">Ligne du <a href="${url(config.tableau)}">tableau des lieux</a> ; certitude : voir <a href="donnees.html">Données</a>.</div>`;
     fiche.innerHTML = h;
     fiche.hidden = false;
     fiche.querySelector(".btn-close").addEventListener("click", () => {
