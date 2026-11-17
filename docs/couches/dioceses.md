@@ -6,6 +6,7 @@ Fiche de la couche `donnees/dioceses/`. Principes communs à toutes les couches 
 
 * Maxence Jeanjean, *Diocèses et provinces France 1789.svg* et 146 cartes *Diocèse … 1789.svg*, Wikimedia Commons, CC BY-SA 4.0 (liste, auteurs et empreintes : `sources/commons_entites.json`, `sources/manifeste.json`).
 * Fond : IGN, ADMIN EXPRESS COG CARTO, Licence Ouverte 2.0 ; étendue du royaume : Gay, Gobbi et Goñi (2024), d'après Brette, CC BY 4.0.
+* Province ecclésiastique de dix diocèses : *Almanach royal*, 1789, et *L'État de la France*, 1749, t. III (domaine public ; `sources/provinces_ecclesiastiques.csv`).
 
 ## Méthode
 
@@ -34,6 +35,7 @@ Corrections en vigueur (`sources/corrections.json`, une ligne par commune avec m
 * **Seconde passe** (31 octobre 2026), 58 communes : voisines signalées par la première passe et cas de certitude moyenne, confrontés à Expilly (articles et listes des cures par diocèse de ses additions), Hesseln, Saugrain, Longnon, Loisne, Liénard, Boutiot et Socard, Charpillon et Caresme, Thomas, Porée (1909), Delettre (*Histoire du diocèse de Beauvais*, 1842, doyennés de Ressons et de Breteuil) et au pouillé d'Agen de 1789 (Durengues). Erreurs de tracé étendues : autour de Montauban (dix communes, dont Caussade, Nègrepelisse, Albias, Léojac, Monclar, à Montauban et non à Cahors) ; archiprêtré de Sainte-Foy (Pineuilh, Eynesse, Caplong, Ligueux, Margueron… à Agen, non à Périgueux ou Sarlat) ; archiprêtré de Villeréal (Dévillac, Montaut, Bournel, Lacapelle-Biron, à Agen) ; Morvan nivernais et environs de Tannay (Château-Chinon, Châtin, Montigny-en-Morvan, Saint-Hilaire-en-Morvan, Amazy, Saint-Didier, à Nevers, non à Autun) ; Beauvaisis (Mortemer, Orvillers-Sorel, Rouvroy-les-Merles, Tartigny, à Beauvais) ; Goëlo (Plouha, Lanloup, à Saint-Brieuc, non à Dol) ; Mantois (Mantes-la-Ville, Buchelay, Anet, Sorel-Moussel, à Chartres). Confirmés à l'atlas : 34 communes, dont Marmande et Sisteron (voisines).
 * La Petite-Raon et Vieux-Moulin (principauté de Salm), d'abord corrigés au diocèse de Saint-Dié, sont hors du royaume : la correction est retirée avec la coupe de la couche à l'étendue du royaume (1er novembre 2026).
 * La reconstruction du 31 octobre 2026 avec le filtre des artefacts rend au Comtat Venaissin 45 communes que la carte d'Agen attribuait à ce diocèse (Carpentras 16, Vaison 10, Cavaillon 9, Avignon 4, Orange 4, Gap 2).
+* **Provinces ecclésiastiques** (17 novembre 2026), dix diocèses, d'après l'*Almanach royal* de 1789 et *L'État de la France* de 1749 : Ajaccio, Aléria, Sagone (Pise) ; Mariana, Nebbio (Gênes) ; Boulogne (Reims) ; Carpentras, Cavaillon (Avignon) ; Ypres (Malines) ; Le Puy, exempt, sous Bourges « pour le for contentieux » (`docs/corrections.md`).
 
 ## Limites connues
 

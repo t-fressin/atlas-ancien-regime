@@ -42,7 +42,11 @@ Ces communes forment des vides dans les couches (`vides_1789.md`), et la source 
 
 ## Provinces ecclésiastiques
 
-La métropole de chaque diocèse est lue sur la carte d'ensemble de Maxence Jeanjean, par le calque « Province de … » qui contient un point du diocèse. Ce test tombe mal pour quelques petits diocèses et ne donne rien là où la carte n'a pas de calque. Dix diocèses sont corrigés d'après la liste des provinces ecclésiastiques de Wikipédia (« Liste des diocèses de France sous l'Ancien Régime », révision 239528023), section citée pour chacun dans `sources/provinces_ecclesiastiques.csv` : Carpentras et Cavaillon (Avignon, et non Bordeaux), Boulogne (Reims, et non Cambrai), Ypres (Malines, et non Cambrai), Le Puy (« Evêchés dépendants directement du Saint-Siège »), Ajaccio, Aléria et Sagone (Pise), Mariana et Nebbio (Gênes), ces six derniers sans métropole jusque-là.
+La métropole de chaque diocèse est lue sur la carte d'ensemble de Maxence Jeanjean, par le calque « Province de … » qui contient un point du diocèse. Ce test tombe mal pour quelques petits diocèses et ne donne rien là où la carte n'a pas de calque. Dix diocèses sont corrigés d'après les imprimés de l'époque, la liste de Wikipédia (« Liste des diocèses de France sous l'Ancien Régime », révision 239528023) ne servant que de contrôle ; source, page et citation de chacun : `sources/provinces_ecclesiastiques.csv`.
+
+* *Almanach royal*, 1789, « Archevêques et évêques », qui range chaque évêché à la suite de son archevêché ([Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k204246r)) : Boulogne sous Reims (p. 60), Carpentras et Cavaillon sous Avignon (p. 67), Ajaccio, Sagone et Aléria sous Pise, « Suffragans de l'Archevêché de Pise en Toscane » (p. 68-69), Mariana et Nebbio sous Gênes, « Suffragans de l'Archevêché de Gênes » (p. 69).
+* Ypres : *L'État de la France*, 1749, t. III, « Archevesché de Malines » : « Les Suffragans sont 1. Anvers, 2. Bruges, 3. Gand, 4. Ypres, 5. Ruremonde, 6. Bolduc » (p. 126, [Google Livres](https://books.google.com/books?id=pxS_NnQmk3EC)) ; l'*Almanach* ne donne à Cambrai, hors du royaume, que « Tournay & Namur » (p. 68).
+* Le Puy : rangé sous Bourges par l'*Almanach* (p. 61) ; *L'État de la France* (1749) dit l'évêque « Suffragant immédiat de l'Eglise de Rome » (p. 93) et Bourges suffragant « 5. le Puy, seulement pour le for contentieux » (p. 79). Le diocèse, exempt, est rangé sous Bourges.
 
 ## Correction des généralités par élection
 

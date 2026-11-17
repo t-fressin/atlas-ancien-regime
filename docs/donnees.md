@@ -19,7 +19,7 @@ Toutes les couches : GeoJSON, WGS 84 (EPSG:4326), une entité (Polygon ou MultiP
 | `bailliage_principal` | bailliages | `id` du bailliage principal d'un secondaire ; vide pour un principal |
 | `generalite` | bailliages | généralité du bailliage selon Brette ; une partie du ressort peut relever d'une généralité voisine (`couches/generalites.md`, méthode, point 5) |
 | `chef_lieu`, `chef_lieu_insee` | bailliages | commune actuelle (nom, code INSEE) où siégea l'assemblée du bailliage |
-| `province_ecclesiastique` | diocèses | métropole de rattachement, d'après la carte d'ensemble de Maxence Jeanjean, corrigée pour dix diocèses (`sources/provinces_ecclesiastiques.csv`, `corrections.md`) |
+| `province_ecclesiastique` | diocèses | métropole (archevêché) dont le diocèse est suffragant, d'après la carte d'ensemble de Maxence Jeanjean, corrigée pour dix diocèses d'après l'*Almanach royal* de 1789 et *L'État de la France* de 1749 (`sources/provinces_ecclesiastiques.csv`, `corrections.md`) ; Le Puy, exempt, est rangé sous Bourges, dont il relevait « seulement pour le for contentieux » |
 | `source` | toutes | attribution complète de la ou des sources de l'entité |
 | `licence` | toutes | `CC BY 4.0` (généralités, bailliages, parlements, territoires extérieurs) ou `CC BY-SA 4.0` (diocèses, provinces, gouvernements) ; voir le `LICENCE.md` de chaque dossier |
 | `lieu_actuel`, `fond`, `code_unite`, `nom_unite` | territoires extérieurs | lieu actuel ; fond étranger de l'unité dessinée (`gemarkung-rp`, `gemarkung-sl`, `division-be`, `commune-ch`), son code et son nom dans ce fond |
