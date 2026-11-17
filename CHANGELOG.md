@@ -4,7 +4,7 @@
 
 * Diocèses : province ecclésiastique des dix diocèses corrigés en 1.0.1 établie sur l'*Almanach royal* de 1789 et *L'État de la France* de 1749 (t. III), Wikipédia ne servant plus que de contrôle ; Le Puy, exempt, rangé sous Bourges, dont il relevait « seulement pour le for contentieux » ; source de la correction portée dans la propriété `source` des entités et dans l'attribution de la couche (`sources/provinces_ecclesiastiques.csv`, `docs/corrections.md`).
 * Généralités : sources de Vaudricourt complétées (Saugrain, t. I, art. ALLENAY ; notice d'Ault des Archives départementales de la Somme).
-* Site : voile de chargement pendant l'affichage d'une couche.
+* Site : voile de chargement pendant l'affichage d'une couche ; sécurité renforcée (politique de sécurité du contenu, liens et couleurs contrôlés, documentation sans HTML brut).
 
 ## 1.0.1 (17 novembre 2026)
 
