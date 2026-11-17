@@ -90,9 +90,11 @@ async function choisirCouche(id) {
     try {
         await dessinerCouche(id, jeton);
     } catch (e) {
-        message = "La couche n'a pas pu être chargée ; vérifiez la connexion et réessayez.";
-        document.querySelectorAll("#choix-couches input").forEach(i => { i.checked = i.value === coucheId; });
         console.error(e);
+        if (jeton === demande) {  // l'échec d'une demande périmée ne touche ni au message ni au bouton de la couche demandée ensuite
+            message = "La couche n'a pas pu être chargée ; vérifiez la connexion et réessayez.";
+            document.querySelectorAll("#choix-couches input").forEach(i => { i.checked = i.value === coucheId; });
+        }
     } finally {
         chargement(false, message);
     }
