@@ -1794,6 +1794,908 @@
    "valeur": "Nevers",
    "motif": "la couche rattache la commune au diocèse de Autun (tracé de la carte de Commons) ; Saugrain nomme le bourg et son diocèse : « TANNAY, Bourg, dans le Nivernois, Diocèse de Nevers, Parlement de Paris, Intendance d'Orléans, Élection de Clamecy, a 1139 habitants. Il y a un Chapitre. » (OCR corrigé) ; Soultrait (1865) range aussi Tannay dans l'archiprêtré de Prémery, diocèse de Nevers",
    "source": "Saugrain, Dictionnaire universel de la France, Paris, 1726 (IA cihm_47574 pour la lettre A, cihm_47577 pour la lettre T) ; consulté le 31 octobre 2026, art. TANNAY"
+  },
+  {
+   "code_insee": "33227",
+   "commune": "Langon",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Guyenne",
+   "motif": "Hesseln : « LANGON, petite ville du Bazadois, en Guienne » ; Expilly, plus ancien : « LANGON […] dans le Bourdelois, en Guyenne » ; la carte de Commons la met en Gascogne",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. III, art. LANGON, page imprimée non établie (https://archive.org/details/dictionnaireuniv03hessuoft) ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. IV, 1766, art. LANGON, page imprimée non établie (https://archive.org/details/bub_gb_MQci5Klt4McC) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "47195",
+   "commune": "Nérac",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Guyenne",
+   "motif": "Hesseln : « NÉRAC, petite ville du Condomois », le Condomois étant pour lui un « petit pays de la Guienne » ; Expilly : « NERAC […] dans le Condomois, en Guyenne »",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. IV, art. NÉRAC, page imprimée non établie (https://archive.org/details/dictionnaireuniv04hessuoft) ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, art. CONDOMOIS, p. 410-411 d'après les en-têtes de page (https://archive.org/details/dictionnaireuniv02hessuoft) : « CONDOMOIS (le), petit pays de la Guienne […] C'est avec ce dernier pays [le Bazadois] que le Condomois forme une lieutenance de roi, sous le gouvernement de Guienne & de Gascogne. Condom en est la capitale ; & les autres villes les plus remarquables, sont : Nerac, Gabant, & le Mont-de-Marsan » ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONDOMOIS, page imprimée non établie (https://archive.org/details/bub_gb_EVk_AAAAcAAJ), plus ancien : « pays avec titre de comté (dont Condom est la capitale), en Gascogne » ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. V, 1768, art. NERAC, page imprimée non établie (https://archive.org/details/bub_gb_T1Q_AAAAcAAJ) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "47015",
+   "commune": "Astaffort",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Guyenne",
+   "motif": "Hesseln : « ASTAFFORT, ville & juridiction dans le Condomois », le Condomois étant pour lui un « petit pays de la Guienne » (Expilly se contredit : « en Guyenne », t. I, art. ASTAFFORT ; « en Gascogne », t. II, art. ESTAFFORT)",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. I, art. ASTAFFORT, page imprimée non établie (https://archive.org/details/dictionnaireuniv01hessuoft) ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, art. CONDOMOIS, p. 410-411 d'après les en-têtes de page (https://archive.org/details/dictionnaireuniv02hessuoft) : « CONDOMOIS (le), petit pays de la Guienne […] C'est avec ce dernier pays [le Bazadois] que le Condomois forme une lieutenance de roi, sous le gouvernement de Guienne & de Gascogne. Condom en est la capitale ; & les autres villes les plus remarquables, sont : Nerac, Gabant, & le Mont-de-Marsan » ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONDOMOIS, page imprimée non établie (https://archive.org/details/bub_gb_EVk_AAAAcAAJ), plus ancien : « pays avec titre de comté (dont Condom est la capitale), en Gascogne » ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "82050",
+   "commune": "Dunes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Guyenne",
+   "motif": "Expilly place Dunes « dans le Condomois » (art. DUNES) ; Hesseln, plus récent, fait du Condomois un « petit pays de la Guienne », qu'Expilly disait « en Gascogne » (t. II, art. CONDOMOIS)",
+   "source": "Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. DUNES, page imprimée non établie (https://archive.org/details/bub_gb_EVk_AAAAcAAJ) ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, art. CONDOMOIS, p. 410-411 d'après les en-têtes de page (https://archive.org/details/dictionnaireuniv02hessuoft) : « CONDOMOIS (le), petit pays de la Guienne […] C'est avec ce dernier pays [le Bazadois] que le Condomois forme une lieutenance de roi, sous le gouvernement de Guienne & de Gascogne. Condom en est la capitale ; & les autres villes les plus remarquables, sont : Nerac, Gabant, & le Mont-de-Marsan » ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONDOMOIS, page imprimée non établie (https://archive.org/details/bub_gb_EVk_AAAAcAAJ), plus ancien : « pays avec titre de comté (dont Condom est la capitale), en Gascogne » ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "47174",
+   "commune": "Moncrabeau",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Guyenne",
+   "motif": "Expilly place Moncrabeau « dans le Condomois » (art. MONCRABEAU) ; Hesseln, plus récent, fait du Condomois un « petit pays de la Guienne », qu'Expilly disait « en Gascogne » (t. II, art. CONDOMOIS)",
+   "source": "Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. IV, 1766, art. MONCRABEAU, page imprimée non établie (https://archive.org/details/bub_gb_MQci5Klt4McC) ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, art. CONDOMOIS, p. 410-411 d'après les en-têtes de page (https://archive.org/details/dictionnaireuniv02hessuoft) : « CONDOMOIS (le), petit pays de la Guienne […] C'est avec ce dernier pays [le Bazadois] que le Condomois forme une lieutenance de roi, sous le gouvernement de Guienne & de Gascogne. Condom en est la capitale ; & les autres villes les plus remarquables, sont : Nerac, Gabant, & le Mont-de-Marsan » ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONDOMOIS, page imprimée non établie (https://archive.org/details/bub_gb_EVk_AAAAcAAJ), plus ancien : « pays avec titre de comté (dont Condom est la capitale), en Gascogne » ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "47159",
+   "commune": "Le Mas-d'Agenais",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Guyenne",
+   "motif": "Expilly place Le Mas-d'Agenais « dans le Condomois » (art. MAS d'Agenois (le)) ; Hesseln, plus récent, fait du Condomois un « petit pays de la Guienne », qu'Expilly disait « en Gascogne » (t. II, art. CONDOMOIS)",
+   "source": "Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. IV, 1766, art. MAS d'Agenois (le), page imprimée non établie (https://archive.org/details/bub_gb_MQci5Klt4McC) ; Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. II, art. CONDOMOIS, p. 410-411 d'après les en-têtes de page (https://archive.org/details/dictionnaireuniv02hessuoft) : « CONDOMOIS (le), petit pays de la Guienne […] C'est avec ce dernier pays [le Bazadois] que le Condomois forme une lieutenance de roi, sous le gouvernement de Guienne & de Gascogne. Condom en est la capitale ; & les autres villes les plus remarquables, sont : Nerac, Gabant, & le Mont-de-Marsan » ; Jean-Joseph Expilly, Dictionnaire géographique, historique et politique des Gaules et de la France, t. II, 1764, art. CONDOMOIS, page imprimée non établie (https://archive.org/details/bub_gb_EVk_AAAAcAAJ), plus ancien : « pays avec titre de comté (dont Condom est la capitale), en Gascogne » ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "87154",
+   "commune": "Saint-Junien",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Marche",
+   "motif": "Hesseln : « SAINT-JUNIEN, petite ville de la basse Marche, aux frontières du Limosin […] diocèse, intendance & élection de cette ville [Limoges] » ; la carte de Commons la met en Limousin",
+   "source": "Robert de Hesseln, Dictionnaire universel de la France, Paris, 1771, t. VI, art. SAINT-JUNIEN, page imprimée non établie (https://archive.org/details/dictionnaireuniv06hessuoft) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "02305",
+   "commune": "Fère-en-Tardenois",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Île-de-France",
+   "motif": "Matton, art. SOISSONNAIS : le Tardenois, subdivision du Soissonnais, fut compris « dans l'Ile-de-France lors de la formation des grands gouvernements militaires. Cependant quelques localités du Tardenois furent rattachées à la Champagne ; les villages de Villers-Agron, Goussancourt, Latilly et Dammard formèrent alors, au sud, l'extrême limite du Soissonnais » : Fère-en-Tardenois est au nord de cette limite (Hesseln, plus ancien : « de la Brie pouilleuse »)",
+   "source": "Auguste Matton, Dictionnaire topographique du département de l'Aisne, Paris, Imprimerie nationale, 1871, art. SOISSONNAIS, page imprimée non établie (https://archive.org/details/dictionnairetopo00mattuoft) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "51519",
+   "commune": "Saint-Thomas-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "51533",
+   "commune": "Servon-Melzicourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "51621",
+   "commune": "Vienne-le-Château",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55014",
+   "commune": "Aubréville",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55017",
+   "commune": "Autrécourt-sur-Aire",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55025",
+   "commune": "Baâlon",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55047",
+   "commune": "Béthelainville",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55048",
+   "commune": "Béthincourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55068",
+   "commune": "Brabant-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55082",
+   "commune": "Brocourt-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55083",
+   "commune": "Brouennes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55103",
+   "commune": "Charpentry",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55113",
+   "commune": "Cheppy",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55116",
+   "commune": "Le Claon",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55117",
+   "commune": "Clermont-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55118",
+   "commune": "Cléry-le-Grand",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55119",
+   "commune": "Cléry-le-Petit",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55139",
+   "commune": "Cumières-le-Mort-Homme",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55140",
+   "commune": "Cunel",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55165",
+   "commune": "Doulcon",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55167",
+   "commune": "Dun-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55180",
+   "commune": "Esnes-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55193",
+   "commune": "Forges-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55199",
+   "commune": "Froidos",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55200",
+   "commune": "Fromeréville-les-Vallons",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55202",
+   "commune": "Futeau",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55226",
+   "commune": "Han-lès-Juvigny",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55250",
+   "commune": "Inor",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55251",
+   "commune": "Ippécourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55252",
+   "commune": "Iré-le-Sec",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55253",
+   "commune": "Les Islettes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55255",
+   "commune": "Jametz",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55260",
+   "commune": "Julvécourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55262",
+   "commune": "Juvigny-sur-Loison",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55266",
+   "commune": "Lachalade",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55279",
+   "commune": "Laneuville-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55293",
+   "commune": "Lion-devant-Dun",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55306",
+   "commune": "Louppy-sur-Loison",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55310",
+   "commune": "Luzy-Saint-Martin",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55323",
+   "commune": "Martincourt-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55338",
+   "commune": "Milly-sur-Bradon",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55343",
+   "commune": "Montblainville",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55345",
+   "commune": "Mont-devant-Sassey",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55355",
+   "commune": "Montzéville",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55362",
+   "commune": "Moulins-Saint-Hubert",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55364",
+   "commune": "Mouzay",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55365",
+   "commune": "Murvaux",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55375",
+   "commune": "Nantillois",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55377",
+   "commune": "Nepvant",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55379",
+   "commune": "Le Neufour",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55383",
+   "commune": "Neuvilly-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55385",
+   "commune": "Nixéville-Blercourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55389",
+   "commune": "Nubécourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55408",
+   "commune": "Pouilly-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55410",
+   "commune": "Quincy-Landzécourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55419",
+   "commune": "Récicourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55425",
+   "commune": "Remoiville",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55437",
+   "commune": "Romagne-sous-les-Côtes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55438",
+   "commune": "Romagne-sous-Montfaucon",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55469",
+   "commune": "Sassey-sur-Meuse",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55502",
+   "commune": "Stenay",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55527",
+   "commune": "Varennes-en-Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55536",
+   "commune": "Vauquois",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55549",
+   "commune": "Véry",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55567",
+   "commune": "Ville-sur-Cousances",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55571",
+   "commune": "Vilosnes-Haraumont",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55577",
+   "commune": "Waly",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55582",
+   "commune": "Wiseppe",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55346",
+   "commune": "Montfaucon-d'Argonne",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "Liénard, art. MONTFAUCON : « Avant 1790, Glermontois [Clermontois], chef-lieu de prév. » (texte de l'OCR, abréviations et fautes de lecture courantes corrigées ; pour le nom du pays, la lecture de l'OCR est gardée et la forme exacte restituée entre crochets) ; hors du bailliage de Clermont chez Brette ; province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Félix Liénard, Dictionnaire topographique du département de la Meuse, Paris, Imprimerie nationale, 1872 (https://archive.org/details/dictionnairetop00meugoog), art. MONTFAUCON, page imprimée non établie ; Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55065",
+   "commune": "Boureuilles",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "Liénard, art. BOUREUILLES : « Avant 1790, Glermontois [Clermontois], coutume de Vitry-le-François, prévôté de Sainte-Menehould, bailliage de Clermont » (texte de l'OCR, abréviations et fautes de lecture courantes corrigées ; pour le nom du pays, la lecture de l'OCR est gardée et la forme exacte restituée entre crochets) ; hors du bailliage de Clermont chez Brette ; province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Félix Liénard, Dictionnaire topographique du département de la Meuse, Paris, Imprimerie nationale, 1872 (https://archive.org/details/dictionnairetop00meugoog), art. BOUREUILLES, page imprimée non établie ; Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55225",
+   "commune": "Halles-sous-les-Côtes",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "Liénard, art. HALLES : « Avant 1790, Giermontois [Clermontois], cout. de Vitry-le-François, baronnie de Saulmory, baill. de Sainte-Menehould transféré à Giermont [Clermont] sous les Condés » (texte de l'OCR, abréviations et fautes de lecture courantes corrigées ; pour le nom du pays, la lecture de l'OCR est gardée et la forme exacte restituée entre crochets) ; hors du bailliage de Clermont chez Brette ; province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Félix Liénard, Dictionnaire topographique du département de la Meuse, Paris, Imprimerie nationale, 1872 (https://archive.org/details/dictionnairetop00meugoog), art. HALLES, page imprimée non établie ; Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55313",
+   "commune": "Malancourt",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "Liénard, art. MALANCOURT : « Avant 1790, Glermontois [Clermontois], prév. des Montignons, cout. et baill. de Glermont [Clermont] » (texte de l'OCR, abréviations et fautes de lecture courantes corrigées ; pour le nom du pays, la lecture de l'OCR est gardée et la forme exacte restituée entre crochets) ; hors du bailliage de Clermont chez Brette ; province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Félix Liénard, Dictionnaire topographique du département de la Meuse, Paris, Imprimerie nationale, 1872 (https://archive.org/details/dictionnairetop00meugoog), art. MALANCOURT, page imprimée non établie ; Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55349",
+   "commune": "Montigny-devant-Sassey",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "Liénard, art. MONTIGNY-DEVANT-SASSEY : « Avant 1790, Glermontois [Clermontois], anciennes assises des pairs de la châtellenie de Dun, cout. de Saint-Mihiel, prév. de Dun, baill. de Glermont [Clermont] siégeant à Varennes » (texte de l'OCR, abréviations et fautes de lecture courantes corrigées ; pour le nom du pays, la lecture de l'OCR est gardée et la forme exacte restituée entre crochets) ; hors du bailliage de Clermont chez Brette ; province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Félix Liénard, Dictionnaire topographique du département de la Meuse, Paris, Imprimerie nationale, 1872 (https://archive.org/details/dictionnairetop00meugoog), art. MONTIGNY-DEVANT-SASSEY, page imprimée non établie ; Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
+  },
+  {
+   "code_insee": "55561",
+   "commune": "Villers-devant-Dun",
+   "couches": [
+    "provinces"
+   ],
+   "action": "entite",
+   "valeur": "Clermontois",
+   "motif": "Liénard, art. VILLERS-DEVANT-DUN : « Avant 1790, Giermontois [Clermontois], cout. de Vitry-le-François, prév. de Sainte-Menehould, baill. idem, transféré ensuite à Glermont [Clermont] » (texte de l'OCR, abréviations et fautes de lecture courantes corrigées ; pour le nom du pays, la lecture de l'OCR est gardée et la forme exacte restituée entre crochets) ; hors du bailliage de Clermont chez Brette ; province du Clermontois : « Capitale de la province du Clermontois » (mémoire des officiers municipaux de Clermont au roi, 2 mars 1789, cité par Brette, p. 66) ; le Clermontois « ne dépendait d'aucun gouvernement général » (Brette, p. 104) ; le règlement royal du 7 février 1789 pour « sa province des Trois-Évêchés et du Clermontois » lui donne un bailliage de convocation propre, « Clermontois-Varennes » : la province est prise comme le bailliage de Clermont-en-Argonne de Brette",
+   "source": "Félix Liénard, Dictionnaire topographique du département de la Meuse, Paris, Imprimerie nationale, 1872 (https://archive.org/details/dictionnairetop00meugoog), art. VILLERS-DEVANT-DUN, page imprimée non établie ; Armand Brette, Les limites et les divisions territoriales de la France en 1789, Paris, 1907, p. 66 et 104 (https://archive.org/details/leslimitesetlesd00bret) ; Règlement fait par le roi pour l'exécution de ses lettres de convocation aux prochains États généraux, dans sa province des Trois-Évêchés et du Clermontois, du 7 février 1789, Archives parlementaires, 1re série, t. I, Paris, 1879, p. 671-672 (https://www.persee.fr/doc/arcpa_0000-0000_1879_num_1_1_2999) ; « entre sources scientifiques, les plus récentes priment sur les anciennes »"
   }
  ]
 }

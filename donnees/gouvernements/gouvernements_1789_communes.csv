@@ -682,7 +682,7 @@ code_insee,commune,id,nom,part,mode
 02302,Faverolles,gouvernement-ile-de-france,Île-de-France,1.0,province
 02303,Fayet,gouvernement-picardie,Picardie,1.0,province
 02304,La Fère,gouvernement-picardie,Picardie,1.0,province
-02305,Fère-en-Tardenois,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
+02305,Fère-en-Tardenois,gouvernement-ile-de-france,Île-de-France,1.0,province
 02306,La Ferté-Chevresis,gouvernement-picardie,Picardie,1.0,province
 02307,La Ferté-Milon,gouvernement-ile-de-france,Île-de-France,1.0,province
 02308,Fesmy-le-Sart,gouvernement-picardie,Picardie,1.0,province
@@ -19867,7 +19867,6 @@ code_insee,commune,id,nom,part,mode
 55062,Bouconville-sur-Madt,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55063,Bouligny,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55064,Bouquemont,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
-55065,Boureuilles,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55066,Bovée-sur-Barboure,gouvernement-toul-et-toulois,Toul et Toulois,1.0,bailliage
 55067,Boviolles,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55069,Brabant-le-Roi,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
@@ -19984,7 +19983,6 @@ code_insee,commune,id,nom,part,mode
 55221,Guerpont,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55222,Gussainville,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55224,Haironville,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
-55225,Halles-sous-les-Côtes,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55228,Hannonville-sous-les-Côtes,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55229,Han-sur-Meuse,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55232,Harville,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
@@ -20041,7 +20039,6 @@ code_insee,commune,id,nom,part,mode
 55307,Louvemont-Côte-du-Poivre,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55311,Maizeray,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55312,Maizey,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
-55313,Malancourt,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55315,Mandres-en-Barrois,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55316,Mangiennes,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55317,Manheulles,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
@@ -20065,10 +20062,8 @@ code_insee,commune,id,nom,part,mode
 55340,Mognéville,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55341,Moirey-Flabas-Crépion,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55344,Montbras,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
-55346,Montfaucon-d'Argonne,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55347,Les Monthairons,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55348,Montiers-sur-Saulx,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
-55349,Montigny-devant-Sassey,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55350,Montigny-lès-Vaucouleurs,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55351,Montmédy,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55352,Montplonne,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
@@ -20231,7 +20226,6 @@ code_insee,commune,id,nom,part,mode
 55557,Ville-en-Woëvre,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55559,Villeroy-sur-Méholle,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55560,Villers-aux-Vents,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
-55561,Villers-devant-Dun,gouvernement-champagne-et-brie,Champagne et Brie,1.0,province
 55562,Villers-le-Sec,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
 55563,Villers-lès-Mangiennes,gouvernement-trois-eveches,Trois-Évêchés,1.0,province
 55565,Villers-sous-Pareid,gouvernement-lorraine-et-barrois,Lorraine et Barrois,1.0,province
@@ -32259,7 +32253,7 @@ code_insee,commune,id,nom,part,mode
 87151,Saint-Jean-Ligoure,gouvernement-limousin,Limousin,1.0,province
 87152,Saint-Jouvent,gouvernement-haute-et-basse-marche,Haute et Basse-Marche,1.0,province
 87153,Saint-Julien-le-Petit,gouvernement-haute-et-basse-marche,Haute et Basse-Marche,1.0,province
-87154,Saint-Junien,gouvernement-limousin,Limousin,1.0,province
+87154,Saint-Junien,gouvernement-haute-et-basse-marche,Haute et Basse-Marche,1.0,province
 87155,Saint-Junien-les-Combes,gouvernement-haute-et-basse-marche,Haute et Basse-Marche,1.0,province
 87156,Saint-Just-le-Martel,gouvernement-limousin,Limousin,1.0,province
 87157,Saint-Laurent-les-Églises,gouvernement-haute-et-basse-marche,Haute et Basse-Marche,1.0,province

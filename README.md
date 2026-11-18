@@ -8,7 +8,7 @@ Couches GeoJSON des **généralités**, des **bailliages et sénéchaussées**, 
 | Généralités, Languedoc réuni | `donnees/generalites/generalites_1789_languedoc_uni.geojson` | 32 | idem | CC BY 4.0 |
 | Bailliages et sénéchaussées | `donnees/bailliages/bailliages_1789.geojson` | 436 (circonscriptions de la convocation des États généraux, dont Sarrelouis, hors de France) | idem | CC BY 4.0 |
 | Diocèses | `donnees/dioceses/dioceses_1789.geojson` | 149 (diocèses étrangers réduits à leurs paroisses du royaume) | cartes de Maxence Jeanjean, Wikimedia Commons | CC BY-SA 4.0 |
-| Provinces | `donnees/provinces/provinces_1789.geojson` | 41 | cartes de Milenioscuro, Wikimedia Commons | CC BY-SA 4.0 |
+| Provinces | `donnees/provinces/provinces_1789.geojson` | 42 (dont la province du Clermontois, ajoutée sur source) | cartes de Milenioscuro, Wikimedia Commons, corrigées sur les sources imprimées | CC BY-SA 4.0 |
 | Gouvernements généraux | `donnees/gouvernements/gouvernements_1789.geojson` | 40 | ordonnance de 1776 ; provinces regroupées et bailliages de Brette | CC BY-SA 4.0 |
 | Parlements et conseils souverains | `donnees/parlements/parlements_1789.geojson` | 18 | ressort de chaque bailliage de Brette (État des grands bailliages, 1788 ; Guyot ; Hesseln ; Expilly) | CC BY 4.0 |
 | Territoires du royaume aujourd'hui hors de France | `donnees/exterieurs/territoires_exterieurs_1789.geojson` | 119 | anciens villages (*Gemarkungen*), divisions cadastrales belges, communes suisses ; rattachements sourcés (Brette 1907, Durival, Expilly, Hesseln) ; aussi ajoutés à chaque couche | CC BY 4.0 |
@@ -29,7 +29,7 @@ Aperçus (cliquer sur une image pour la version en haute définition), sous la l
 
 * **Fiche de chaque couche** : sources, méthode pas à pas, corrections, limites et points ouverts dans `docs/couches/` ([généralités](docs/couches/generalites.md), [bailliages](docs/couches/bailliages.md), [diocèses](docs/couches/dioceses.md), [provinces](docs/couches/provinces.md), [gouvernements](docs/couches/gouvernements.md), [parlements](docs/couches/parlements.md), [territoires extérieurs](docs/couches/exterieurs.md)).
 * **Précision** : celle de la commune actuelle, non de la paroisse de 1789 (`docs/methode.md`). Les communes formées par fusion de paroisses relevant d'entités différentes sont rattachées en bloc, sauf pour les généralités et les bailliages.
-* **Diocèses et provinces** : ce sont des **cartes d'après Wikipédia**. Les tracés de Commons ne citent pas leurs sources ; l'atlas les cale et les rattache aux communes, il ne les valide pas.
+* **Diocèses et provinces** : ce sont des **cartes d'après Wikipédia**. Les tracés de Commons ne citent pas leurs sources ; l'atlas les cale et les rattache aux communes, il ne les valide pas. Là où une source imprimée les contredit, elle prime, la plus récente d'abord, et la commune est corrigée (`docs/corrections.md`).
 * **Provinces** : la province n'avait pas, en 1789, de définition administrative précise (Armand Brette, *Les limites et les divisions territoriales de la France en 1789*, 1907, p. 57-59). La couche est une convention, celle des cartes de Commons.
 * **Étendue du royaume** : celle de Brette (Gay, Gobbi et Goñi, 2024) pour toutes les couches, aux corrections sourcées près (`docs/corrections.md`). Les enclaves étrangères (Comtat Venaissin, Montbéliard, Sarrewerden, Salm, Mulhouse, Bidache, Llívia…) restent vides : leur liste, commune par commune, est dans `docs/vides_1789.md`. Les diocèses sont coupés à la même étendue : un diocèse étranger (Bâle, Trèves, Spire, Liège, Tournai, Ypres…) n'y figure que pour ses paroisses du royaume.
 * **Corrections et points à vérifier** : `docs/corrections.md`. Chaque correction est appuyée sur une source lue, citée (ouvrage, tome, page quand elle a pu être établie, identifiant ou adresse Internet Archive ; `docs/sources.md`), et inscrite dans `sources/corrections.json` ou les tables de `sources/`, appliquées à la construction des couches. Pour 891 des 1 294 corrections de généralité (69 %), la page imprimée d'au moins une source n'a pas pu être établie (« page imprimée non établie », avec le feuillet d'Internet Archive quand il est connu) ; les pages données « d'après la pagination d'Internet Archive » ont été contrôlées sur les en-têtes de page voisins du texte OCR, et écartées quand ils la contredisaient ; la vedette et l'identifiant Internet Archive permettent de retrouver le passage.
@@ -47,13 +47,13 @@ L'atlas a été réalisé avec l'aide d'une intelligence artificielle (Claude Co
 
 Citer l'atlas :
 
-> Thomas Fressin, *Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789*, version 1.0.2, 2026, https://t-fressin.github.io/atlas-ancien-regime/ (données : https://github.com/t-fressin/atlas-ancien-regime).
+> Thomas Fressin, *Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789*, version 1.0.3, 2026, https://t-fressin.github.io/atlas-ancien-regime/ (données : https://github.com/t-fressin/atlas-ancien-regime).
 
 ```bibtex
 @dataset{fressin_atlas_ancien_regime_2026,
   author  = {Fressin, Thomas},
   title   = {Atlas d'Ancien Régime : généralités, bailliages, diocèses, provinces, gouvernements, parlements et territoires extérieurs en 1789},
-  version = {1.0.2},
+  version = {1.0.3},
   year    = {2026},
   url     = {https://t-fressin.github.io/atlas-ancien-regime/}
 }

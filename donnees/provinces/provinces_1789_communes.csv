@@ -682,7 +682,7 @@ code_insee,commune,id,nom,part,mode,certitude
 02302,Faverolles,province-ile-de-france,Île-de-France,1.0,recouvrement,base
 02303,Fayet,province-picardie,Picardie,1.0,recouvrement,base
 02304,La Fère,province-picardie,Picardie,1.0,recouvrement,base
-02305,Fère-en-Tardenois,province-champagne,Champagne,0.931,recouvrement,base
+02305,Fère-en-Tardenois,province-ile-de-france,Île-de-France,,correction,corrigé
 02306,La Ferté-Chevresis,province-picardie,Picardie,1.0,recouvrement,base
 02307,La Ferté-Milon,province-ile-de-france,Île-de-France,1.0,recouvrement,base
 02308,Fesmy-le-Sart,province-picardie,Picardie,0.897,recouvrement,base
@@ -12342,7 +12342,7 @@ code_insee,commune,id,nom,part,mode,certitude
 33224,Landerrouet-sur-Ségur,province-guyenne,Guyenne,1.0,recouvrement,base
 33225,Landiras,province-gascogne,Gascogne,0.952,recouvrement,base
 33226,Langoiran,province-guyenne,Guyenne,1.0,recouvrement,base
-33227,Langon,province-gascogne,Gascogne,0.842,recouvrement,base
+33227,Langon,province-guyenne,Guyenne,,correction,corrigé
 33228,Lansac,province-guyenne,Guyenne,1.0,recouvrement,base
 33229,Lanton,province-gascogne,Gascogne,0.974,recouvrement,base
 33230,Lapouyade,province-guyenne,Guyenne,0.913,recouvrement,base
@@ -16875,7 +16875,7 @@ code_insee,commune,id,nom,part,mode,certitude
 47012,Anzex,province-gascogne,Gascogne,1.0,recouvrement,base
 47013,Argenton,province-gascogne,Gascogne,1.0,recouvrement,base
 47014,Armillac,province-guyenne,Guyenne,1.0,recouvrement,base
-47015,Astaffort,province-gascogne,Gascogne,1.0,recouvrement,base
+47015,Astaffort,province-guyenne,Guyenne,,correction,corrigé
 47016,Aubiac,province-gascogne,Gascogne,1.0,recouvrement,base
 47017,Auradou,province-guyenne,Guyenne,1.0,recouvrement,base
 47018,Auriac-sur-Dropt,province-guyenne,Guyenne,1.0,recouvrement,base
@@ -17016,7 +17016,7 @@ code_insee,commune,id,nom,part,mode,certitude
 47156,Marcellus,province-gascogne,Gascogne,1.0,recouvrement,base
 47157,Marmande,province-guyenne,Guyenne,0.91,recouvrement,base
 47158,Marmont-Pachas,province-gascogne,Gascogne,1.0,recouvrement,base
-47159,Le Mas-d'Agenais,province-gascogne,Gascogne,1.0,recouvrement,base
+47159,Le Mas-d'Agenais,province-guyenne,Guyenne,,correction,corrigé
 47160,Masquières,province-guyenne,Guyenne,1.0,recouvrement,base
 47161,Massels,province-guyenne,Guyenne,1.0,recouvrement,base
 47162,Massoulès,province-guyenne,Guyenne,1.0,recouvrement,base
@@ -17030,7 +17030,7 @@ code_insee,commune,id,nom,part,mode,certitude
 47171,Monbalen,province-guyenne,Guyenne,1.0,recouvrement,base
 47172,Moncaut,province-gascogne,Gascogne,1.0,recouvrement,base
 47173,Monclar,province-guyenne,Guyenne,1.0,recouvrement,base
-47174,Moncrabeau,province-gascogne,Gascogne,1.0,recouvrement,base
+47174,Moncrabeau,province-guyenne,Guyenne,,correction,corrigé
 47175,Monflanquin,province-guyenne,Guyenne,1.0,recouvrement,base
 47176,Montgaillard-en-Albret,province-gascogne,Gascogne,1.0,recouvrement,base
 47177,Monheurt,province-gascogne,Gascogne,0.989,recouvrement,base
@@ -17051,7 +17051,7 @@ code_insee,commune,id,nom,part,mode,certitude
 47192,Monviel,province-guyenne,Guyenne,1.0,recouvrement,base
 47193,Moulinet,province-guyenne,Guyenne,1.0,recouvrement,base
 47194,Moustier,province-guyenne,Guyenne,1.0,recouvrement,base
-47195,Nérac,province-gascogne,Gascogne,1.0,recouvrement,base
+47195,Nérac,province-guyenne,Guyenne,,correction,corrigé
 47196,Nicole,province-guyenne,Guyenne,0.86,recouvrement,base
 47197,Nomdieu,province-gascogne,Gascogne,1.0,recouvrement,base
 47198,Pailloles,province-guyenne,Guyenne,1.0,recouvrement,base
@@ -18430,7 +18430,7 @@ code_insee,commune,id,nom,part,mode,certitude
 51516,Saint-Saturnin,province-champagne,Champagne,1.0,recouvrement,base
 51517,Saint-Souplet-sur-Py,province-champagne,Champagne,1.0,recouvrement,base
 51518,Saint-Thierry,province-champagne,Champagne,1.0,recouvrement,base
-51519,Saint-Thomas-en-Argonne,province-champagne,Champagne,1.0,recouvrement,base
+51519,Saint-Thomas-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
 51520,Saint-Utin,province-champagne,Champagne,1.0,recouvrement,base
 51521,Saint-Vrain,province-champagne,Champagne,1.0,recouvrement,base
 51522,Sapignicourt,province-champagne,Champagne,1.0,recouvrement,base
@@ -18444,7 +18444,7 @@ code_insee,commune,id,nom,part,mode,certitude
 51530,Sept-Saulx,province-champagne,Champagne,1.0,recouvrement,base
 51531,Sermaize-les-Bains,province-champagne,Champagne,0.946,recouvrement,base
 51532,Sermiers,province-champagne,Champagne,1.0,recouvrement,base
-51533,Servon-Melzicourt,province-champagne,Champagne,1.0,recouvrement,base
+51533,Servon-Melzicourt,province-clermontois,Clermontois,,correction,corrigé
 51534,Serzy-et-Prin,province-champagne,Champagne,1.0,recouvrement,base
 51535,Sézanne,province-champagne,Champagne,1.0,recouvrement,base
 51536,Sillery,province-champagne,Champagne,1.0,recouvrement,base
@@ -18524,7 +18524,7 @@ code_insee,commune,id,nom,part,mode,certitude
 51618,Le Vézier,province-champagne,Champagne,1.0,recouvrement,base
 51619,Le Vieil-Dampierre,province-champagne,Champagne,1.0,recouvrement,base
 51620,Vienne-la-Ville,province-champagne,Champagne,1.0,recouvrement,base
-51621,Vienne-le-Château,province-champagne,Champagne,1.0,recouvrement,base
+51621,Vienne-le-Château,province-clermontois,Clermontois,,correction,corrigé
 51622,Ville-Dommange,province-champagne,Champagne,1.0,recouvrement,base
 51623,Ville-en-Selve,province-champagne,Champagne,1.0,recouvrement,base
 51624,Ville-en-Tardenois,province-champagne,Champagne,1.0,recouvrement,base
@@ -19830,15 +19830,15 @@ code_insee,commune,id,nom,part,mode,certitude
 55011,Andernay,province-barrois,Barrois,0.96,recouvrement,base
 55012,Apremont-la-Forêt,province-barrois,Barrois,1.0,recouvrement,base
 55013,Arrancy-sur-Crusnes,province-barrois,Barrois,1.0,recouvrement,base
-55014,Aubréville,province-champagne,Champagne,1.0,recouvrement,base
+55014,Aubréville,province-clermontois,Clermontois,,correction,corrigé
 55015,Aulnois-en-Perthois,province-barrois,Barrois,1.0,recouvrement,base
-55017,Autrécourt-sur-Aire,province-champagne,Champagne,1.0,recouvrement,base
+55017,Autrécourt-sur-Aire,province-clermontois,Clermontois,,correction,corrigé
 55018,Autréville-Saint-Lambert,province-champagne,Champagne,0.996,recouvrement,base
 55021,Avillers-Sainte-Croix,province-barrois,Barrois,0.989,recouvrement,base
 55022,Avioth,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55023,Avocourt,province-champagne,Champagne,1.0,recouvrement,base
 55024,Azannes-et-Soumazannes,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55025,Baâlon,province-champagne,Champagne,1.0,recouvrement,base
+55025,Baâlon,province-clermontois,Clermontois,,correction,corrigé
 55026,Badonvilliers-Gérauvilliers,province-barrois,Barrois,0.962,recouvrement,base
 55027,Bannoncourt,province-barrois,Barrois,0.836,recouvrement,base
 55028,Bantheville,province-champagne,Champagne,1.0,recouvrement,base
@@ -19859,8 +19859,8 @@ code_insee,commune,id,nom,part,mode,certitude
 55044,Belrain,province-barrois,Barrois,1.0,recouvrement,base
 55045,Belrupt-en-Verdunois,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55046,Beney-en-Woëvre,province-barrois,Barrois,0.973,recouvrement,base
-55047,Béthelainville,province-champagne,Champagne,0.931,recouvrement,base
-55048,Béthincourt,province-champagne,Champagne,1.0,recouvrement,base
+55047,Béthelainville,province-clermontois,Clermontois,,correction,corrigé
+55048,Béthincourt,province-clermontois,Clermontois,,correction,corrigé
 55049,Beurey-sur-Saulx,province-barrois,Barrois,0.997,recouvrement,base
 55050,Bezonvaux,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55051,Biencourt-sur-Orge,province-barrois,Barrois,0.985,recouvrement,base
@@ -19875,10 +19875,10 @@ code_insee,commune,id,nom,part,mode,certitude
 55062,Bouconville-sur-Madt,province-barrois,Barrois,1.0,recouvrement,base
 55063,Bouligny,province-barrois,Barrois,1.0,recouvrement,base
 55064,Bouquemont,province-trois-eveches,Trois-Évêchés,0.993,recouvrement,base
-55065,Boureuilles,province-champagne,Champagne,1.0,recouvrement,base
+55065,Boureuilles,province-clermontois,Clermontois,,correction,corrigé
 55066,Bovée-sur-Barboure,province-barrois,Barrois,0.906,recouvrement,base
 55067,Boviolles,province-barrois,Barrois,1.0,recouvrement,base
-55068,Brabant-en-Argonne,province-champagne,Champagne,0.916,recouvrement,base
+55068,Brabant-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
 55069,Brabant-le-Roi,province-barrois,Barrois,0.503,recouvrement,base
 55070,Brabant-sur-Meuse,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55071,Brandeville,province-trois-eveches,Trois-Évêchés,0.997,recouvrement,base
@@ -19891,8 +19891,8 @@ code_insee,commune,id,nom,part,mode,certitude
 55079,Brillon-en-Barrois,province-barrois,Barrois,1.0,recouvrement,base
 55080,Brixey-aux-Chanoines,province-lorraine,Lorraine,0.815,recouvrement,base
 55081,Brizeaux,province-champagne,Champagne,1.0,recouvrement,base
-55082,Brocourt-en-Argonne,province-champagne,Champagne,0.937,recouvrement,base
-55083,Brouennes,province-champagne,Champagne,0.758,recouvrement,base
+55082,Brocourt-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
+55083,Brouennes,province-clermontois,Clermontois,,correction,corrigé
 55084,Broussey-en-Blois,province-barrois,Barrois,1.0,recouvrement,base
 55085,Broussey-Raulecourt,province-barrois,Barrois,0.998,recouvrement,base
 55087,Bure,province-champagne,Champagne,0.979,recouvrement,base
@@ -19907,7 +19907,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55100,Champougny,province-trois-eveches,Trois-Évêchés,0.969,recouvrement,base
 55101,Chardogne,province-barrois,Barrois,1.0,recouvrement,base
 55102,Charny-sur-Meuse,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55103,Charpentry,province-champagne,Champagne,1.0,recouvrement,base
+55103,Charpentry,province-clermontois,Clermontois,,correction,corrigé
 55104,Chassey-Beaupré,province-champagne,Champagne,0.987,recouvrement,base
 55105,Châtillon-sous-les-Côtes,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55106,Chattancourt,province-trois-eveches,Trois-Évêchés,0.94,recouvrement,base
@@ -19916,13 +19916,13 @@ code_insee,commune,id,nom,part,mode,certitude
 55109,Chauvency-le-Château,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55110,Chauvency-Saint-Hubert,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55111,Chauvoncourt,province-barrois,Barrois,1.0,recouvrement,base
-55113,Cheppy,province-champagne,Champagne,1.0,recouvrement,base
+55113,Cheppy,province-clermontois,Clermontois,,correction,corrigé
 55114,Chonville-Malaumont,province-lorraine,Lorraine,0.888,recouvrement,base
 55115,Cierges-sous-Montfaucon,province-champagne,Champagne,1.0,recouvrement,base
-55116,Le Claon,province-champagne,Champagne,1.0,recouvrement,base
-55117,Clermont-en-Argonne,province-champagne,Champagne,0.981,recouvrement,base
-55118,Cléry-le-Grand,province-champagne,Champagne,1.0,recouvrement,base
-55119,Cléry-le-Petit,province-champagne,Champagne,0.723,recouvrement,base
+55116,Le Claon,province-clermontois,Clermontois,,correction,corrigé
+55117,Clermont-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
+55118,Cléry-le-Grand,province-clermontois,Clermontois,,correction,corrigé
+55119,Cléry-le-Petit,province-clermontois,Clermontois,,correction,corrigé
 55120,Combles-en-Barrois,province-barrois,Barrois,1.0,recouvrement,base
 55121,Combres-sous-les-Côtes,province-trois-eveches,Trois-Évêchés,0.954,recouvrement,base
 55122,Commercy,province-lorraine,Lorraine,0.996,recouvrement,base
@@ -19937,8 +19937,8 @@ code_insee,commune,id,nom,part,mode,certitude
 55134,Couvonges,province-barrois,Barrois,1.0,recouvrement,base
 55137,Cuisy,province-champagne,Champagne,1.0,recouvrement,base
 55138,Culey,province-barrois,Barrois,1.0,recouvrement,base
-55139,Cumières-le-Mort-Homme,province-champagne,Champagne,0.644,recouvrement,base
-55140,Cunel,province-champagne,Champagne,1.0,recouvrement,base
+55139,Cumières-le-Mort-Homme,province-clermontois,Clermontois,,correction,corrigé
+55140,Cunel,province-clermontois,Clermontois,,correction,corrigé
 55141,Dagonville,province-barrois,Barrois,1.0,recouvrement,base
 55142,Dainville-Bertheléville,province-champagne,Champagne,0.952,recouvrement,base
 55143,Damloup,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
@@ -19958,9 +19958,9 @@ code_insee,commune,id,nom,part,mode,certitude
 55160,Dompierre-aux-Bois,province-barrois,Barrois,1.0,recouvrement,base
 55162,Domremy-la-Canne,province-barrois,Barrois,1.0,recouvrement,base
 55163,Doncourt-aux-Templiers,province-barrois,Barrois,0.559,recouvrement,base
-55165,Doulcon,province-champagne,Champagne,1.0,recouvrement,base
+55165,Doulcon,province-clermontois,Clermontois,,correction,corrigé
 55166,Dugny-sur-Meuse,province-barrois,Barrois,0.685,recouvrement,base
-55167,Dun-sur-Meuse,province-champagne,Champagne,0.564,recouvrement,base
+55167,Dun-sur-Meuse,province-clermontois,Clermontois,,correction,corrigé
 55168,Duzey,province-trois-eveches,Trois-Évêchés,0.787,recouvrement,base
 55169,Écouviez,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55170,Écurey-en-Verdunois,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
@@ -19972,7 +19972,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55177,Érize-la-Petite,province-barrois,Barrois,1.0,recouvrement,base
 55178,Érize-Saint-Dizier,province-barrois,Barrois,1.0,recouvrement,base
 55179,Erneville-aux-Bois,province-barrois,Barrois,0.979,recouvrement,base
-55180,Esnes-en-Argonne,province-champagne,Champagne,0.918,recouvrement,base
+55180,Esnes-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
 55181,Étain,province-barrois,Barrois,0.915,recouvrement,base
 55182,Éton,province-barrois,Barrois,1.0,recouvrement,base
 55183,Étraye,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
@@ -19983,16 +19983,16 @@ code_insee,commune,id,nom,part,mode,certitude
 55189,Fleury-devant-Douaumont,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55191,Foameix-Ornel,province-trois-eveches,Trois-Évêchés,0.783,recouvrement,base
 55192,Fontaines-Saint-Clair,province-trois-eveches,Trois-Évêchés,0.969,recouvrement,base
-55193,Forges-sur-Meuse,province-champagne,Champagne,0.787,recouvrement,base
+55193,Forges-sur-Meuse,province-clermontois,Clermontois,,correction,corrigé
 55194,Foucaucourt-sur-Thabas,province-champagne,Champagne,1.0,recouvrement,base
 55195,Fouchères-aux-Bois,province-barrois,Barrois,1.0,recouvrement,base
 55196,Frémeréville-sous-les-Côtes,province-lorraine,Lorraine,0.639,recouvrement,base
 55197,Fresnes-au-Mont,province-barrois,Barrois,1.0,recouvrement,base
 55198,Fresnes-en-Woëvre,province-trois-eveches,Trois-Évêchés,0.988,recouvrement,base
-55199,Froidos,province-champagne,Champagne,1.0,recouvrement,base
-55200,Fromeréville-les-Vallons,province-champagne,Champagne,0.732,recouvrement,base
+55199,Froidos,province-clermontois,Clermontois,,correction,corrigé
+55200,Fromeréville-les-Vallons,province-clermontois,Clermontois,,correction,corrigé
 55201,Fromezey,province-barrois,Barrois,0.618,recouvrement,base
-55202,Futeau,province-champagne,Champagne,1.0,recouvrement,base
+55202,Futeau,province-clermontois,Clermontois,,correction,corrigé
 55204,Génicourt-sur-Meuse,province-trois-eveches,Trois-Évêchés,0.981,recouvrement,base
 55206,Gercourt-et-Drillancourt,province-champagne,Champagne,0.923,recouvrement,base
 55207,Géry,province-barrois,Barrois,1.0,recouvrement,base
@@ -20010,8 +20010,8 @@ code_insee,commune,id,nom,part,mode,certitude
 55221,Guerpont,province-barrois,Barrois,1.0,recouvrement,base
 55222,Gussainville,province-trois-eveches,Trois-Évêchés,0.983,recouvrement,base
 55224,Haironville,province-barrois,Barrois,1.0,recouvrement,base
-55225,Halles-sous-les-Côtes,province-champagne,Champagne,1.0,recouvrement,base
-55226,Han-lès-Juvigny,province-champagne,Champagne,0.823,recouvrement,base
+55225,Halles-sous-les-Côtes,province-clermontois,Clermontois,,correction,corrigé
+55226,Han-lès-Juvigny,province-clermontois,Clermontois,,correction,corrigé
 55228,Hannonville-sous-les-Côtes,province-barrois,Barrois,0.891,recouvrement,base
 55229,Han-sur-Meuse,province-barrois,Barrois,1.0,recouvrement,base
 55232,Harville,province-trois-eveches,Trois-Évêchés,0.756,recouvrement,base
@@ -20026,22 +20026,22 @@ code_insee,commune,id,nom,part,mode,certitude
 55246,Hévilliers,province-champagne,Champagne,0.738,recouvrement,base
 55247,Horville-en-Ornois,province-barrois,Barrois,1.0,recouvrement,base
 55248,Houdelaincourt,province-barrois,Barrois,0.962,recouvrement,base
-55250,Inor,province-champagne,Champagne,0.879,recouvrement,base
-55251,Ippécourt,province-champagne,Champagne,0.579,recouvrement,base
-55252,Iré-le-Sec,province-champagne,Champagne,0.506,recouvrement,base
-55253,Les Islettes,province-champagne,Champagne,1.0,recouvrement,base
+55250,Inor,province-clermontois,Clermontois,,correction,corrigé
+55251,Ippécourt,province-clermontois,Clermontois,,correction,corrigé
+55252,Iré-le-Sec,province-clermontois,Clermontois,,correction,corrigé
+55253,Les Islettes,province-clermontois,Clermontois,,correction,corrigé
 55254,Les Trois-Domaines,province-barrois,Barrois,1.0,recouvrement,base
-55255,Jametz,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
+55255,Jametz,province-clermontois,Clermontois,,correction,corrigé
 55256,Jonville-en-Woëvre,province-barrois,Barrois,0.802,recouvrement,base
 55257,Jouy-en-Argonne,province-trois-eveches,Trois-Évêchés,0.986,recouvrement,base
 55258,Geville,province-lorraine,Lorraine,0.862,recouvrement,base
-55260,Julvécourt,province-champagne,Champagne,0.956,recouvrement,base
+55260,Julvécourt,province-clermontois,Clermontois,,correction,corrigé
 55261,Juvigny-en-Perthois,province-barrois,Barrois,0.946,recouvrement,base
-55262,Juvigny-sur-Loison,province-champagne,Champagne,0.995,recouvrement,base
+55262,Juvigny-sur-Loison,province-clermontois,Clermontois,,correction,corrigé
 55263,Kœur-la-Grande,province-barrois,Barrois,1.0,recouvrement,base
 55264,Kœur-la-Petite,province-barrois,Barrois,1.0,recouvrement,base
 55265,Labeuville,province-trois-eveches,Trois-Évêchés,0.762,recouvrement,base
-55266,Lachalade,province-champagne,Champagne,1.0,recouvrement,base
+55266,Lachalade,province-clermontois,Clermontois,,correction,corrigé
 55267,Lachaussée,province-barrois,Barrois,0.947,recouvrement,base
 55268,Lacroix-sur-Meuse,province-barrois,Barrois,1.0,recouvrement,base
 55269,Lahaymeix,province-barrois,Barrois,0.855,recouvrement,base
@@ -20052,7 +20052,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55275,Lamouilly,province-trois-eveches,Trois-Évêchés,0.955,recouvrement,base
 55276,Landrecourt-Lempire,province-trois-eveches,Trois-Évêchés,0.994,recouvrement,base
 55278,Laneuville-au-Rupt,province-lorraine,Lorraine,1.0,recouvrement,base
-55279,Laneuville-sur-Meuse,province-champagne,Champagne,1.0,recouvrement,base
+55279,Laneuville-sur-Meuse,province-clermontois,Clermontois,,correction,corrigé
 55280,Lanhères,province-barrois,Barrois,1.0,recouvrement,base
 55281,Latour-en-Woëvre,province-barrois,Barrois,0.745,recouvrement,base
 55282,Lavallée,province-barrois,Barrois,1.0,recouvrement,base
@@ -20064,7 +20064,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55290,Lignières-sur-Aire,province-barrois,Barrois,1.0,recouvrement,base
 55291,Ligny-en-Barrois,province-barrois,Barrois,1.0,recouvrement,base
 55292,Liny-devant-Dun,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55293,Lion-devant-Dun,province-champagne,Champagne,0.991,recouvrement,base
+55293,Lion-devant-Dun,province-clermontois,Clermontois,,correction,corrigé
 55295,Lisle-en-Barrois,province-barrois,Barrois,0.972,recouvrement,base
 55296,L'Isle-en-Rigault,province-barrois,Barrois,0.951,recouvrement,base
 55297,Lissey,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
@@ -20075,19 +20075,19 @@ code_insee,commune,id,nom,part,mode,certitude
 55302,Longeville-en-Barrois,province-barrois,Barrois,1.0,recouvrement,base
 55303,Loupmont,province-barrois,Barrois,1.0,recouvrement,base
 55304,Louppy-le-Château,province-barrois,Barrois,1.0,recouvrement,base
-55306,Louppy-sur-Loison,province-champagne,Champagne,0.971,recouvrement,base
+55306,Louppy-sur-Loison,province-clermontois,Clermontois,,correction,corrigé
 55307,Louvemont-Côte-du-Poivre,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55310,Luzy-Saint-Martin,province-champagne,Champagne,1.0,recouvrement,base
+55310,Luzy-Saint-Martin,province-clermontois,Clermontois,,correction,corrigé
 55311,Maizeray,province-barrois,Barrois,0.985,recouvrement,base
 55312,Maizey,province-barrois,Barrois,1.0,recouvrement,base
-55313,Malancourt,province-champagne,Champagne,1.0,recouvrement,base
+55313,Malancourt,province-clermontois,Clermontois,,correction,corrigé
 55315,Mandres-en-Barrois,province-champagne,Champagne,0.982,recouvrement,base
 55316,Mangiennes,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55317,Manheulles,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55320,Marchéville-en-Woëvre,province-trois-eveches,Trois-Évêchés,0.875,recouvrement,base
 55321,Marre,province-trois-eveches,Trois-Évêchés,0.994,recouvrement,base
 55322,Marson-sur-Barboure,province-barrois,Barrois,1.0,recouvrement,base
-55323,Martincourt-sur-Meuse,province-champagne,Champagne,0.873,recouvrement,base
+55323,Martincourt-sur-Meuse,province-clermontois,Clermontois,,correction,corrigé
 55324,Marville,province-trois-eveches,Trois-Évêchés,0.977,recouvrement,base
 55325,Maucourt-sur-Orne,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55326,Maulan,province-barrois,Barrois,1.0,recouvrement,base
@@ -20101,32 +20101,32 @@ code_insee,commune,id,nom,part,mode,certitude
 55334,Ménil-la-Horgne,province-lorraine,Lorraine,0.958,recouvrement,base
 55335,Ménil-sur-Saulx,province-barrois,Barrois,1.0,recouvrement,base
 55336,Merles-sur-Loison,province-trois-eveches,Trois-Évêchés,0.955,recouvrement,base
-55338,Milly-sur-Bradon,province-champagne,Champagne,0.914,recouvrement,base
+55338,Milly-sur-Bradon,province-clermontois,Clermontois,,correction,corrigé
 55339,Mogeville,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55340,Mognéville,province-barrois,Barrois,0.998,recouvrement,base
 55341,Moirey-Flabas-Crépion,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55343,Montblainville,province-champagne,Champagne,1.0,recouvrement,base
+55343,Montblainville,province-clermontois,Clermontois,,correction,corrigé
 55344,Montbras,province-trois-eveches,Trois-Évêchés,0.788,recouvrement,base
-55345,Mont-devant-Sassey,province-champagne,Champagne,1.0,recouvrement,base
-55346,Montfaucon-d'Argonne,province-champagne,Champagne,1.0,recouvrement,base
+55345,Mont-devant-Sassey,province-clermontois,Clermontois,,correction,corrigé
+55346,Montfaucon-d'Argonne,province-clermontois,Clermontois,,correction,corrigé
 55347,Les Monthairons,province-barrois,Barrois,0.921,recouvrement,base
 55348,Montiers-sur-Saulx,province-barrois,Barrois,0.996,recouvrement,base
-55349,Montigny-devant-Sassey,province-champagne,Champagne,1.0,recouvrement,base
+55349,Montigny-devant-Sassey,province-clermontois,Clermontois,,correction,corrigé
 55350,Montigny-lès-Vaucouleurs,province-champagne,Champagne,0.788,recouvrement,base
 55351,Montmédy,province-trois-eveches,Trois-Évêchés,0.963,recouvrement,base
 55352,Montplonne,province-barrois,Barrois,1.0,recouvrement,base
 55353,Montsec,province-barrois,Barrois,1.0,recouvrement,base
-55355,Montzéville,province-champagne,Champagne,0.899,recouvrement,base
+55355,Montzéville,province-clermontois,Clermontois,,correction,corrigé
 55356,Moranville,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55357,Morgemoulin,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55358,Chanteraine,province-barrois,Barrois,1.0,recouvrement,base
 55359,Morley,province-barrois,Barrois,0.998,recouvrement,base
 55360,Mouilly,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55361,Moulainville,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55362,Moulins-Saint-Hubert,province-champagne,Champagne,0.918,recouvrement,base
+55362,Moulins-Saint-Hubert,province-clermontois,Clermontois,,correction,corrigé
 55363,Moulotte,province-trois-eveches,Trois-Évêchés,0.596,recouvrement,base
-55364,Mouzay,province-champagne,Champagne,1.0,recouvrement,base
-55365,Murvaux,province-champagne,Champagne,0.722,recouvrement,base
+55364,Mouzay,province-clermontois,Clermontois,,correction,corrigé
+55365,Murvaux,province-clermontois,Clermontois,,correction,corrigé
 55366,Val-d'Ornain,province-barrois,Barrois,1.0,recouvrement,base
 55367,Muzeray,province-trois-eveches,Trois-Évêchés,0.984,recouvrement,base
 55368,Naives-en-Blois,province-barrois,Barrois,0.792,recouvrement,base
@@ -20136,21 +20136,21 @@ code_insee,commune,id,nom,part,mode,certitude
 55372,Nançois-sur-Ornain,province-barrois,Barrois,1.0,recouvrement,base
 55373,Nant-le-Grand,province-barrois,Barrois,1.0,recouvrement,base
 55374,Nant-le-Petit,province-barrois,Barrois,1.0,recouvrement,base
-55375,Nantillois,province-champagne,Champagne,1.0,recouvrement,base
+55375,Nantillois,province-clermontois,Clermontois,,correction,corrigé
 55376,Nantois,province-barrois,Barrois,0.998,recouvrement,base
-55377,Nepvant,province-champagne,Champagne,0.691,recouvrement,base
+55377,Nepvant,province-clermontois,Clermontois,,correction,corrigé
 55378,Nettancourt,province-barrois,Barrois,0.817,recouvrement,base
-55379,Le Neufour,province-champagne,Champagne,1.0,recouvrement,base
+55379,Le Neufour,province-clermontois,Clermontois,,correction,corrigé
 55380,Neuville-en-Verdunois,province-barrois,Barrois,1.0,recouvrement,base
 55381,Neuville-lès-Vaucouleurs,province-champagne,Champagne,0.999,recouvrement,base
 55382,Neuville-sur-Ornain,province-barrois,Barrois,1.0,recouvrement,base
-55383,Neuvilly-en-Argonne,province-champagne,Champagne,1.0,recouvrement,base
+55383,Neuvilly-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
 55384,Nicey-sur-Aire,province-barrois,Barrois,1.0,recouvrement,base
-55385,Nixéville-Blercourt,province-champagne,Champagne,0.778,recouvrement,base
+55385,Nixéville-Blercourt,province-clermontois,Clermontois,,correction,corrigé
 55386,Nonsard-Lamarche,province-barrois,Barrois,1.0,recouvrement,base
 55387,Nouillonpont,province-barrois,Barrois,0.887,recouvrement,base
 55388,Noyers-Auzécourt,province-barrois,Barrois,0.935,recouvrement,base
-55389,Nubécourt,province-champagne,Champagne,0.825,recouvrement,base
+55389,Nubécourt,province-clermontois,Clermontois,,correction,corrigé
 55391,Olizy-sur-Chiers,province-trois-eveches,Trois-Évêchés,0.981,recouvrement,base
 55394,Ornes,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55395,Osches,province-barrois,Barrois,0.775,recouvrement,base
@@ -20165,21 +20165,21 @@ code_insee,commune,id,nom,part,mode,certitude
 55405,Pillon,province-trois-eveches,Trois-Évêchés,0.765,recouvrement,base
 55406,Pintheville,province-barrois,Barrois,0.957,recouvrement,base
 55407,Pont-sur-Meuse,province-barrois,Barrois,1.0,recouvrement,base
-55408,Pouilly-sur-Meuse,province-champagne,Champagne,1.0,recouvrement,base
+55408,Pouilly-sur-Meuse,province-clermontois,Clermontois,,correction,corrigé
 55409,Pretz-en-Argonne,province-champagne,Champagne,0.621,recouvrement,base
-55410,Quincy-Landzécourt,province-champagne,Champagne,0.849,recouvrement,base
+55410,Quincy-Landzécourt,province-clermontois,Clermontois,,correction,corrigé
 55411,Rambluzin-et-Benoite-Vaux,province-barrois,Barrois,0.945,recouvrement,base
 55412,Rambucourt,province-barrois,Barrois,1.0,recouvrement,base
 55414,Rancourt-sur-Ornain,province-barrois,Barrois,0.904,recouvrement,base
 55415,Ranzières,province-barrois,Barrois,0.744,recouvrement,base
 55416,Rarécourt,province-champagne,Champagne,1.0,recouvrement,base
-55419,Récicourt,province-champagne,Champagne,0.754,recouvrement,base
+55419,Récicourt,province-clermontois,Clermontois,,correction,corrigé
 55420,Récourt-le-Creux,province-trois-eveches,Trois-Évêchés,0.733,recouvrement,base
 55421,Reffroy,province-barrois,Barrois,1.0,recouvrement,base
 55422,Regnéville-sur-Meuse,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55423,Rembercourt-Sommaisne,province-barrois,Barrois,1.0,recouvrement,base
 55424,Remennecourt,province-barrois,Barrois,1.0,recouvrement,base
-55425,Remoiville,province-trois-eveches,Trois-Évêchés,0.622,recouvrement,base
+55425,Remoiville,province-clermontois,Clermontois,,correction,corrigé
 55426,Resson,province-barrois,Barrois,1.0,recouvrement,base
 55427,Revigny-sur-Ornain,province-barrois,Barrois,0.961,recouvrement,base
 55428,Réville-aux-Bois,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
@@ -20190,8 +20190,8 @@ code_insee,commune,id,nom,part,mode,certitude
 55434,Rigny-Saint-Martin,province-champagne,Champagne,0.934,recouvrement,base
 55435,Robert-Espagne,province-barrois,Barrois,0.938,recouvrement,base
 55436,Les Roises,province-lorraine,Lorraine,0.788,recouvrement,base
-55437,Romagne-sous-les-Côtes,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55438,Romagne-sous-Montfaucon,province-champagne,Champagne,1.0,recouvrement,base
+55437,Romagne-sous-les-Côtes,province-clermontois,Clermontois,,correction,corrigé
+55438,Romagne-sous-Montfaucon,province-clermontois,Clermontois,,correction,corrigé
 55439,Ronvaux,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55442,Raival,province-barrois,Barrois,1.0,recouvrement,base
 55443,Rouvres-en-Woëvre,province-barrois,Barrois,1.0,recouvrement,base
@@ -20218,7 +20218,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55466,Salmagne,province-barrois,Barrois,1.0,recouvrement,base
 55467,Sampigny,province-barrois,Barrois,1.0,recouvrement,base
 55468,Samogneux,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55469,Sassey-sur-Meuse,province-champagne,Champagne,1.0,recouvrement,base
+55469,Sassey-sur-Meuse,province-clermontois,Clermontois,,correction,corrigé
 55470,Saudrupt,province-barrois,Barrois,1.0,recouvrement,base
 55471,Saulmory-Villefranche,province-champagne,Champagne,1.0,recouvrement,base
 55472,Saulvaux,province-champagne,Champagne,0.62,recouvrement,base
@@ -20245,7 +20245,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55498,Souilly,province-barrois,Barrois,0.952,recouvrement,base
 55500,Spincourt,province-barrois,Barrois,1.0,recouvrement,base
 55501,Stainville,province-barrois,Barrois,1.0,recouvrement,base
-55502,Stenay,province-champagne,Champagne,0.991,recouvrement,base
+55502,Stenay,province-clermontois,Clermontois,,correction,corrigé
 55503,Taillancourt,province-barrois,Barrois,0.974,recouvrement,base
 55504,Tannois,province-barrois,Barrois,1.0,recouvrement,base
 55505,Thierville-sur-Meuse,province-trois-eveches,Trois-Évêchés,0.998,recouvrement,base
@@ -20268,7 +20268,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55523,Vacherauville,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55525,Vadelaincourt,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55526,Vadonville,province-barrois,Barrois,1.0,recouvrement,base
-55527,Varennes-en-Argonne,province-champagne,Champagne,1.0,recouvrement,base
+55527,Varennes-en-Argonne,province-clermontois,Clermontois,,correction,corrigé
 55528,Varnéville,province-barrois,Barrois,1.0,recouvrement,base
 55530,Valbois,province-barrois,Barrois,1.0,recouvrement,base
 55531,Vassincourt,province-barrois,Barrois,1.0,recouvrement,base
@@ -20276,7 +20276,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55533,Vaucouleurs,province-champagne,Champagne,0.925,recouvrement,base
 55534,Vaudeville-le-Haut,province-champagne,Champagne,0.929,recouvrement,base
 55535,Vaudoncourt,province-barrois,Barrois,0.726,recouvrement,base
-55536,Vauquois,province-champagne,Champagne,1.0,recouvrement,base
+55536,Vauquois,province-clermontois,Clermontois,,correction,corrigé
 55537,Douaumont-Vaux,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55540,Vaux-lès-Palameix,province-barrois,Barrois,0.909,recouvrement,base
 55541,Vavincourt,province-barrois,Barrois,1.0,recouvrement,base
@@ -20285,7 +20285,7 @@ code_insee,commune,id,nom,part,mode,certitude
 55545,Verdun,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55546,Verneuil-Grand,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55547,Verneuil-Petit,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
-55549,Véry,province-champagne,Champagne,1.0,recouvrement,base
+55549,Véry,province-clermontois,Clermontois,,correction,corrigé
 55551,Vigneulles-lès-Hattonchâtel,province-barrois,Barrois,0.995,recouvrement,base
 55552,Vigneul-sous-Montmédy,province-trois-eveches,Trois-Évêchés,0.985,recouvrement,base
 55553,Vignot,province-lorraine,Lorraine,0.854,recouvrement,base
@@ -20295,26 +20295,26 @@ code_insee,commune,id,nom,part,mode,certitude
 55557,Ville-en-Woëvre,province-trois-eveches,Trois-Évêchés,0.979,recouvrement,base
 55559,Villeroy-sur-Méholle,province-barrois,Barrois,1.0,recouvrement,base
 55560,Villers-aux-Vents,province-barrois,Barrois,1.0,recouvrement,base
-55561,Villers-devant-Dun,province-champagne,Champagne,1.0,recouvrement,base
+55561,Villers-devant-Dun,province-clermontois,Clermontois,,correction,corrigé
 55562,Villers-le-Sec,province-barrois,Barrois,1.0,recouvrement,base
 55563,Villers-lès-Mangiennes,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55565,Villers-sous-Pareid,province-barrois,Barrois,1.0,recouvrement,base
 55566,Villers-sur-Meuse,province-trois-eveches,Trois-Évêchés,0.736,recouvrement,base
-55567,Ville-sur-Cousances,province-champagne,Champagne,0.791,recouvrement,base
+55567,Ville-sur-Cousances,province-clermontois,Clermontois,,correction,corrigé
 55568,Ville-sur-Saulx,province-barrois,Barrois,1.0,recouvrement,base
 55569,Villotte-devant-Louppy,province-barrois,Barrois,1.0,recouvrement,base
 55570,Villotte-sur-Aire,province-barrois,Barrois,1.0,recouvrement,base
-55571,Vilosnes-Haraumont,province-trois-eveches,Trois-Évêchés,0.99,recouvrement,base
+55571,Vilosnes-Haraumont,province-clermontois,Clermontois,,correction,corrigé
 55572,Vittarville,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55573,Void-Vacon,province-trois-eveches,Trois-Évêchés,0.886,recouvrement,base
 55574,Vouthon-Bas,province-barrois,Barrois,1.0,recouvrement,base
 55575,Vouthon-Haut,province-barrois,Barrois,0.993,recouvrement,base
-55577,Waly,province-champagne,Champagne,1.0,recouvrement,base
+55577,Waly,province-clermontois,Clermontois,,correction,corrigé
 55578,Warcq,province-trois-eveches,Trois-Évêchés,0.709,recouvrement,base
 55579,Watronville,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55580,Wavrille,province-trois-eveches,Trois-Évêchés,1.0,recouvrement,base
 55581,Willeroncourt,province-barrois,Barrois,1.0,recouvrement,base
-55582,Wiseppe,province-champagne,Champagne,1.0,recouvrement,base
+55582,Wiseppe,province-clermontois,Clermontois,,correction,corrigé
 55583,Woël,province-barrois,Barrois,1.0,recouvrement,base
 55584,Woimbey,province-trois-eveches,Trois-Évêchés,0.913,recouvrement,base
 55586,Xivray-et-Marvoisin,province-barrois,Barrois,1.0,recouvrement,base
@@ -31310,7 +31310,7 @@ code_insee,commune,id,nom,part,mode,certitude
 82047,Cumont,province-gascogne,Gascogne,1.0,recouvrement,base
 82048,Dieupentale,province-languedoc,Languedoc,0.734,recouvrement,base
 82049,Donzac,province-gascogne,Gascogne,0.931,recouvrement,base
-82050,Dunes,province-gascogne,Gascogne,1.0,recouvrement,base
+82050,Dunes,province-guyenne,Guyenne,,correction,corrigé
 82051,Durfort-Lacapelette,province-guyenne,Guyenne,1.0,recouvrement,base
 82052,Escatalens,province-languedoc,Languedoc,0.907,recouvrement,base
 82053,Escazeaux,province-gascogne,Gascogne,1.0,recouvrement,base
@@ -32327,7 +32327,7 @@ code_insee,commune,id,nom,part,mode,certitude
 87151,Saint-Jean-Ligoure,province-limousin,Limousin,1.0,recouvrement,base
 87152,Saint-Jouvent,province-marche,Marche,1.0,recouvrement,base
 87153,Saint-Julien-le-Petit,province-marche,Marche,1.0,recouvrement,base
-87154,Saint-Junien,province-limousin,Limousin,0.947,recouvrement,base
+87154,Saint-Junien,province-marche,Marche,,correction,corrigé
 87155,Saint-Junien-les-Combes,province-marche,Marche,1.0,recouvrement,base
 87156,Saint-Just-le-Martel,province-limousin,Limousin,1.0,recouvrement,base
 87157,Saint-Laurent-les-Églises,province-marche,Marche,1.0,recouvrement,base
